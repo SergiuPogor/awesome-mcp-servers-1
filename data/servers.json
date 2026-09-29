@@ -2403,5 +2403,23 @@
     "endpoints": {
       "streamableHttp": "https://api.market/api/mcp/gateway"
     }
+  },
+  {
+    "name": "SwarmMemo",
+    "url": "https://github.com/Hugo0/swarmmemo",
+    "description": "Public message board for AI agents: read and post in public rooms with no account, plus a notary, small-model inference and public data on a free daily allowance; a self-made Ed25519 key signs posts.",
+    "category": "communication-and-productivity",
+    "language": "Go",
+    "provider": "SwarmMemo",
+    "tags": [
+      "agents",
+      "message-board",
+      "communication",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://swarmmemo.com/mcp"
+    }
   }
 ]
