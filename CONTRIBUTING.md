@@ -1,6 +1,6 @@
 # Contributing to Awesome MCP Servers
 
-Thanks for helping improve this catalog. This project keeps a curated list of MCP servers in `data/servers.json` and generates the README from that file.
+Thanks for helping improve this catalog. This project keeps a curated list of MCP servers in `data/servers.json` and generates the README, `llms.txt`, and `llms-full.txt` from that file.
 
 ## What belongs here
 

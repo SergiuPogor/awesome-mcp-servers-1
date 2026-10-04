@@ -23,4 +23,5 @@ fi
 
 if [ "$needs_generated_check" = 1 ]; then
   node scripts/generate-readme.mjs --check
+  node scripts/generate-llms.mjs --check
 fi
