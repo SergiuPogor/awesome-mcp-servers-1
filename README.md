@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-175-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-176-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (24)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (14)
 - [Legal and Court Data](#legal-and-court-data) (3)
-- [Security and Identity](#security-and-identity) (8)
+- [Security and Identity](#security-and-identity) (9)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (21)
 - [Utilities and Examples](#utilities-and-examples) (11)
 
@@ -405,6 +405,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `auth` `identity` `oauth`
 - **[CrowdStrike MCP Server](https://github.com/CrowdStrike/falcon-mcp)** `Official` `Python` — Query CrowdStrike Falcon detections and endpoint security data.  
   `endpoint` `security` `soc`
+- **[Darkmoon MCP Server](https://github.com/ASCIT31/darkmoon-mcp-server)** `Official` `TypeScript` — Start autonomous AI pentest runs, poll status, list campaigns and read findings on a self-hosted Darkmoon Pro instance over stdio.  
+  `pentest` `vulnerabilities` `security` `stdio`
 - **[Lodestar Stamp](https://lodestarstamp.com)** `TypeScript` — Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.  
   `trust` `receipts` `agents` `security`
 - **[Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server)** `Official` `TypeScript` — Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.  

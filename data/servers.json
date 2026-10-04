@@ -1696,6 +1696,21 @@
     "official": false
   },
   {
+    "name": "Darkmoon MCP Server",
+    "url": "https://github.com/ASCIT31/darkmoon-mcp-server",
+    "description": "Start autonomous AI pentest runs, poll status, list campaigns and read findings on a self-hosted Darkmoon Pro instance over stdio.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Darkmoon (ASC-IT)",
+    "tags": [
+      "pentest",
+      "vulnerabilities",
+      "security",
+      "stdio"
+    ],
+    "official": true
+  },
+  {
     "name": "Stripe MCP Server",
     "url": "https://github.com/stripe/agent-toolkit",
     "description": "Manage Stripe payments, customers, and subscriptions via MCP tools.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 175 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 176 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1588,6 +1588,17 @@ Query CrowdStrike Falcon detections and endpoint security data.
 - Provider: CrowdStrike
 - Official: yes
 - Tags: endpoint, security, soc
+- Category: Security and Identity
+
+### Darkmoon MCP Server
+
+Start autonomous AI pentest runs, poll status, list campaigns and read findings on a self-hosted Darkmoon Pro instance over stdio.
+
+- URL: https://github.com/ASCIT31/darkmoon-mcp-server
+- Language: TypeScript
+- Provider: Darkmoon (ASC-IT)
+- Official: yes
+- Tags: pentest, vulnerabilities, security, stdio
 - Category: Security and Identity
 
 ### Lodestar Stamp
