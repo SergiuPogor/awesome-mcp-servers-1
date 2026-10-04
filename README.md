@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-177-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-178-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (20)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (14)
 - [Filesystems and Documents](#filesystems-and-documents) (8)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (12)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (13)
 - [Communication and Productivity](#communication-and-productivity) (16)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (24)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (14)
@@ -246,6 +246,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `pulumi` `iac` `cloud`
 - **[Railway MCP Server](https://docs.railway.com/cli/mcp)** `Official` `Rust` — Deploy services and manage Railway projects through the MCP server built into the Railway CLI.  
   `railway` `deploy` `paas`
+- **[Shipvela](https://shipvela.com/integrations/codex)** `Official` `TypeScript` — Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server.  
+  `hosting` `deployment` `github` `oauth`
 - **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `Official` `Go` — Generate and validate Terraform configurations with HashiCorp tooling.  
   `terraform` `iac` `infra`
 - **[Vercel MCP Server](https://vercel.com/docs/agent-resources/vercel-mcp)** `Official` `Other` — Deploy and manage Vercel projects and deployments from AI clients.  

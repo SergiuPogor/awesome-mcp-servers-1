@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 177 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 178 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -871,6 +871,18 @@ Deploy services and manage Railway projects through the MCP server built into th
 - Official: yes
 - Tags: railway, deploy, paas
 - Category: Cloud and Infrastructure
+
+### Shipvela
+
+Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server.
+
+- URL: https://shipvela.com/integrations/codex
+- Language: TypeScript
+- Provider: Shipvela
+- Official: yes
+- Tags: hosting, deployment, github, oauth
+- Category: Cloud and Infrastructure
+- Streamable HTTP endpoint: https://shipvela.com/mcp
 
 ### Terraform MCP Server
 
