@@ -1937,6 +1937,18 @@ Manage Stripe payments, customers, and subscriptions via MCP tools.
 - Tags: payments, billing, fintech
 - Category: Finance, Commerce, and Business Apps
 
+### Synci
+
+Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health.
+
+- URL: https://github.com/synciio/synci-mcp
+- Language: Other
+- Provider: Synci
+- Official: yes
+- Tags: banking, personal-finance, open-banking, oauth, read-only
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.synci.io/mcp
+
 ### Worklittle Jobs
 
 Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.

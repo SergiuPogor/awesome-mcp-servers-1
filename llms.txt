@@ -216,6 +216,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Square MCP Server](https://github.com/square/square-mcp-server): Process Square payments and manage point-of-sale operations. (TypeScript, official)
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp): Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances. (TypeScript, official)
 - [Stripe MCP Server](https://github.com/stripe/agent-toolkit): Manage Stripe payments, customers, and subscriptions via MCP tools. (TypeScript, official)
+- [Synci](https://github.com/synciio/synci-mcp): Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health. (Other, official)
 - [Worklittle Jobs](https://github.com/worklittle/jobs-mcp): Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth. (Other)
 - [Zovo Invoice Generator](https://github.com/theluckystrike/mcp-invoice-generator): Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint. (TypeScript)
 - [Zovo Invoice MCP](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice): Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint. (TypeScript)
