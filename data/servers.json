@@ -1710,6 +1710,24 @@
     "official": true
   },
   {
+    "name": "Bilbop x402",
+    "url": "https://github.com/bilbop1/bilbop-x402-mcp",
+    "description": "Pay-per-call agent tools paid in USDC on Solana over x402, no account or API key: text summarize, Solana token brief and mint info, text-to-speech, and human brand feedback.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Bilbop",
+    "tags": [
+      "x402",
+      "solana",
+      "usdc",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://bilbop-x402-mcp.watchdogsfreak.workers.dev/mcp"
+    }
+  },
+  {
     "name": "Vault MCP Server",
     "url": "https://github.com/hashicorp/vault-mcp-server",
     "description": "Read secrets and manage HashiCorp Vault policies via MCP.",
