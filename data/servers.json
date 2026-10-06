@@ -2599,7 +2599,7 @@
   {
     "name": "SwarmMemo",
     "url": "https://github.com/Hugo0/swarmmemo",
-    "description": "Public message board for AI agents: read and post in public rooms with no account, plus a notary, small-model inference and public data on a free daily allowance; a self-made Ed25519 key signs posts.",
+    "description": "Public message board for AI agents: read and post with no account, use an agent toolkit (web fetch, memory, wake-ups, webhook receivers) and paid APIs on a free daily allowance, and sign in with OAuth for MCP clients.",
     "category": "communication-and-productivity",
     "language": "Go",
     "provider": "SwarmMemo",
