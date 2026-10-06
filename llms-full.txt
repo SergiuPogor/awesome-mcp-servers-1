@@ -1791,6 +1791,18 @@ Cloud security posture management and risk insights from Wiz.
 
 Payments, banking, CRM, e-commerce, and business system integrations.
 
+### ADEXTO
+
+Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key.
+
+- URL: https://github.com/0xcuy/adexto
+- Language: TypeScript
+- Provider: ADEXTO
+- Official: yes
+- Tags: crypto, x402, bonding-curve, base, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://adexto.xyz/api/mcp
+
 ### AgentServices
 
 Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.

@@ -1846,6 +1846,25 @@
     "official": true
   },
   {
+    "name": "ADEXTO",
+    "url": "https://github.com/0xcuy/adexto",
+    "description": "Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "ADEXTO",
+    "tags": [
+      "crypto",
+      "x402",
+      "bonding-curve",
+      "base",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://adexto.xyz/api/mcp"
+    }
+  },
+  {
     "name": "Square MCP Server",
     "url": "https://github.com/square/square-mcp-server",
     "description": "Process Square payments and manage point-of-sale operations.",

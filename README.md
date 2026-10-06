@@ -446,6 +446,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
 
 Payments, banking, CRM, e-commerce, and business system integrations.
 
+- **[ADEXTO](https://github.com/0xcuy/adexto)** `Official` `TypeScript` — Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key.  
+  `crypto` `x402` `bonding-curve` `base` `remote`
 - **[AgentServices](https://github.com/vbkotecha/agentservices-api)** `Python` — Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.  
   `crypto` `defi` `x402` `mcp` `agents`
 - **[Astral Twin](https://astraldaily.com)** `Official` `Other` — Create and mint NFT asset packs on the Base blockchain from AI clients.  
