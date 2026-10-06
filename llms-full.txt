@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 197 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 199 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1267,6 +1267,17 @@ Kick off CrewAI crew deployments and check their status from MCP clients.
 - Provider: CrewAI
 - Official: yes
 - Tags: agents, multi-agent, orchestration
+- Category: AI, Agents, and Memory
+
+### fitlog-mcp
+
+Self-hosted MCP server that gives Alexa+ a memory for your training: log sets by voice, track personal records, and get workout plans.
+
+- URL: https://github.com/hahahahahahahahah6/fitlog-mcp
+- Language: Python
+- Provider: fitlog-mcp
+- Official: no
+- Tags: fitness, alexa, voice
 - Category: AI, Agents, and Memory
 
 ### Graphiti MCP Server
