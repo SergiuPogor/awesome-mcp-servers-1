@@ -2880,5 +2880,23 @@
       "handoff"
     ],
     "official": true
-  }
+  },
+  {
+    "name": "AcqPath",
+    "url": "https://github.com/reflectme-source/acqpath-distribution",
+    "description": "Signed, timestamped observations of machine-readable source-rights declarations for RAG, indexing, training, search, and AI input workflows.",
+    "category": "security-and-identity",
+    "language": "Other",
+    "provider": "AcqPath",
+    "tags": [
+      "rights",
+      "provenance",
+      "compliance",
+      "rag",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.getacqpath.com/mcp"
+    }
 ]
