@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-188-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-190-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,13 +43,13 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (13)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (20)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (16)
-- [Filesystems and Documents](#filesystems-and-documents) (9)
+- [Filesystems and Documents](#filesystems-and-documents) (10)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (14)
 - [Communication and Productivity](#communication-and-productivity) (17)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (25)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (15)
 - [Legal and Court Data](#legal-and-court-data) (4)
-- [Security and Identity](#security-and-identity) (9)
+- [Security and Identity](#security-and-identity) (10)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (23)
 - [Utilities and Examples](#utilities-and-examples) (12)
 
@@ -225,6 +225,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `pdf` `documents` `extraction`
 - **[Readwise MCP Server](https://github.com/readwiseio/readwise-mcp)** `Official` `TypeScript` — Search highlights and reading notes from Readwise.  
   `highlights` `reading` `knowledge`
+- **[SEAL MCP](https://seal.net/docs/mcp)** `Official` `TypeScript` — Transfer large files and secrets between people and AI agents through client-side encrypted, expiring handoffs.  
+  `file-transfer` `encryption` `agents` `handoff`
 
 <a id="cloud-and-infrastructure"></a>
 
@@ -419,6 +421,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
 
 - **[1Password MCP Server](https://github.com/CakeRepository/1Password-MCP)** `Go` — Community-maintained integration for accessing 1Password vault items in agent workflows.  
   `secrets` `passwords` `vault`
+- **[AcqPath](https://github.com/reflectme-source/acqpath-distribution)** `Official` `Other` — Signed, timestamped observations of machine-readable source-rights declarations for RAG, indexing, training, search, and AI input workflows.  
+  `rights` `provenance` `compliance` `rag` `remote`
 - **[Auth0 MCP Server](https://github.com/auth0/auth0-mcp-server)** `Official` `TypeScript` — Manage Auth0 tenants, applications, and user identity settings.  
   `auth` `identity` `oauth`
 - **[CrowdStrike MCP Server](https://github.com/CrowdStrike/falcon-mcp)** `Official` `Python` — Query CrowdStrike Falcon detections and endpoint security data.  

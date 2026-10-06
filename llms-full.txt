@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 188 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 190 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -791,6 +791,17 @@ Search highlights and reading notes from Readwise.
 - Provider: Readwise
 - Official: yes
 - Tags: highlights, reading, knowledge
+- Category: Filesystems and Documents
+
+### SEAL MCP
+
+Transfer large files and secrets between people and AI agents through client-side encrypted, expiring handoffs.
+
+- URL: https://seal.net/docs/mcp
+- Language: TypeScript
+- Provider: SEAL
+- Official: yes
+- Tags: file-transfer, encryption, agents, handoff
 - Category: Filesystems and Documents
 
 ## Cloud and Infrastructure
@@ -1675,6 +1686,18 @@ Community-maintained integration for accessing 1Password vault items in agent wo
 - Official: no
 - Tags: secrets, passwords, vault
 - Category: Security and Identity
+
+### AcqPath
+
+Signed, timestamped observations of machine-readable source-rights declarations for RAG, indexing, training, search, and AI input workflows.
+
+- URL: https://github.com/reflectme-source/acqpath-distribution
+- Language: Other
+- Provider: AcqPath
+- Official: yes
+- Tags: rights, provenance, compliance, rag, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://api.getacqpath.com/mcp
 
 ### Auth0 MCP Server
 

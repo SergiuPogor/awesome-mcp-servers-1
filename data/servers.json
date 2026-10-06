@@ -2899,4 +2899,5 @@
     "endpoints": {
       "streamableHttp": "https://api.getacqpath.com/mcp"
     }
+  }
 ]
