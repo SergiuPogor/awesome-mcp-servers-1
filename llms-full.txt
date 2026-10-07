@@ -1635,6 +1635,18 @@ Run dbt models, tests, and documentation workflows via MCP.
 - Tags: dbt, analytics, transform
 - Category: Data, Analytics, and BI
 
+### DC Hub
+
+Hosted MCP server and live data layer for data-center site selection: mapped power, grid, gas and fiber assets, daily DCPI scores for 300+ markets and live grid feeds from the seven US ISOs; free tier needs no key.
+
+- URL: https://github.com/azmartone67/dchub-mcp-server
+- Language: JavaScript
+- Provider: DC Hub
+- Official: yes
+- Tags: data-centers, energy, power-grid, site-selection, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://dchub.cloud/mcp
+
 ### Global Database
 
 Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication.
