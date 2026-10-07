@@ -365,6 +365,21 @@
     "official": false
   },
   {
+    "name": "IntlPull MCP Server",
+    "url": "https://intlpull.com/docs/mcp",
+    "description": "Manage translation keys, translate strings, and sync localization files with IntlPull from MCP clients.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "IntlPull",
+    "tags": [
+      "localization",
+      "translation",
+      "i18n",
+      "developer-tools"
+    ],
+    "official": true
+  },
+  {
     "name": "Harness MCP Server",
     "url": "https://github.com/harness/mcp-server",
     "description": "Official Harness.io MCP server for CI/CD pipelines, deployments, GitOps, and platform engineering workflows.",
