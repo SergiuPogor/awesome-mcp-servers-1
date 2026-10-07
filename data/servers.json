@@ -1742,6 +1742,22 @@
     "official": true
   },
   {
+    "name": "NAIF Gravity",
+    "url": "https://naifgravity.com",
+    "description": "Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "NAIF Gravity",
+    "tags": [
+      "diagnostics",
+      "api",
+      "auth",
+      "webhooks",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "Vault MCP Server",
     "url": "https://github.com/hashicorp/vault-mcp-server",
     "description": "Read secrets and manage HashiCorp Vault policies via MCP.",
