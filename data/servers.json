@@ -1525,6 +1525,25 @@
     "official": true
   },
   {
+    "name": "CompanyProof",
+    "url": "https://companyproof.ai/docs/mcp",
+    "description": "Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "CompanyProof",
+    "tags": [
+      "company-data",
+      "verification",
+      "registry",
+      "evidence",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://companyproof.ai/v2/mcp"
+    }
+  },
+  {
     "name": "Amplitude MCP Server",
     "url": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp",
     "description": "Analyze product analytics events and user behavior in Amplitude.",
