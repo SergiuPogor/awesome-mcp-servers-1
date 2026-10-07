@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 199 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 200 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -172,6 +172,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Basedash MCP Server](https://github.com/Basedash/mcp): Governed BI MCP. Ask questions of live company data and list workspace sources via OAuth. (Other)
 - [Datadog MCP Server](https://github.com/datadog-labs/mcp-server): Query metrics, logs, and monitors from Datadog via the official Datadog Labs MCP server. (Python, official)
 - [dbt MCP Server](https://github.com/dbt-labs/dbt-mcp): Run dbt models, tests, and documentation workflows via MCP. (Python, official)
+- [Global Database](https://api.globaldatabase.com/docs/v2/#mcp-server): Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication. (Other, official)
 - [Google GenAI Toolbox](https://github.com/googleapis/genai-toolbox): Connect agents to BigQuery, Cloud SQL, Spanner, and other Google data sources. (Go, official)
 - [Grafana MCP Server](https://github.com/grafana/mcp-grafana): Explore Grafana dashboards, alerts, and observability data. (Go, official)
 - [LLM Pulse MCP Server](https://github.com/LLM-Pulse/llmpulse-mcp): Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic. (JavaScript)

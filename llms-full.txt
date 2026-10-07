@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 199 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 200 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1531,6 +1531,18 @@ Run dbt models, tests, and documentation workflows via MCP.
 - Official: yes
 - Tags: dbt, analytics, transform
 - Category: Data, Analytics, and BI
+
+### Global Database
+
+Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication.
+
+- URL: https://api.globaldatabase.com/docs/v2/#mcp-server
+- Language: Other
+- Provider: Global Database
+- Official: yes
+- Tags: company-data, business-intelligence, kyb, oauth
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://mcp.globaldatabase.com/mcp
 
 ### Google GenAI Toolbox
 
