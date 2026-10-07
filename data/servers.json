@@ -253,6 +253,20 @@
     "official": true
   },
   {
+    "name": "fitlog-mcp",
+    "url": "https://github.com/hahahahahahahahah6/fitlog-mcp",
+    "description": "Self-hosted MCP server that gives Alexa+ a memory for your training: log sets by voice, track personal records, and get workout plans.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "fitlog-mcp",
+    "tags": [
+      "fitness",
+      "alexa",
+      "voice"
+    ],
+    "official": false
+  },
+  {
     "name": "Pinecone MCP Server",
     "url": "https://github.com/pinecone-io/pinecone-mcp",
     "description": "Manage Pinecone indexes and run semantic vector queries.",
