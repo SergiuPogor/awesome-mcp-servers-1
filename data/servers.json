@@ -1065,6 +1065,24 @@
     "official": true
   },
   {
+    "name": "Global Database",
+    "url": "https://api.globaldatabase.com/docs/v2/#mcp-server",
+    "description": "Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Global Database",
+    "tags": [
+      "company-data",
+      "business-intelligence",
+      "kyb",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.globaldatabase.com/mcp"
+    }
+  },
+  {
     "name": "Slack MCP Server",
     "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
     "description": "Send messages and interact with Slack channels and workspaces.",
