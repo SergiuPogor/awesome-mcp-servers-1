@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 199 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 200 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -458,6 +458,17 @@ MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to dis
 - Provider: yuzu-octopus
 - Official: no
 - Tags: mcp, proxy, pool, api-keys, rate-limiting
+- Category: Developer Tools and Code Intelligence
+
+### NAIF Gravity
+
+Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.
+
+- URL: https://naifgravity.com
+- Language: Other
+- Provider: NAIF Gravity
+- Official: yes
+- Tags: diagnostics, api, auth, webhooks, remote
 - Category: Developer Tools and Code Intelligence
 
 ### Postman MCP Server
