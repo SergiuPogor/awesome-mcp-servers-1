@@ -3062,6 +3062,22 @@
     }
   },
   {
+    "name": "Bestax",
+    "url": "https://github.com/allxsmith/bestax/tree/main/bestax-mcp",
+    "description": "Build Bulma v1 React apps with Bestax using an offline index of its component props, examples, CSS variables and Agent Skills.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Bestax",
+    "tags": [
+      "bulma",
+      "react",
+      "typescript",
+      "components",
+      "local"
+    ],
+    "official": true
+  },
+  {
     "name": "agmail",
     "url": "https://agmail.shveik.dev",
     "description": "Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account.",

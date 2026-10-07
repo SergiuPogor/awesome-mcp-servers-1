@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 205 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 206 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -323,6 +323,17 @@ Local-first MCP server for querying coding-agent sessions, tool calls, skills, a
 - Provider: Community
 - Official: no
 - Tags: observability, coding-agents, costs
+- Category: Developer Tools and Code Intelligence
+
+### Bestax
+
+Build Bulma v1 React apps with Bestax using an offline index of its component props, examples, CSS variables and Agent Skills.
+
+- URL: https://github.com/allxsmith/bestax/tree/main/bestax-mcp
+- Language: TypeScript
+- Provider: Bestax
+- Official: yes
+- Tags: bulma, react, typescript, components, local
 - Category: Developer Tools and Code Intelligence
 
 ### Communicate
