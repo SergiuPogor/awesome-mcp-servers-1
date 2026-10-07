@@ -366,6 +366,21 @@
     "order": 0
   },
   {
+    "name": "IntlPull MCP Server",
+    "url": "https://intlpull.com/docs/mcp",
+    "description": "Manage translation keys, translate strings, and sync localization files with IntlPull from MCP clients.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "IntlPull",
+    "tags": [
+      "localization",
+      "translation",
+      "i18n",
+      "developer-tools"
+    ],
+    "official": true
+  },
+  {
     "name": "Agent QA",
     "url": "https://github.com/vostride/agent-qa",
     "description": "Run natural-language web and mobile regression tests with persistent test memory through CLI and MCP interfaces.",
