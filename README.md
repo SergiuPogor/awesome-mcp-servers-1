@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (27)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (18)
 - [Legal and Court Data](#legal-and-court-data) (4)
-- [Security and Identity](#security-and-identity) (11)
+- [Security and Identity](#security-and-identity) (12)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (30)
 - [Utilities and Examples](#utilities-and-examples) (12)
 
@@ -463,6 +463,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `auth` `identity` `oauth` `mcp`
 - **[Snyk MCP Server](https://github.com/snyk/studio-mcp)** `Official` `TypeScript` — Scan dependencies and code for vulnerabilities with Snyk.  
   `security` `vulnerabilities` `dependencies`
+- **[Tanod](https://tanod.dev)** `Official` `Python` — Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).  
+  `security` `smart-contracts` `x402` `web3` `remote`
 - **[Vault MCP Server](https://github.com/hashicorp/vault-mcp-server)** `Official` `Go` — Read secrets and manage HashiCorp Vault policies via MCP.  
   `secrets` `vault` `security`
 - **[Wiz MCP Server](https://www.wiz.io/blog/introducing-mcp-server-for-wiz)** `Official` `TypeScript` — Cloud security posture management and risk insights from Wiz.  

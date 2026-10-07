@@ -1927,6 +1927,18 @@ Scan dependencies and code for vulnerabilities with Snyk.
 - Tags: security, vulnerabilities, dependencies
 - Category: Security and Identity
 
+### Tanod
+
+Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).
+
+- URL: https://tanod.dev
+- Language: Python
+- Provider: Tanod
+- Official: yes
+- Tags: security, smart-contracts, x402, web3, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://tanod.dev/mcp
+
 ### Vault MCP Server
 
 Read secrets and manage HashiCorp Vault policies via MCP.
