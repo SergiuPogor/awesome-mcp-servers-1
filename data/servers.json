@@ -3025,6 +3025,25 @@
     }
   },
   {
+    "name": "agmail",
+    "url": "https://agmail.shveik.dev",
+    "description": "Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account.",
+    "category": "communication-and-productivity",
+    "language": "Go",
+    "provider": "agmail",
+    "tags": [
+      "email",
+      "inbox",
+      "otp",
+      "x402",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agmail.shveik.dev/mcp"
+    }
+  },
+  {
     "name": "Voidpay Marketplace MCP",
     "url": "https://github.com/voidly-ai/pay-mcp",
     "description": "Find services and storefronts on Voidly's hosted marketplace for AI-agent services and prepare checkout links that the owner reviews and approves in their own browser; the connector never signs, pays or holds keys.",
