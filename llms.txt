@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 206 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 207 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -115,6 +115,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Pulumi MCP Server](https://www.pulumi.com/docs/ai/mcp-server/): Infrastructure as code operations with Pulumi stacks and resources. (TypeScript, official)
 - [Railway MCP Server](https://docs.railway.com/cli/mcp): Deploy services and manage Railway projects through the MCP server built into the Railway CLI. (Rust, official)
 - [Shipvela](https://shipvela.com/integrations/codex): Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server. (TypeScript, official)
+- [Symbioza](https://symbioza.dev/agent): Symbioza runs your containerized GPU job on a rented cloud machine and hands back the files it writes, under a spending limit you set. (TypeScript, official)
 - [Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server): Generate and validate Terraform configurations with HashiCorp tooling. (Go, official)
 - [Vercel MCP Server](https://vercel.com/docs/agent-resources/vercel-mcp): Deploy and manage Vercel projects and deployments from AI clients. (Other, official)
 

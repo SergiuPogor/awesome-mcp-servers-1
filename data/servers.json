@@ -1125,6 +1125,24 @@
     "official": false
   },
   {
+    "name": "Symbioza",
+    "url": "https://symbioza.dev/agent",
+    "description": "Symbioza runs your containerized GPU job on a rented cloud machine and hands back the files it writes, under a spending limit you set.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Symbioza",
+    "tags": [
+      "gpu",
+      "cloud",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://symbioza.dev/mcp"
+    }
+  },
+  {
     "name": "Google Calendar MCP Server",
     "url": "https://github.com/nspady/google-calendar-mcp",
     "description": "View and manage Google Calendar events and schedules.",
