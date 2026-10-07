@@ -1121,6 +1121,24 @@
     "official": false
   },
   {
+    "name": "Symbioza",
+    "url": "https://symbioza.dev/agent",
+    "description": "Symbioza runs your containerized GPU job on a rented cloud machine and hands back the files it writes, under a spending limit you set.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Symbioza",
+    "tags": [
+      "gpu",
+      "cloud",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://symbioza.dev/mcp"
+    }
+  },
+  {
     "name": "Atlassian MCP Server",
     "url": "https://github.com/atlassian/atlassian-mcp-server",
     "description": "Manage Jira issues and Confluence pages across Atlassian Cloud.",

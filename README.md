@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-199-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-200-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (21)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (16)
 - [Filesystems and Documents](#filesystems-and-documents) (10)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (14)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (15)
 - [Communication and Productivity](#communication-and-productivity) (18)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (26)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (15)
@@ -260,6 +260,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `railway` `deploy` `paas`
 - **[Shipvela](https://shipvela.com/integrations/codex)** `Official` `TypeScript` — Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server.  
   `hosting` `deployment` `github` `oauth`
+- **[Symbioza](https://symbioza.dev/agent)** `Official` `TypeScript` — Symbioza runs your containerized GPU job on a rented cloud machine and hands back the files it writes, under a spending limit you set.  
+  `gpu` `cloud` `oauth` `remote`
 - **[Terraform MCP Server](https://github.com/hashicorp/terraform-mcp-server)** `Official` `Go` — Generate and validate Terraform configurations with HashiCorp tooling.  
   `terraform` `iac` `infra`
 - **[Vercel MCP Server](https://vercel.com/docs/agent-resources/vercel-mcp)** `Official` `Other` — Deploy and manage Vercel projects and deployments from AI clients.  
