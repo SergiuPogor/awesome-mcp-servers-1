@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 199 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 200 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -980,6 +980,18 @@ Deploy and manage Vercel projects and deployments from AI clients.
 ## Communication and Productivity
 
 Integrate chat, email, calendars, and team collaboration tools.
+
+### agmail
+
+Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account.
+
+- URL: https://agmail.shveik.dev
+- Language: Go
+- Provider: agmail
+- Official: yes
+- Tags: email, inbox, otp, x402, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://agmail.shveik.dev/mcp
 
 ### Atlassian MCP Server
 
