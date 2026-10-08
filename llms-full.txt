@@ -2025,6 +2025,18 @@ Paid API platform for AI agents — crypto prices, DeFi yields, market indicator
 - Category: Finance, Commerce, and Business Apps
 - SSE endpoint: https://agentservices.to/mcp
 
+### agpay
+
+Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid; disputes are decided by hand. Paid in stablecoins, no account.
+
+- URL: https://agpay.shveik.dev
+- Language: Go
+- Provider: agpay
+- Official: yes
+- Tags: payments, x402, stablecoins, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://agpay.shveik.dev/mcp
+
 ### Astral Twin
 
 Create and mint NFT asset packs on the Base blockchain from AI clients.

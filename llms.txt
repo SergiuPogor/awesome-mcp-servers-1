@@ -223,6 +223,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [ADEXTO](https://github.com/0xcuy/adexto): Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key. (TypeScript, official)
 - [AgentServices](https://github.com/vbkotecha/agentservices-api): Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments. (Python)
+- [agpay](https://agpay.shveik.dev): Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid; disputes are decided by hand. Paid in stablecoins, no account. (Go, official)
 - [Astral Twin](https://astraldaily.com): Create and mint NFT asset packs on the Base blockchain from AI clients. (Other, official)
 - [BankBridge](https://bankbridge.money): Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings. (TypeScript, official)
 - [Bilbop x402](https://github.com/bilbop1/bilbop-x402-mcp): Pay-per-call agent tools paid in USDC on Solana over x402, no account or API key: text summarize, Solana token brief and mint info, text-to-speech, and human brand feedback. (JavaScript, official)

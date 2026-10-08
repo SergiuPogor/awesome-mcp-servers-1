@@ -486,6 +486,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crypto` `x402` `bonding-curve` `base` `remote`
 - **[AgentServices](https://github.com/vbkotecha/agentservices-api)** `Python` — Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.  
   `crypto` `defi` `x402` `mcp` `agents`
+- **[agpay](https://agpay.shveik.dev)** `Official` `Go` — Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid; disputes are decided by hand. Paid in stablecoins, no account.  
+  `payments` `x402` `stablecoins` `remote`
 - **[Astral Twin](https://astraldaily.com)** `Official` `Other` — Create and mint NFT asset packs on the Base blockchain from AI clients.  
   `nft` `blockchain` `base` `minting`
 - **[BankBridge](https://bankbridge.money)** `Official` `TypeScript` — Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.  
