@@ -3328,6 +3328,25 @@
     }
   },
   {
+    "name": "Unsora",
+    "url": "https://github.com/Shipped-Studio/unsora",
+    "description": "AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Shipped Studio",
+    "tags": [
+      "video",
+      "image-generation",
+      "social-media",
+      "scheduling",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.tryunsora.com/mcp"
+    }
+  },
+  {
     "name": "agpay",
     "url": "https://agpay.shveik.dev",
     "description": "Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid; disputes are decided by hand. Paid in stablecoins, no account.",
