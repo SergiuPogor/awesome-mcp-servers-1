@@ -2025,6 +2025,18 @@ Create and mint NFT asset packs on the Base blockchain from AI clients.
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://astraldaily.com/api/mcp
 
+### BankBridge
+
+Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.
+
+- URL: https://bankbridge.money
+- Language: TypeScript
+- Provider: Great Work LLC
+- Official: yes
+- Tags: banking, personal-finance, read-only, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://bankbridge.money/api/mcp
+
 ### Bilbop x402
 
 Pay-per-call agent tools paid in USDC on Solana over x402, no account or API key: text summarize, Solana token brief and mint info, text-to-speech, and human brand feedback.
