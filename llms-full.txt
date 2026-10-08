@@ -700,6 +700,18 @@ Scrape, crawl, and extract structured web data with Firecrawl.
 - Tags: scraping, crawl, web
 - Category: Browsers, Search, and Web Automation
 
+### looot
+
+Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance.
+
+- URL: https://github.com/loootai/looot-mcp
+- Language: TypeScript
+- Provider: looot
+- Official: yes
+- Tags: data, enrichment, search, api-gateway
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://api.looot.ai/mcp
+
 ### Playwright MCP
 
 Official Microsoft Playwright server for browser automation via accessibility snapshots.
