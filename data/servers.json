@@ -3416,6 +3416,24 @@
     "official": true
   },
   {
+    "name": "Comment.io MCP Server",
+    "url": "https://comment.io/llms/mcp.md",
+    "description": "Connect an app as an agent in a Comment.io workspace to work with shared documents through a hosted MCP server.",
+    "category": "filesystems-and-documents",
+    "language": "Rust",
+    "provider": "Comment.io",
+    "tags": [
+      "documents",
+      "collaboration",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://comment.io/mcp"
+    }
+  },
+  {
     "name": "AcqPath",
     "url": "https://github.com/reflectme-source/acqpath-distribution",
     "description": "Signed, timestamped observations of machine-readable source-rights declarations for RAG, indexing, training, search, and AI input workflows.",
