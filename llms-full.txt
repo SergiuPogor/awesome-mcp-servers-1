@@ -1116,6 +1116,18 @@ View and manage Google Calendar events and schedules.
 - Tags: calendar, scheduling, google
 - Category: Communication and Productivity
 
+### HeyReagent
+
+Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send messages and connection invitations, search people, and read profiles and posts; OAuth or API key, free plan available. Not affiliated with LinkedIn.
+
+- URL: https://heyreagent.com/linkedin-mcp?utm_source=mcphq&utm_medium=listing
+- Language: JavaScript
+- Provider: HeyReagent
+- Official: no
+- Tags: linkedin, sales, remote, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://api.heyreagent.com/mcp
+
 ### LinkMCP
 
 Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, people and Sales Navigator search, inbox, posts, connection requests and work email finding; OAuth 2.1 or access key, paid plans with a 7-day free trial.
