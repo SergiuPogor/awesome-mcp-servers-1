@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 239 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 240 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1347,6 +1347,18 @@ Local-first MCP bundle for freelance paperwork: invoicing, expenses, time tracki
 - Tags: productivity, invoice, expenses, spreadsheet, pdf
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://mcp.zovo.one/mcp/expense-tracker
+
+### Zovo Time Tracker
+
+Track billable time from chat: start and stop timers, log entries against jobs, and produce timesheets and billable summaries; hosted endpoint uses a free anonymous token from https://mcp.zovo.one/mcp/token.
+
+- URL: https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: time-tracking, billable-hours, timesheet, hosted
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.zovo.one/mcp/time-tracker
 
 ## AI, Agents, and Memory
 

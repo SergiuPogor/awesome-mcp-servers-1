@@ -1742,6 +1742,24 @@
     }
   },
   {
+    "name": "Zovo Time Tracker",
+    "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker",
+    "description": "Track billable time from chat: start and stop timers, log entries against jobs, and produce timesheets and billable summaries; hosted endpoint uses a free anonymous token from https://mcp.zovo.one/mcp/token.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "time-tracking",
+      "billable-hours",
+      "timesheet",
+      "hosted"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.zovo.one/mcp/time-tracker"
+    }
+  },
+  {
     "name": "Nanotea",
     "url": "https://github.com/gileshall/nanotea",
     "description": "Self-hosted messaging app where coding agents report and ask over MCP and you answer by typing, tapping or recording, so you can direct a whole fleet without living in their terminals.",
