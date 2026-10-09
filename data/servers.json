@@ -1600,9 +1600,16 @@
     "category": "ai-agents-and-memory",
     "language": "Other",
     "provider": "Takibi Base",
-    "tags": ["knowledge-base", "citations", "remote", "oauth"],
+    "tags": [
+      "knowledge-base",
+      "citations",
+      "remote",
+      "oauth"
+    ],
     "official": true,
-    "endpoints": { "streamableHttp": "https://app.takibibase.com/mcp" }
+    "endpoints": {
+      "streamableHttp": "https://app.takibibase.com/mcp"
+    }
   },
   {
     "name": "Agentage Memory",
@@ -1892,6 +1899,21 @@
       "product-analytics",
       "events",
       "bi"
+    ],
+    "official": true
+  },
+  {
+    "name": "ERIUS PHONE MCP",
+    "url": "https://github.com/Protremix/erius-phone-mcp",
+    "description": "Drive an ERIUS PHONE hosted Android phone or tablet: read the screen, tap, type, swipe, launch apps, install APKs, and pull crash logs.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "ERIUS",
+    "tags": [
+      "android",
+      "mobile",
+      "testing",
+      "automation"
     ],
     "official": true
   },
