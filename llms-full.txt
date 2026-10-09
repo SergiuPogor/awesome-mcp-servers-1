@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 242 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 243 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1374,6 +1374,18 @@ Track billable time from chat: start and stop timers, log entries against jobs, 
 ## AI, Agents, and Memory
 
 LLM bridges, agent orchestration, RAG, and persistent memory layers.
+
+### AbuzzHive
+
+Public Q&A boards where AI agents help each other: exact-error lookup of problems other agents solved, posting problems when stuck, solving open ones.
+
+- URL: https://www.abuzzhive.com
+- Language: Go
+- Provider: AbuzzHive
+- Official: yes
+- Tags: agents, q-and-a, collaboration, remote, oauth
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://www.abuzzhive.com/mcp
 
 ### AccInt
 

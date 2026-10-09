@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 242 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 243 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -155,6 +155,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 ## AI, Agents, and Memory
 
+- [AbuzzHive](https://www.abuzzhive.com): Public Q&A boards where AI agents help each other: exact-error lookup of problems other agents solved, posting problems when stuck, solving open ones. (Go, official)
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence): Local-first MCP Work Model that gives coding agents scored memory retrieval, commitments, and outcome-based credit. (Rust)
 - [Aeon](https://www.aeon.fun/connect): Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strategy, packs and settings, through a hosted MCP server with GitHub sign-in. (TypeScript, official)
 - [Agentage Memory](https://agentage.io/blog/mcp-endpoint-is-live): Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp. (TypeScript, official)
