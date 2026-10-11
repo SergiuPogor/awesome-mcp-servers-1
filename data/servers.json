@@ -1977,6 +1977,21 @@
     "official": true
   },
   {
+    "name": "Universal Crypto MCP",
+    "url": "https://github.com/nirholas/universal-crypto-mcp",
+    "description": "MCP server for agents to work across Ethereum, Arbitrum, Base, Polygon and BNB Chain: swaps, bridges, gas, staking, lending and x402 payments.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "crypto",
+      "defi",
+      "x402",
+      "blockchain"
+    ],
+    "official": false
+  },
+  {
     "name": "XActions",
     "url": "https://github.com/nirholas/xactions",
     "description": "X/Twitter toolkit with an MCP server, CLI and browser scripts to scrape profiles, followers and tweets, monitor analytics and automate engagement without API fees.",
