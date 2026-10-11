@@ -520,6 +520,24 @@
     }
   },
   {
+    "name": "day3",
+    "url": "https://docs.day3.app/mcp",
+    "description": "Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Pradsgaard Labs",
+    "tags": [
+      "email-marketing",
+      "newsletters",
+      "campaigns",
+      "api-key"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://go.day3.app/api/mcp"
+    }
+  },
+  {
     "name": "There There",
     "url": "https://there-there.app/docs/integrations/mcp-server",
     "description": "Read, search and triage There There helpdesk tickets, save private reply drafts, send replies and manage knowledge base articles, limited to the abilities granted over OAuth.",
