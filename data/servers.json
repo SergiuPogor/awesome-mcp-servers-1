@@ -2901,6 +2901,21 @@
     "official": false
   },
   {
+    "name": "Council of AI GSPC",
+    "url": "https://github.com/CSOAI-ORG/councilof-ai",
+    "description": "AI-governance measurement MCP server with free verification readers and x402-metered signed-evidence doors; remote endpoint at https://councilof.ai/mcp/.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Council of AI",
+    "tags": [
+      "governance",
+      "compliance",
+      "evidence",
+      "x402"
+    ],
+    "official": false
+  },
+  {
     "name": "MCP Server Starter",
     "url": "https://github.com/modelcontextprotocol/create-typescript-server",
     "description": "Official TypeScript scaffold for creating new MCP servers.",
