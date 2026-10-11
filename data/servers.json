@@ -2039,6 +2039,25 @@
     "official": true
   },
   {
+    "name": "Invokely",
+    "url": "https://invokely.ai/docs",
+    "description": "Query source-cited official statistics by indicator, place and period; retrieve values and time series, compare places, and rank regions. No-account MCP trial allows 25 calls per IP per day.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Invokely",
+    "tags": [
+      "official-statistics",
+      "public-data",
+      "time-series",
+      "source-citations",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://invokely.ai/mcp/trial"
+    }
+  },
+  {
     "name": "CompanyProof",
     "url": "https://companyproof.ai/docs/mcp",
     "description": "Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.",
