@@ -2143,6 +2143,24 @@
     }
   },
   {
+    "name": "Hoot Lens",
+    "url": "https://github.com/Parallel-Platforms/hootlens-mcp",
+    "description": "Read website session replays, click heatmaps and broken clicks, trace one to its JavaScript error and source line, and check whether a shipped change helped.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Parallel Platforms",
+    "tags": [
+      "session-replay",
+      "heatmaps",
+      "web-analytics",
+      "debugging"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.hootlens.com/mcp"
+    }
+  },
+  {
     "name": "DropTheHassle",
     "url": "https://github.com/bosmdavid-gif/dropthehassle-mcp",
     "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
