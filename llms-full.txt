@@ -1176,6 +1176,18 @@ Deploy and manage Vercel projects and deployments from AI clients.
 
 Integrate chat, email, calendars, and team collaboration tools.
 
+### Agent Media
+
+Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts.
+
+- URL: https://github.com/agent-media-ai/agent-media
+- Language: Other
+- Provider: Agent Media
+- Official: yes
+- Tags: video, ugc, ai-video, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://api.agent-media.ai/mcp
+
 ### agmail
 
 Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account.
