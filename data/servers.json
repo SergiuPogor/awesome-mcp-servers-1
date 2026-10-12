@@ -1538,6 +1538,22 @@
     }
   },
   {
+    "name": "genealogy-mcp",
+    "url": "https://github.com/igormel81/genealogy-mcp",
+    "description": "Family history research with 79 archives and databases, name variants, historical calendars, evidence checks, GEDCOM audit, and archive-request drafts. Runs locally without API keys or network requests.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "Igor Melnikov",
+    "tags": [
+      "genealogy",
+      "family-history",
+      "archives",
+      "gedcom",
+      "evidence"
+    ],
+    "official": false
+  },
+  {
     "name": "Cluefinch MCP",
     "url": "https://github.com/cluefinch/mcp-server",
     "description": "Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.",
