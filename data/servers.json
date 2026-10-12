@@ -1367,6 +1367,24 @@
     }
   },
   {
+    "name": "Ariadne for Therapists",
+    "url": "https://github.com/bgrieco22/ariadne-mcp",
+    "description": "Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Ariadne Marketing",
+    "tags": [
+      "marketing",
+      "local-seo",
+      "google-business-profile",
+      "therapists"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://therapists.ariadnemarketing.com/mcp"
+    }
+  },
+  {
     "name": "OrkasVideoStudio",
     "url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
     "description": "Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server.",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 262 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 263 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2422,6 +2422,18 @@ Payments held between two agents: the buyer pays by x402 or MPP, the seller prov
 - Tags: payments, x402, stablecoins, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://agpay.shveik.dev/mcp
+
+### Ariadne for Therapists
+
+Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews.
+
+- URL: https://github.com/bgrieco22/ariadne-mcp
+- Language: TypeScript
+- Provider: Ariadne Marketing
+- Official: yes
+- Tags: marketing, local-seo, google-business-profile, therapists
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://therapists.ariadnemarketing.com/mcp
 
 ### Astral Twin
 

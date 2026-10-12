@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-262-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-263-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (23)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (15)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (44)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (45)
 - [Utilities and Examples](#utilities-and-examples) (13)
 
 <a id="official-and-reference"></a>
@@ -556,6 +556,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crypto` `defi` `x402` `mcp` `agents`
 - **[agpay](https://agpay.shveik.dev)** `Official` `Go` — Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid; disputes are decided by hand. Paid in stablecoins, no account.  
   `payments` `x402` `stablecoins` `remote`
+- **[Ariadne for Therapists](https://github.com/bgrieco22/ariadne-mcp)** `Official` `TypeScript` — Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews.  
+  `marketing` `local-seo` `google-business-profile` `therapists`
 - **[Astral Twin](https://astraldaily.com)** `Official` `Other` — Create and mint NFT asset packs on the Base blockchain from AI clients.  
   `nft` `blockchain` `base` `minting`
 - **[BankBridge](https://bankbridge.money)** `Official` `TypeScript` — Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.  
