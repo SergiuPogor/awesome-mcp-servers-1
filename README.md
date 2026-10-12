@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-273-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-274-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (14)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (30)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (22)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (23)
 - [Filesystems and Documents](#filesystems-and-documents) (11)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (17)
 - [Communication and Productivity](#communication-and-productivity) (28)
@@ -192,6 +192,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
 
 Browse the web, scrape content, search, and automate browser interactions.
 
+- **[2Captcha MCP](https://github.com/2captcha/2captcha-mcp)** `Official` `JavaScript` — Scrape pages past anti-bot protection, parse marketplaces into JSON, automate a browser, and solve CAPTCHAs.  
+  `scraping` `web` `browser-automation` `captcha`
 - **[agdata](https://agdata.shveik.dev)** `Official` `Go` — Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube transcripts and comments, Maps and Amazon reviews, jobs, news, search; paid with x402 stablecoins, no API key.  
   `web-scraping` `x402` `markdown` `remote`
 - **[AgentRender](https://github.com/corbinvachal48/agentrender-mcp)** `Official` `Python` — Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.  
