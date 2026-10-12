@@ -4084,6 +4084,22 @@
     }
   },
   {
+    "name": "Bridge Watch",
+    "url": "https://github.com/LakeSky/bridge-watch-mcp",
+    "description": "On-chain address intelligence for Base: seven read-only MCP tools for EVM address labels, transaction explanation, sybil clustering, alerts and CCTP transfer tracking, plus an anonymous free tier and x402 USDC pay-per-call.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "agentsapi.top",
+    "tags": [
+      "web3",
+      "base",
+      "address-labels",
+      "risk",
+      "x402"
+    ],
+    "official": true
+  },
+  {
     "name": "Grandpa's AI",
     "url": "https://github.com/wescorp/grandpasai-mcp",
     "description": "Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization.",
