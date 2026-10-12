@@ -2767,7 +2767,7 @@ People and company data from Kooperativa.io: enrich and search profiles, hiring 
 
 Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.
 
-- URL: https://github.com/livetennisapi/livetennisapi-mcp
+- URL: https://www.npmjs.com/package/livetennisapi-mcp
 - Language: TypeScript
 - Provider: Live Tennis API
 - Official: no
