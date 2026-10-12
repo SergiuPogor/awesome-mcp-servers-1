@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 269 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 270 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1160,6 +1160,18 @@ Create website projects, deploy supported GitHub repositories, and inspect deplo
 - Tags: hosting, deployment, github, oauth
 - Category: Cloud and Infrastructure
 - Streamable HTTP endpoint: https://shipvela.com/mcp
+
+### SolidPing
+
+Create, run and diagnose uptime checks across 43 types, read results and incidents, and manage status pages and maintenance windows in SolidPing, a self-hostable uptime monitor; also runs over stdio.
+
+- URL: https://github.com/fclairamb/solidping
+- Language: Go
+- Provider: SolidPing
+- Official: yes
+- Tags: uptime, monitoring, status, incidents
+- Category: Cloud and Infrastructure
+- Streamable HTTP endpoint: https://solidping.io/api/v1/mcp
 
 ### Symbioza
 

@@ -1065,6 +1065,24 @@
     "official": true
   },
   {
+    "name": "SolidPing",
+    "url": "https://github.com/fclairamb/solidping",
+    "description": "Create, run and diagnose uptime checks across 43 types, read results and incidents, and manage status pages and maintenance windows in SolidPing, a self-hostable uptime monitor; also runs over stdio.",
+    "category": "cloud-and-infrastructure",
+    "language": "Go",
+    "provider": "SolidPing",
+    "tags": [
+      "uptime",
+      "monitoring",
+      "status",
+      "incidents"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://solidping.io/api/v1/mcp"
+    }
+  },
+  {
     "name": "Vercel MCP Server",
     "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
     "description": "Deploy and manage Vercel projects and deployments from AI clients.",
