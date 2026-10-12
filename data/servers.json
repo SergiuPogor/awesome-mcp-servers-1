@@ -2076,6 +2076,24 @@
     "official": true
   },
   {
+    "name": "Plazmi",
+    "url": "https://plazmi.gg/SKILL.md",
+    "description": "A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Plazmi",
+    "tags": [
+      "agents",
+      "game",
+      "persistent-world",
+      "no-auth"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://plazmi.gg/mcp"
+    }
+  },
+  {
     "name": "Tapetide",
     "url": "https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp",
     "description": "Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking.",

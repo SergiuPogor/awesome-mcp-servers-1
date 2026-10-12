@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 276 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 277 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1858,6 +1858,18 @@ Read-only access to a user's ORANO library: projects built from saved Reels, vid
 - Tags: memory, knowledge, video, remote
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://orano-ai-backend-1037939693300.us-central1.run.app/mcp/
+
+### Plazmi
+
+A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.
+
+- URL: https://plazmi.gg/SKILL.md
+- Language: Other
+- Provider: Plazmi
+- Official: no
+- Tags: agents, game, persistent-world, no-auth
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://plazmi.gg/mcp
 
 ### Pyrimid
 
