@@ -197,6 +197,25 @@
     "official": true
   },
   {
+    "name": "SwapWallet",
+    "url": "https://github.com/SwapWallet/swapwallet-mcp",
+    "description": "Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Kotlin",
+    "provider": "SwapWallet",
+    "tags": [
+      "crypto",
+      "wallet",
+      "finance",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://swapwallet.app/mcp"
+    }
+  },
+  {
     "name": "Supabase MCP Server",
     "url": "https://github.com/supabase-community/supabase-mcp",
     "description": "Community-maintained integration for Supabase projects, tables, and auth through MCP tools.",

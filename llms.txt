@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 278 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 279 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -302,6 +302,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Square MCP Server](https://github.com/square/square-mcp-server): Process Square payments and manage point-of-sale operations. (TypeScript, official)
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp): Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances. (TypeScript, official)
 - [Stripe MCP Server](https://github.com/stripe/agent-toolkit): Manage Stripe payments, customers, and subscriptions via MCP tools. (TypeScript, official)
+- [SwapWallet](https://github.com/SwapWallet/swapwallet-mcp): Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram. (Kotlin, official)
 - [Synci](https://github.com/synciio/synci-mcp): Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health. (Other, official)
 - [Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp): Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking. (TypeScript, official)
 - [TraderSpy](https://github.com/target1m/traderspy-mcp): Read-only crypto futures market data: AI signals, top-trader positions on Hyperliquid, Binance, Bybit and OKX, indicators, funding, open interest, a screener and backtests. No order or withdrawal tools. (Other, official)
