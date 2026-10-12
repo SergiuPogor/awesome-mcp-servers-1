@@ -79,6 +79,7 @@ Links under each category point at the upstream project, docs, or registry page.
 ## Browsers, Search, and Web Automation
 
 - [agdata](https://agdata.shveik.dev): Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube transcripts and comments, Maps and Amazon reviews, jobs, news, search; paid with x402 stablecoins, no API key. (Go, official)
+- [AgentRender](https://github.com/corbinvachal48/agentrender-mcp): Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card. (Python, official)
 - [agproxy](https://agproxy.shveik.dev): Pay-per-call residential proxy traffic and raw fetch for agents, with country targeting and sticky sessions; paid with x402 stablecoins, no API key. (Go, official)
 - [Apify MCP Server](https://github.com/apify/apify-mcp-server): Run Apify Actors and extract web datasets at scale. (TypeScript, official)
 - [Arcmira: YouTube Transcript Search](https://arcmira.com/docs/mcp-server): Search indexed YouTube transcripts for timestamped passages, speaker appearances, mentions, sponsors and recommendations over a hosted MCP connection. (Other, official)

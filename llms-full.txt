@@ -633,6 +633,18 @@ Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube tran
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://agdata.shveik.dev/mcp
 
+### AgentRender
+
+Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.
+
+- URL: https://github.com/corbinvachal48/agentrender-mcp
+- Language: Python
+- Provider: AgentRender
+- Official: yes
+- Tags: screenshot, pdf, web-extraction, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://api.agentrenderapi.com/mcp
+
 ### agproxy
 
 Pay-per-call residential proxy traffic and raw fetch for agents, with country targeting and sticky sessions; paid with x402 stablecoins, no API key.
