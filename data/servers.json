@@ -1764,6 +1764,19 @@
     }
   },
   {
+    "name": "Decide Runtime",
+    "url": "https://www.decide.fyi/mcp#connect-runtime",
+    "description": "Evaluate supplied facts against approved rules and read/export owned decision records via scoped bearer or registered OAuth/PKCE; USD 10/1,000 records in a controlled business pilot, with no external execution.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "Decide",
+    "tags": ["deterministic", "decision-records", "policy", "remote", "bearer"],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp-live.decide.fyi/developer-prepaid/v1/mcp"
+    }
+  },
+  {
     "name": "Prisma MCP Server",
     "url": "https://www.prisma.io/docs/ai/tools/mcp-server",
     "description": "Manage Prisma Postgres databases, Prisma Compute deployments, and Object Storage from AI tools through a remote MCP server.",
