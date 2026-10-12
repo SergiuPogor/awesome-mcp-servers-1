@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 263 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 275 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -539,6 +539,17 @@ Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integratio
 - Tags: diagnostics, api, auth, webhooks, remote
 - Category: Developer Tools and Code Intelligence
 
+### Oh My Android
+
+Native macOS app with a built-in MCP server that lets AI agents see and drive the Android Emulator and adb devices: screenshots, UI tree in dp, taps, logcat, dark mode, font scale, and locale.
+
+- URL: https://github.com/ateymoori/oh-my-android
+- Language: Swift
+- Provider: Community
+- Official: no
+- Tags: android, emulator, mobile, testing
+- Category: Developer Tools and Code Intelligence
+
 ### Postman MCP Server
 
 Explore and run Postman collections and API workflows from AI clients.
@@ -621,6 +632,17 @@ Read and operate a Spinnaker instance through its Gate API: 37 tools for applica
 
 Browse the web, scrape content, search, and automate browser interactions.
 
+### 2Captcha MCP
+
+Scrape pages past anti-bot protection, parse marketplaces into JSON, automate a browser, and solve CAPTCHAs.
+
+- URL: https://github.com/2captcha/2captcha-mcp
+- Language: JavaScript
+- Provider: 2Captcha
+- Official: yes
+- Tags: scraping, web, browser-automation, captcha
+- Category: Browsers, Search, and Web Automation
+
 ### agdata
 
 Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube transcripts and comments, Maps and Amazon reviews, jobs, news, search; paid with x402 stablecoins, no API key.
@@ -632,6 +654,18 @@ Pay-per-call web data for agents: any URL as Markdown, screenshots, YouTube tran
 - Tags: web-scraping, x402, markdown, remote
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://agdata.shveik.dev/mcp
+
+### AgentRender
+
+Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.
+
+- URL: https://github.com/corbinvachal48/agentrender-mcp
+- Language: Python
+- Provider: AgentRender
+- Official: yes
+- Tags: screenshot, pdf, web-extraction, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://api.agentrenderapi.com/mcp
 
 ### agproxy
 
@@ -1138,6 +1172,18 @@ Create website projects, deploy supported GitHub repositories, and inspect deplo
 - Category: Cloud and Infrastructure
 - Streamable HTTP endpoint: https://shipvela.com/mcp
 
+### SolidPing
+
+Create, run and diagnose uptime checks across 43 types, read results and incidents, and manage status pages and maintenance windows in SolidPing, a self-hostable uptime monitor; also runs over stdio.
+
+- URL: https://github.com/fclairamb/solidping
+- Language: Go
+- Provider: SolidPing
+- Official: yes
+- Tags: uptime, monitoring, status, incidents
+- Category: Cloud and Infrastructure
+- Streamable HTTP endpoint: https://solidping.io/api/v1/mcp
+
 ### Symbioza
 
 Symbioza runs your containerized GPU job on a rented cloud machine and hands back the files it writes, under a spending limit you set.
@@ -1175,6 +1221,18 @@ Deploy and manage Vercel projects and deployments from AI clients.
 ## Communication and Productivity
 
 Integrate chat, email, calendars, and team collaboration tools.
+
+### Agent Media
+
+Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts.
+
+- URL: https://github.com/agent-media-ai/agent-media
+- Language: Other
+- Provider: Agent Media
+- Official: yes
+- Tags: video, ugc, ai-video, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://api.agent-media.ai/mcp
 
 ### agmail
 
@@ -1221,6 +1279,18 @@ Remote MCP server that lets an agent phone US and Canadian businesses: it works 
 - Tags: phone-calls, voice, telephony, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://callforme.tel/mcp
+
+### day3
+
+Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope.
+
+- URL: https://docs.day3.app/mcp
+- Language: TypeScript
+- Provider: Pradsgaard Labs
+- Official: yes
+- Tags: email-marketing, newsletters, campaigns, api-key
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://go.day3.app/api/mcp
 
 ### Discord MCP Server
 
@@ -2044,6 +2114,18 @@ Read website session replays, click heatmaps and broken clicks, trace one to its
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://mcp.hootlens.com/mcp
 
+### Invokely
+
+Query source-cited official statistics by indicator, place and period; retrieve values and time series, compare places, and rank regions. No-account MCP trial allows 25 calls per IP per day.
+
+- URL: https://invokely.ai/docs
+- Language: Other
+- Provider: Invokely
+- Official: yes
+- Tags: official-statistics, public-data, time-series, source-citations, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://invokely.ai/mcp/trial
+
 ### LLM Pulse MCP Server
 
 Analyze AI search visibility, citations, sentiment, share of voice, and AI traffic.
@@ -2147,6 +2229,18 @@ Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Co
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://mcp.screpy.com
 
+### Serpel
+
+Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring.
+
+- URL: https://serpel.app/developers/mcp
+- Language: TypeScript
+- Provider: Serpel
+- Official: yes
+- Tags: seo, analytics, ai-visibility, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://serpel.app/mcp
+
 ## Legal and Court Data
 
 Court records, legal research, case search, and judicial workflow data.
@@ -2234,6 +2328,17 @@ Manage Auth0 tenants, applications, and user identity settings.
 - Provider: Auth0
 - Official: yes
 - Tags: auth, identity, oauth
+- Category: Security and Identity
+
+### Bridge Watch
+
+On-chain address intelligence for Base: seven read-only MCP tools for EVM address labels, transaction explanation, sybil clustering, alerts and CCTP transfer tracking, plus an anonymous free tier and x402 USDC pay-per-call.
+
+- URL: https://github.com/LakeSky/bridge-watch-mcp
+- Language: TypeScript
+- Provider: agentsapi.top
+- Official: yes
+- Tags: web3, base, address-labels, risk, x402
 - Category: Security and Identity
 
 ### Council of AI GSPC
@@ -2423,6 +2528,18 @@ Payments held between two agents: the buyer pays by x402 or MPP, the seller prov
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://agpay.shveik.dev/mcp
 
+### Ariadne for Therapists
+
+Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews.
+
+- URL: https://github.com/bgrieco22/ariadne-mcp
+- Language: TypeScript
+- Provider: Ariadne Marketing
+- Official: yes
+- Tags: marketing, local-seo, google-business-profile, therapists
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://therapists.ariadnemarketing.com/mcp
+
 ### Astral Twin
 
 Create and mint NFT asset packs on the Base blockchain from AI clients.
@@ -2601,6 +2718,17 @@ Turn AI-host work into invoices you review before send — Continue as guest or 
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.invompt.com/mcp
 
+### Kooperativa.io
+
+People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.
+
+- URL: https://github.com/kooperativa-team/kooperativa-mcp
+- Language: TypeScript
+- Provider: Kooperativa.io
+- Official: yes
+- Tags: b2b-data, enrichment, people-search, hiring-signals
+- Category: Finance, Commerce, and Business Apps
+
 ### Live Tennis API MCP
 
 Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.
@@ -2711,6 +2839,17 @@ Community-maintained integration for Shopify products, orders, and store operati
 - Provider: Community
 - Official: no
 - Tags: ecommerce, shopify, retail
+- Category: Finance, Commerce, and Business Apps
+
+### Silicon Floor
+
+Ownership, insider trades, short interest and financial statements as filed for listed AI and semiconductor companies, each figure dated and linked to its SEC or FINRA source.
+
+- URL: https://github.com/Baptoshi/silicon-floor
+- Language: TypeScript
+- Provider: Silicon Floor
+- Official: yes
+- Tags: stocks, sec-filings, ownership, semiconductors, remote
 - Category: Finance, Commerce, and Business Apps
 
 ### SkyAccess
