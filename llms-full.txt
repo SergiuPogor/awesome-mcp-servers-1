@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 274 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 275 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3073,6 +3073,17 @@ Python framework for building MCP servers quickly with decorators.
 - Provider: Community
 - Official: no
 - Tags: framework, python, starter
+- Category: Utilities and Examples
+
+### genealogy-mcp
+
+Family history research with 79 archives and databases, name variants, historical calendars, evidence checks, GEDCOM audit, and archive-request drafts. Runs locally without API keys or network requests.
+
+- URL: https://github.com/igormel81/genealogy-mcp
+- Language: Python
+- Provider: Igor Melnikov
+- Official: no
+- Tags: genealogy, family-history, archives, gedcom, evidence
 - Category: Utilities and Examples
 
 ### Google Maps MCP Server

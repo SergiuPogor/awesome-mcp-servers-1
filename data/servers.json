@@ -455,7 +455,7 @@
   {
     "name": "mcp-pool",
     "url": "https://github.com/yuzu-octopus/mcp-pool",
-    "description": "MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
+    "description": "MCP Key Pool Proxy \u2014 pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
     "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
     "provider": "yuzu-octopus",
@@ -1223,7 +1223,7 @@
     "description": "Czech Instagram/TikTok follower, like and view service catalog, exact quotes, order status and paid CZK purchases; private operations use OAuth and customer-approved prepaid budgets.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
-    "provider": "TvojeLajky / Tomáš Přibyl",
+    "provider": "TvojeLajky / Tom\u00e1\u0161 P\u0159ibyl",
     "tags": [
       "commerce",
       "social-media",
@@ -2303,7 +2303,7 @@
   {
     "name": "DropTheHassle",
     "url": "https://github.com/bosmdavid-gif/dropthehassle-mcp",
-    "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
+    "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (\u20ac19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
     "category": "cloud-and-infrastructure",
     "language": "JavaScript",
     "provider": "DropTheHassle",
@@ -2539,7 +2539,7 @@
     }
   },
   {
-    "name": "BOIM (보임)",
+    "name": "BOIM (\ubcf4\uc784)",
     "url": "https://github.com/kikiyop1101/boim-mcp",
     "description": "Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool.",
     "category": "data-analytics-and-bi",
@@ -3286,7 +3286,7 @@
   {
     "name": "AgentServices",
     "url": "https://github.com/vbkotecha/agentservices-api",
-    "description": "Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
+    "description": "Paid API platform for AI agents \u2014 crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "AgentServices",
@@ -3356,7 +3356,7 @@
   {
     "name": "Pyrimid",
     "url": "https://github.com/pyrimid-ai/pyrimid",
-    "description": "Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
+    "description": "Onchain payment protocol for AI agents \u2014 sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
     "category": "ai-agents-and-memory",
     "language": "TypeScript",
     "provider": "Pyrimid Protocol",
@@ -3481,7 +3481,7 @@
   {
     "name": "Live Tennis API MCP",
     "url": "https://github.com/livetennisapi/livetennisapi-mcp",
-    "description": "Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
+    "description": "Real-time tennis match state \u2014 score, current server, three-valued break-point flag, and retirement/walkover/completed status \u2014 plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Live Tennis API",
@@ -3950,7 +3950,7 @@
   {
     "name": "Invompt",
     "url": "https://mcp.invompt.com/mcp",
-    "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
+    "description": "Turn AI-host work into invoices you review before send \u2014 Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Invompt",
@@ -4364,5 +4364,21 @@
     "endpoints": {
       "streamableHttp": "https://api.getacqpath.com/mcp"
     }
+  },
+  {
+    "name": "genealogy-mcp",
+    "url": "https://github.com/igormel81/genealogy-mcp",
+    "description": "Family history research with 79 archives and databases, name variants, historical calendars, evidence checks, GEDCOM audit, and archive-request drafts. Runs locally without API keys or network requests.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "Igor Melnikov",
+    "tags": [
+      "genealogy",
+      "family-history",
+      "archives",
+      "gedcom",
+      "evidence"
+    ],
+    "official": false
   }
 ]
