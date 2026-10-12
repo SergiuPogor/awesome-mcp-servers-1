@@ -2613,6 +2613,17 @@ Turn AI-host work into invoices you review before send — Continue as guest or 
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.invompt.com/mcp
 
+### Kooperativa.io
+
+People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.
+
+- URL: https://github.com/kooperativa-team/kooperativa-mcp
+- Language: TypeScript
+- Provider: Kooperativa.io
+- Official: yes
+- Tags: b2b-data, enrichment, people-search, hiring-signals
+- Category: Finance, Commerce, and Business Apps
+
 ### Live Tennis API MCP
 
 Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.
