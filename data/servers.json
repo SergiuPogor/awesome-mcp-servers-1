@@ -1607,6 +1607,24 @@
     }
   },
   {
+    "name": "Serpel",
+    "url": "https://serpel.app/developers/mcp",
+    "description": "Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Serpel",
+    "tags": [
+      "seo",
+      "analytics",
+      "ai-visibility",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://serpel.app/mcp"
+    }
+  },
+  {
     "name": "Cluefinch MCP",
     "url": "https://github.com/cluefinch/mcp-server",
     "description": "Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.",
