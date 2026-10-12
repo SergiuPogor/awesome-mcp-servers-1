@@ -2253,6 +2253,21 @@
     }
   },
   {
+    "name": "2Captcha MCP",
+    "url": "https://github.com/2captcha/2captcha-mcp",
+    "description": "Scrape pages past anti-bot protection, parse marketplaces into JSON, automate a browser, and solve CAPTCHAs.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "2Captcha",
+    "tags": [
+      "scraping",
+      "web",
+      "browser-automation",
+      "captcha"
+    ],
+    "official": true
+  },
+  {
     "name": "QRX",
     "url": "https://qrx.codes/developers/mcp",
     "description": "Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link.",
