@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 267 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 268 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1256,6 +1256,18 @@ Remote MCP server that lets an agent phone US and Canadian businesses: it works 
 - Tags: phone-calls, voice, telephony, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://callforme.tel/mcp
+
+### day3
+
+Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope.
+
+- URL: https://docs.day3.app/mcp
+- Language: TypeScript
+- Provider: Pradsgaard Labs
+- Official: yes
+- Tags: email-marketing, newsletters, campaigns, api-key
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://go.day3.app/api/mcp
 
 ### Discord MCP Server
 
