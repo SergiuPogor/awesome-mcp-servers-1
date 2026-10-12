@@ -1303,6 +1303,20 @@
     "official": true
   },
   {
+    "name": "Atlassian Browser MCP Server",
+    "url": "https://github.com/GeiserX/atlassian-browser-mcp",
+    "description": "Wraps mcp-atlassian with Playwright browser-cookie login, so its Jira and Confluence tools work on Atlassian Server/Data Center behind corporate SSO (Okta, SAML) where API tokens are not available.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "jira",
+      "confluence",
+      "sso"
+    ],
+    "official": false
+  },
+  {
     "name": "Todoist MCP Server",
     "url": "https://github.com/abhiz123/todoist-mcp-server",
     "description": "Manage Todoist tasks, projects, and due dates from AI assistants.",
