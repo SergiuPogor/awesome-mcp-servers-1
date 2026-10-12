@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 278 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 279 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2863,6 +2863,18 @@ Query Salesforce CRM records and manage business workflows.
 - Official: yes
 - Tags: crm, sales, enterprise
 - Category: Finance, Commerce, and Business Apps
+
+### ScentVerdict
+
+Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.
+
+- URL: https://scentverdict.com/connect
+- Language: C#
+- Provider: ScentVerdict
+- Official: yes
+- Tags: fragrance, perfume, shopping, read-only, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://scentverdict.com/mcp
 
 ### Shopify MCP Server
 
