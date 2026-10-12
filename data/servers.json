@@ -520,6 +520,24 @@
     }
   },
   {
+    "name": "day3",
+    "url": "https://docs.day3.app/mcp",
+    "description": "Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Pradsgaard Labs",
+    "tags": [
+      "email-marketing",
+      "newsletters",
+      "campaigns",
+      "api-key"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://go.day3.app/api/mcp"
+    }
+  },
+  {
     "name": "There There",
     "url": "https://there-there.app/docs/integrations/mcp-server",
     "description": "Read, search and triage There There helpdesk tickets, save private reply drafts, send replies and manage knowledge base articles, limited to the abilities granted over OAuth.",
@@ -1047,6 +1065,24 @@
     "official": true
   },
   {
+    "name": "SolidPing",
+    "url": "https://github.com/fclairamb/solidping",
+    "description": "Create, run and diagnose uptime checks across 43 types, read results and incidents, and manage status pages and maintenance windows in SolidPing, a self-hostable uptime monitor; also runs over stdio.",
+    "category": "cloud-and-infrastructure",
+    "language": "Go",
+    "provider": "SolidPing",
+    "tags": [
+      "uptime",
+      "monitoring",
+      "status",
+      "incidents"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://solidping.io/api/v1/mcp"
+    }
+  },
+  {
     "name": "Vercel MCP Server",
     "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
     "description": "Deploy and manage Vercel projects and deployments from AI clients.",
@@ -1091,6 +1127,21 @@
     "endpoints": {
       "streamableHttp": "https://shipvela.com/mcp"
     }
+  },
+  {
+    "name": "Oh My Android",
+    "url": "https://github.com/ateymoori/oh-my-android",
+    "description": "Native macOS app with a built-in MCP server that lets AI agents see and drive the Android Emulator and adb devices: screenshots, UI tree in dp, taps, logcat, dark mode, font scale, and locale.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Swift",
+    "provider": "Community",
+    "tags": [
+      "android",
+      "emulator",
+      "mobile",
+      "testing"
+    ],
+    "official": false
   },
   {
     "name": "Fly.io MCP Server",
@@ -1349,6 +1400,24 @@
     }
   },
   {
+    "name": "Agent Media",
+    "url": "https://github.com/agent-media-ai/agent-media",
+    "description": "Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Agent Media",
+    "tags": [
+      "video",
+      "ugc",
+      "ai-video",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.agent-media.ai/mcp"
+    }
+  },
+  {
     "name": "Taskfolk",
     "url": "https://github.com/taskfolk/mcp",
     "description": "Project management for teams and their AI agents. Agents join as named members.",
@@ -1364,6 +1433,24 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://taskfolk.ai/api/mcp/v1"
+    }
+  },
+  {
+    "name": "Ariadne for Therapists",
+    "url": "https://github.com/bgrieco22/ariadne-mcp",
+    "description": "Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Ariadne Marketing",
+    "tags": [
+      "marketing",
+      "local-seo",
+      "google-business-profile",
+      "therapists"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://therapists.ariadnemarketing.com/mcp"
     }
   },
   {
@@ -1535,6 +1622,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.looot.ai/mcp"
+    }
+  },
+  {
+    "name": "Serpel",
+    "url": "https://serpel.app/developers/mcp",
+    "description": "Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Serpel",
+    "tags": [
+      "seo",
+      "analytics",
+      "ai-visibility",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://serpel.app/mcp"
     }
   },
   {
@@ -1815,6 +1920,22 @@
     }
   },
   {
+    "name": "Silicon Floor",
+    "url": "https://github.com/Baptoshi/silicon-floor",
+    "description": "Ownership, insider trades, short interest and financial statements as filed for listed AI and semiconductor companies, each figure dated and linked to its SEC or FINRA source.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Silicon Floor",
+    "tags": [
+      "stocks",
+      "sec-filings",
+      "ownership",
+      "semiconductors",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "Metabase MCP Server",
     "url": "https://www.metabase.com/docs/latest/ai/mcp",
     "description": "Query dashboards and explore data in Metabase BI.",
@@ -2037,6 +2158,25 @@
       "data"
     ],
     "official": true
+  },
+  {
+    "name": "Invokely",
+    "url": "https://invokely.ai/docs",
+    "description": "Query source-cited official statistics by indicator, place and period; retrieve values and time series, compare places, and rank regions. No-account MCP trial allows 25 calls per IP per day.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Invokely",
+    "tags": [
+      "official-statistics",
+      "public-data",
+      "time-series",
+      "source-citations",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://invokely.ai/mcp/trial"
+    }
   },
   {
     "name": "CompanyProof",
@@ -2284,6 +2424,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://qrx.codes/mcp"
+    }
+  },
+  {
+    "name": "AgentRender",
+    "url": "https://github.com/corbinvachal48/agentrender-mcp",
+    "description": "Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "AgentRender",
+    "tags": [
+      "screenshot",
+      "pdf",
+      "web-extraction",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.agentrenderapi.com/mcp"
     }
   },
   {
@@ -2576,6 +2734,21 @@
       "auth",
       "webhooks",
       "remote"
+    ],
+    "official": true
+  },
+  {
+    "name": "Kooperativa.io",
+    "url": "https://github.com/kooperativa-team/kooperativa-mcp",
+    "description": "People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Kooperativa.io",
+    "tags": [
+      "b2b-data",
+      "enrichment",
+      "people-search",
+      "hiring-signals"
     ],
     "official": true
   },
@@ -3942,6 +4115,22 @@
     "endpoints": {
       "streamableHttp": "https://canlicapital.com/mcp"
     }
+  },
+  {
+    "name": "Bridge Watch",
+    "url": "https://github.com/LakeSky/bridge-watch-mcp",
+    "description": "On-chain address intelligence for Base: seven read-only MCP tools for EVM address labels, transaction explanation, sybil clustering, alerts and CCTP transfer tracking, plus an anonymous free tier and x402 USDC pay-per-call.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "agentsapi.top",
+    "tags": [
+      "web3",
+      "base",
+      "address-labels",
+      "risk",
+      "x402"
+    ],
+    "official": true
   },
   {
     "name": "Grandpa's AI",
