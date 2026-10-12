@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 275 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 276 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1652,6 +1652,18 @@ Kick off CrewAI crew deployments and check their status from MCP clients.
 - Official: yes
 - Tags: agents, multi-agent, orchestration
 - Category: AI, Agents, and Memory
+
+### Decide Runtime
+
+Evaluate supplied facts against approved rules and read/export owned decision records via scoped bearer or registered OAuth/PKCE; USD 10/1,000 records in a controlled business pilot, with no external execution.
+
+- URL: https://www.decide.fyi/mcp#connect-runtime
+- Language: JavaScript
+- Provider: Decide
+- Official: yes
+- Tags: deterministic, decision-records, policy, remote, bearer
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://mcp-live.decide.fyi/developer-prepaid/v1/mcp
 
 ### fitlog-mcp
 
