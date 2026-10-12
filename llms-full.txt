@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 278 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 279 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2474,6 +2474,17 @@ Scan dependencies and code for vulnerabilities with Snyk.
 - Provider: Snyk
 - Official: yes
 - Tags: security, vulnerabilities, dependencies
+- Category: Security and Identity
+
+### Sunglasses
+
+Scans text and files locally for prompt injection, credential leaks and data exfiltration; runs as a CLI, a Python API or an MCP server (python -m sunglasses.mcp).
+
+- URL: https://github.com/sunglasses-dev/sunglasses
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: security, prompt-injection, scanner, python
 - Category: Security and Identity
 
 ### Tanod
