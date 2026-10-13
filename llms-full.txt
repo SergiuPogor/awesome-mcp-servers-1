@@ -2900,6 +2900,18 @@ Query Salesforce CRM records and manage business workflows.
 - Tags: crm, sales, enterprise
 - Category: Finance, Commerce, and Business Apps
 
+### ScentVerdict
+
+Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.
+
+- URL: https://scentverdict.com/connect
+- Language: C#
+- Provider: ScentVerdict
+- Official: yes
+- Tags: fragrance, perfume, shopping, read-only, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://scentverdict.com/mcp
+
 ### Shopify MCP Server
 
 Community-maintained integration for Shopify products, orders, and store operations.
