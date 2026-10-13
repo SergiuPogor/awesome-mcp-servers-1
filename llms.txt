@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 287 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 293 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -116,6 +116,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Notion MCP Server](https://github.com/makenotion/notion-mcp-server): Read and write Notion pages, databases, and workspace content. (TypeScript, official)
 - [Obsidian MCP Server](https://github.com/MarkusPfundstein/mcp-obsidian): Search and read notes from local Obsidian vaults. (TypeScript)
 - [PDF MCP Server](https://github.com/jztan/pdf-mcp): Extract text and metadata from PDF documents for analysis. (Python)
+- [ReadGZH](https://github.com/sweesama/readgzh): Read public WeChat Official Account articles as Markdown for AI agents over remote MCP and REST. (TypeScript)
 - [Readwise MCP Server](https://github.com/readwiseio/readwise-mcp): Search highlights and reading notes from Readwise. (TypeScript, official)
 - [SEAL MCP](https://seal.net/docs/mcp): Transfer large files and secrets between people and AI agents through client-side encrypted, expiring handoffs. (TypeScript, official)
 
@@ -159,6 +160,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Mailcoach](https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/): Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list. (PHP, official)
 - [Microsoft Teams MCP Server](https://github.com/InditexTech/mcp-teams-server): Interact with Microsoft Teams channels, messages, and meetings. (TypeScript)
 - [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio): Compose and assemble videos from editable JSON timelines through a source-installable CLI and MCP server. (TypeScript)
+- [Pinto Notes](https://github.com/pinto-notes/pinto-notes): Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth. (TypeScript, official)
 - [Postbag MCP Server](https://github.com/faahim/postbag): Open-source agent-native form backend that receives contact-form POSTs, stores submissions with status, and delivers to email, Telegram, or webhooks. (TypeScript)
 - [Process Street MCP Server](https://github.com/process-street/process-street-mcp): Connect AI clients to Process Street workflows, workflow runs, tasks, users, data sets, and operational records. (Other, official)
 - [Slack MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack): Send messages and interact with Slack channels and workspaces. (Python)
@@ -169,6 +171,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Todoist MCP Server](https://github.com/abhiz123/todoist-mcp-server): Manage Todoist tasks, projects, and due dates from AI assistants. (TypeScript)
 - [Unblockd](https://unblockd.ai/setup.md): Project plans for teams that answer to a sponsor: read goals and deliverables, update tasks, attach proof, flag blockers, log risks, and draft decision asks with options. A person on the team sends each ask. (TypeScript, official)
 - [Unsora](https://github.com/Shipped-Studio/unsora): AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more. (TypeScript, official)
+- [Warmerly](https://github.com/WarmerlyApp/mcp): Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant. (TypeScript, official)
 - [Zoom MCP Server](https://developers.zoom.us/docs/mcp/): Official hosted Zoom MCP servers for meetings, chat, docs, and whiteboards. (Other, official)
 - [Zovo Office Suite](https://github.com/theluckystrike/mcp-servers): Local-first MCP bundle for freelance paperwork: invoicing, expenses, time tracking, spreadsheets, PDFs and resumes; 30 servers also reachable as hosted Streamable HTTP endpoints. (TypeScript)
 - [Zovo Time Tracker](https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker): Track billable time from chat: start and stop timers, log entries against jobs, and produce timesheets and billable summaries; hosted endpoint uses a free anonymous token from https://mcp.zovo.one/mcp/token. (TypeScript)
@@ -238,9 +241,11 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Metabase MCP Server](https://www.metabase.com/docs/latest/ai/mcp): Query dashboards and explore data in Metabase BI. (TypeScript, official)
 - [Mixpanel MCP Server](https://docs.mixpanel.com/docs/mcp): Query Mixpanel funnels, retention, and event analytics. (TypeScript, official)
 - [Netdata MCP Server](https://github.com/netdata/netdata): Real-time infrastructure monitoring and health metrics via MCP. (C, official)
+- [Proofsource](https://proofsource.co/docs/chatgpt-and-claude): Hosted AI visibility server: which buyer questions name your brand in ChatGPT, Perplexity, Claude and Google AI Overviews, competitors named instead, cited sources, and fix tracking. OAuth. (Go, official)
 - [Robot Speed](https://github.com/robot-speed/mcp): SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing. (TypeScript, official)
 - [Screpy SEO MCP](https://screpy.com/feature/seo-mcp/): Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth. (Other, official)
 - [Serpel](https://serpel.app/developers/mcp): Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring. (TypeScript, official)
+- [StatOrigin](https://statorigin.org/docs/mcp): Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence. (Other, official)
 
 ## Legal and Court Data
 
@@ -328,6 +333,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Anyquery](https://github.com/julien040/anyquery): Query 40+ apps and databases with SQL from a single local binary. (Go)
 - [CareClinic Health Tracker](https://github.com/tandemloop/careclinic_mcp): Track symptoms, mood, medications, and wellness patterns through a remote OAuth MCP server. (Other)
 - [FastMCP](https://github.com/jlowin/fastmcp): Python framework for building MCP servers quickly with decorators. (Python)
+- [FaviconDL](https://github.com/sweesama/favicondl.com): Extract and download website favicons via MCP; wraps the free no-key FaviconDL API. (JavaScript)
 - [genealogy-mcp](https://github.com/igormel81/genealogy-mcp): Family history research with 79 archives and databases, name variants, historical calendars, evidence checks, GEDCOM audit, and archive-request drafts. Runs locally without API keys or network requests. (Python)
 - [Google Maps MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps): Geocoding, directions, and place search via Google Maps. (Python)
 - [MCP Server Starter](https://github.com/modelcontextprotocol/create-typescript-server): Official TypeScript scaffold for creating new MCP servers. (TypeScript, official)
