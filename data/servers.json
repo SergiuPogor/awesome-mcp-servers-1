@@ -197,6 +197,25 @@
     "official": true
   },
   {
+    "name": "SwapWallet",
+    "url": "https://github.com/SwapWallet/swapwallet-mcp",
+    "description": "Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Kotlin",
+    "provider": "SwapWallet",
+    "tags": [
+      "crypto",
+      "wallet",
+      "finance",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://swapwallet.app/mcp"
+    }
+  },
+  {
     "name": "Supabase MCP Server",
     "url": "https://github.com/supabase-community/supabase-mcp",
     "description": "Community-maintained integration for Supabase projects, tables, and auth through MCP tools.",
@@ -455,7 +474,7 @@
   {
     "name": "mcp-pool",
     "url": "https://github.com/yuzu-octopus/mcp-pool",
-    "description": "MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
+    "description": "MCP Key Pool Proxy \u2014 pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
     "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
     "provider": "yuzu-octopus",
@@ -517,6 +536,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.mailcoach.app"
+    }
+  },
+  {
+    "name": "day3",
+    "url": "https://docs.day3.app/mcp",
+    "description": "Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Pradsgaard Labs",
+    "tags": [
+      "email-marketing",
+      "newsletters",
+      "campaigns",
+      "api-key"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://go.day3.app/api/mcp"
     }
   },
   {
@@ -1047,6 +1084,24 @@
     "official": true
   },
   {
+    "name": "SolidPing",
+    "url": "https://github.com/fclairamb/solidping",
+    "description": "Create, run and diagnose uptime checks across 43 types, read results and incidents, and manage status pages and maintenance windows in SolidPing, a self-hostable uptime monitor; also runs over stdio.",
+    "category": "cloud-and-infrastructure",
+    "language": "Go",
+    "provider": "SolidPing",
+    "tags": [
+      "uptime",
+      "monitoring",
+      "status",
+      "incidents"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://solidping.io/api/v1/mcp"
+    }
+  },
+  {
     "name": "Vercel MCP Server",
     "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
     "description": "Deploy and manage Vercel projects and deployments from AI clients.",
@@ -1075,6 +1130,20 @@
     "official": true
   },
   {
+    "name": "Duplicacy MCP Server",
+    "url": "https://github.com/GeiserX/duplicacy-mcp",
+    "description": "Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.",
+    "category": "cloud-and-infrastructure",
+    "language": "Go",
+    "provider": "Community",
+    "tags": [
+      "duplicacy",
+      "backup",
+      "prometheus"
+    ],
+    "official": false
+  },
+  {
     "name": "Shipvela",
     "url": "https://shipvela.com/integrations/codex",
     "description": "Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server.",
@@ -1091,6 +1160,21 @@
     "endpoints": {
       "streamableHttp": "https://shipvela.com/mcp"
     }
+  },
+  {
+    "name": "Oh My Android",
+    "url": "https://github.com/ateymoori/oh-my-android",
+    "description": "Native macOS app with a built-in MCP server that lets AI agents see and drive the Android Emulator and adb devices: screenshots, UI tree in dp, taps, logcat, dark mode, font scale, and locale.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Swift",
+    "provider": "Community",
+    "tags": [
+      "android",
+      "emulator",
+      "mobile",
+      "testing"
+    ],
+    "official": false
   },
   {
     "name": "Fly.io MCP Server",
@@ -1172,7 +1256,7 @@
     "description": "Czech Instagram/TikTok follower, like and view service catalog, exact quotes, order status and paid CZK purchases; private operations use OAuth and customer-approved prepaid budgets.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
-    "provider": "TvojeLajky / Tomáš Přibyl",
+    "provider": "TvojeLajky / Tom\u00e1\u0161 P\u0159ibyl",
     "tags": [
       "commerce",
       "social-media",
@@ -1303,6 +1387,20 @@
     "official": true
   },
   {
+    "name": "Atlassian Browser MCP Server",
+    "url": "https://github.com/GeiserX/atlassian-browser-mcp",
+    "description": "Wraps mcp-atlassian with Playwright browser-cookie login, so its Jira and Confluence tools work on Atlassian Server/Data Center behind corporate SSO (Okta, SAML) where API tokens are not available.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "jira",
+      "confluence",
+      "sso"
+    ],
+    "official": false
+  },
+  {
     "name": "Todoist MCP Server",
     "url": "https://github.com/abhiz123/todoist-mcp-server",
     "description": "Manage Todoist tasks, projects, and due dates from AI assistants.",
@@ -1349,6 +1447,24 @@
     }
   },
   {
+    "name": "Agent Media",
+    "url": "https://github.com/agent-media-ai/agent-media",
+    "description": "Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Agent Media",
+    "tags": [
+      "video",
+      "ugc",
+      "ai-video",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.agent-media.ai/mcp"
+    }
+  },
+  {
     "name": "Taskfolk",
     "url": "https://github.com/taskfolk/mcp",
     "description": "Project management for teams and their AI agents. Agents join as named members.",
@@ -1364,6 +1480,24 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://taskfolk.ai/api/mcp/v1"
+    }
+  },
+  {
+    "name": "Ariadne for Therapists",
+    "url": "https://github.com/bgrieco22/ariadne-mcp",
+    "description": "Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Ariadne Marketing",
+    "tags": [
+      "marketing",
+      "local-seo",
+      "google-business-profile",
+      "therapists"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://therapists.ariadnemarketing.com/mcp"
     }
   },
   {
@@ -1535,6 +1669,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.looot.ai/mcp"
+    }
+  },
+  {
+    "name": "Serpel",
+    "url": "https://serpel.app/developers/mcp",
+    "description": "Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Serpel",
+    "tags": [
+      "seo",
+      "analytics",
+      "ai-visibility",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://serpel.app/mcp"
     }
   },
   {
@@ -1764,6 +1916,19 @@
     }
   },
   {
+    "name": "Decide Runtime",
+    "url": "https://www.decide.fyi/mcp#connect-runtime",
+    "description": "Evaluate supplied facts against approved rules and read/export owned decision records via scoped bearer or registered OAuth/PKCE; USD 10/1,000 records in a controlled business pilot, with no external execution.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "Decide",
+    "tags": ["deterministic", "decision-records", "policy", "remote", "bearer"],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp-live.decide.fyi/developer-prepaid/v1/mcp"
+    }
+  },
+  {
     "name": "Prisma MCP Server",
     "url": "https://www.prisma.io/docs/ai/tools/mcp-server",
     "description": "Manage Prisma Postgres databases, Prisma Compute deployments, and Object Storage from AI tools through a remote MCP server.",
@@ -1813,6 +1978,22 @@
     "endpoints": {
       "streamableHttp": "https://mcp.hyperresearch.ai/mcp"
     }
+  },
+  {
+    "name": "Silicon Floor",
+    "url": "https://github.com/Baptoshi/silicon-floor",
+    "description": "Ownership, insider trades, short interest and financial statements as filed for listed AI and semiconductor companies, each figure dated and linked to its SEC or FINRA source.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Silicon Floor",
+    "tags": [
+      "stocks",
+      "sec-filings",
+      "ownership",
+      "semiconductors",
+      "remote"
+    ],
+    "official": true
   },
   {
     "name": "Metabase MCP Server",
@@ -2057,6 +2238,25 @@
     "official": true
   },
   {
+    "name": "Invokely",
+    "url": "https://invokely.ai/docs",
+    "description": "Query source-cited official statistics by indicator, place and period; retrieve values and time series, compare places, and rank regions. No-account MCP trial allows 25 calls per IP per day.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Invokely",
+    "tags": [
+      "official-statistics",
+      "public-data",
+      "time-series",
+      "source-citations",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://invokely.ai/mcp/trial"
+    }
+  },
+  {
     "name": "CompanyProof",
     "url": "https://companyproof.ai/docs/mcp",
     "description": "Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.",
@@ -2124,6 +2324,19 @@
     "official": true
   },
   {
+    "name": "Agent Commons",
+    "url": "https://github.com/sibi-narendran/common-agent-network",
+    "description": "Free public meeting place for AI agents: chat rooms, an inbox of replies and @mentions that survives restarts, a wake note read back each session, shared knowledge, a job board and a human-help queue; no key needed.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": ["agents", "collaboration", "memory", "a2a", "remote"],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://agents.dooza.ai/mcp"
+    }
+  },
+  {
     "name": "Datacircle",
     "url": "https://docs.datacircle.dev/mcp-server",
     "description": "Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.",
@@ -2141,6 +2354,22 @@
     "endpoints": {
       "streamableHttp": "https://api.datacircle.dev/mcp"
     }
+  },
+  {
+    "name": "Apple Docs 2.0 MCP",
+    "url": "https://github.com/mishafyi/Apple-Docs-2.0-MCP",
+    "description": "Searches and reads Apple's developer documentation, Human Interface Guidelines and 1,700 WWDC sessions with code, with an offline index of 336,629 pages.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "apple",
+      "ios",
+      "swift",
+      "documentation",
+      "wwdc"
+    ],
+    "official": false
   },
   {
     "name": "Liminal",
@@ -2181,7 +2410,7 @@
   {
     "name": "DropTheHassle",
     "url": "https://github.com/bosmdavid-gif/dropthehassle-mcp",
-    "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
+    "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (\u20ac19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
     "category": "cloud-and-infrastructure",
     "language": "JavaScript",
     "provider": "DropTheHassle",
@@ -2252,6 +2481,25 @@
     "official": true
   },
   {
+    "name": "ScentVerdict",
+    "url": "https://scentverdict.com/connect",
+    "description": "Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "C#",
+    "provider": "ScentVerdict",
+    "tags": [
+      "fragrance",
+      "perfume",
+      "shopping",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://scentverdict.com/mcp"
+    }
+  },
+  {
     "name": "Whimbrel MedTech Analyst",
     "url": "https://github.com/WhimbrelResearch/whimbrel-mcp",
     "description": "Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.",
@@ -2271,6 +2519,21 @@
     }
   },
   {
+    "name": "2Captcha MCP",
+    "url": "https://github.com/2captcha/2captcha-mcp",
+    "description": "Scrape pages past anti-bot protection, parse marketplaces into JSON, automate a browser, and solve CAPTCHAs.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "2Captcha",
+    "tags": [
+      "scraping",
+      "web",
+      "browser-automation",
+      "captcha"
+    ],
+    "official": true
+  },
+  {
     "name": "QRX",
     "url": "https://qrx.codes/developers/mcp",
     "description": "Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link.",
@@ -2287,6 +2550,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://qrx.codes/mcp"
+    }
+  },
+  {
+    "name": "AgentRender",
+    "url": "https://github.com/corbinvachal48/agentrender-mcp",
+    "description": "Turns a URL into a screenshot, PDF, or structured extract (title, text, links) via a hosted render API. Local `uvx agentrender-mcp` or remote endpoint; free API key, no card.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "AgentRender",
+    "tags": [
+      "screenshot",
+      "pdf",
+      "web-extraction",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.agentrenderapi.com/mcp"
     }
   },
   {
@@ -2384,7 +2665,7 @@
     }
   },
   {
-    "name": "BOIM (보임)",
+    "name": "BOIM (\ubcf4\uc784)",
     "url": "https://github.com/kikiyop1101/boim-mcp",
     "description": "Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool.",
     "category": "data-analytics-and-bi",
@@ -2579,6 +2860,21 @@
       "auth",
       "webhooks",
       "remote"
+    ],
+    "official": true
+  },
+  {
+    "name": "Kooperativa.io",
+    "url": "https://github.com/kooperativa-team/kooperativa-mcp",
+    "description": "People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Kooperativa.io",
+    "tags": [
+      "b2b-data",
+      "enrichment",
+      "people-search",
+      "hiring-signals"
     ],
     "official": true
   },
@@ -3116,7 +3412,7 @@
   {
     "name": "AgentServices",
     "url": "https://github.com/vbkotecha/agentservices-api",
-    "description": "Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
+    "description": "Paid API platform for AI agents \u2014 crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "AgentServices",
@@ -3186,7 +3482,7 @@
   {
     "name": "Pyrimid",
     "url": "https://github.com/pyrimid-ai/pyrimid",
-    "description": "Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
+    "description": "Onchain payment protocol for AI agents \u2014 sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
     "category": "ai-agents-and-memory",
     "language": "TypeScript",
     "provider": "Pyrimid Protocol",
@@ -3310,8 +3606,8 @@
   },
   {
     "name": "Live Tennis API MCP",
-    "url": "https://github.com/livetennisapi/livetennisapi-mcp",
-    "description": "Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
+    "url": "https://www.npmjs.com/package/livetennisapi-mcp",
+    "description": "Real-time tennis match state \u2014 score, current server, three-valued break-point flag, and retirement/walkover/completed status \u2014 plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Live Tennis API",
@@ -3780,7 +4076,7 @@
   {
     "name": "Invompt",
     "url": "https://mcp.invompt.com/mcp",
-    "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
+    "description": "Turn AI-host work into invoices you review before send \u2014 Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Invompt",
@@ -3947,6 +4243,25 @@
     }
   },
   {
+    "name": "Bridge Watch",
+    "url": "https://github.com/LakeSky/bridge-watch-mcp",
+    "description": "On-chain address intelligence for Base: seven read-only MCP tools for EVM address labels, transaction explanation, sybil clustering, alerts and CCTP transfer tracking, plus an anonymous free tier and x402 USDC pay-per-call.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "agentsapi.top",
+    "tags": [
+      "web3",
+      "base",
+      "address-labels",
+      "risk",
+      "x402"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agentsapi.top/mcp"
+    }
+  },
+  {
     "name": "Grandpa's AI",
     "url": "https://github.com/wescorp/grandpasai-mcp",
     "description": "Search and retrieve a curated research corpus on longevity, robotics, AI, and space colonization.",
@@ -4073,6 +4388,25 @@
     }
   },
   {
+    "name": "agosint",
+    "url": "https://agosint.shveik.dev",
+    "description": "Company and domain due diligence for AI agents: legal entity from official registers, LEI, EU VAT, sanctions lists (OFAC, EU, UK) and domain checks, every answer signed. Pay per call in stablecoins with x402 or MPP, no account.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Go",
+    "provider": "agosint",
+    "tags": [
+      "due-diligence",
+      "sanctions",
+      "x402",
+      "stablecoins",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agosint.shveik.dev/mcp"
+    }
+  },
+  {
     "name": "Voidpay Marketplace MCP",
     "url": "https://github.com/voidly-ai/pay-mcp",
     "description": "Find services and storefronts on Voidly's hosted marketplace for AI-agent services and prepare checkout links that the owner reviews and approves in their own browser; the connector never signs, pays or holds keys.",
@@ -4178,5 +4512,21 @@
     "endpoints": {
       "streamableHttp": "https://api.getacqpath.com/mcp"
     }
+  },
+  {
+    "name": "genealogy-mcp",
+    "url": "https://github.com/igormel81/genealogy-mcp",
+    "description": "Family history research with 79 archives and databases, name variants, historical calendars, evidence checks, GEDCOM audit, and archive-request drafts. Runs locally without API keys or network requests.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "Igor Melnikov",
+    "tags": [
+      "genealogy",
+      "family-history",
+      "archives",
+      "gedcom",
+      "evidence"
+    ],
+    "official": false
   }
 ]
