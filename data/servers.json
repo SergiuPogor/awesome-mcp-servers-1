@@ -2225,6 +2225,19 @@
     }
   },
   {
+    "name": "StatOrigin",
+    "url": "https://statorigin.org/docs/mcp",
+    "description": "Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "StatOrigin",
+    "tags": ["statistics", "open-data", "citations", "remote"],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://statorigin.org/mcp"
+    }
+  },
+  {
     "name": "Equibles",
     "url": "https://equibles.com/mcp",
     "description": "Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access.",
