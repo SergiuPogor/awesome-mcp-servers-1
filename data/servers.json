@@ -4047,6 +4047,25 @@
     }
   },
   {
+    "name": "Proofsource",
+    "url": "https://proofsource.co/docs/chatgpt-and-claude",
+    "description": "Hosted AI visibility server: which buyer questions name your brand in ChatGPT, Perplexity, Claude and Google AI Overviews, competitors named instead, cited sources, and fix tracking. OAuth.",
+    "category": "data-analytics-and-bi",
+    "language": "Go",
+    "provider": "Proofsource",
+    "tags": [
+      "ai-visibility",
+      "geo",
+      "aeo",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.proofsource.co/v1/mcp"
+    }
+  },
+  {
     "name": "Continuity",
     "url": "https://github.com/LAHutchins91/continuity-mcp",
     "description": "Remote MCP story bible for fiction writers: locked characters, relationships, world rules, timelines, and approved scenes with OAuth for ChatGPT, Claude, Gemini, Grok, and Cursor.",
