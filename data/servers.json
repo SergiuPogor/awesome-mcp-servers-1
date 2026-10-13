@@ -2273,6 +2273,19 @@
     "official": true
   },
   {
+    "name": "Pinto Notes",
+    "url": "https://github.com/pinto-notes/pinto-notes",
+    "description": "Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI search, read and edit your notes, checklists and tables after you approve it over OAuth.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Pinto Notes",
+    "tags": ["notes", "apple-notes", "markdown", "oauth"],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.pintonotes.com"
+    }
+  },
+  {
     "name": "Datacircle",
     "url": "https://docs.datacircle.dev/mcp-server",
     "description": "Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.",
