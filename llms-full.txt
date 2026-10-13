@@ -2562,6 +2562,18 @@ Paid API platform for AI agents — crypto prices, DeFi yields, market indicator
 - Category: Finance, Commerce, and Business Apps
 - SSE endpoint: https://agentservices.to/mcp
 
+### agosint
+
+Company and domain due diligence for AI agents: legal entity from official registers, LEI, EU VAT, sanctions lists (OFAC, EU, UK) and domain checks, every answer signed. Pay per call in stablecoins with x402 or MPP, no account.
+
+- URL: https://agosint.shveik.dev
+- Language: Go
+- Provider: agosint
+- Official: yes
+- Tags: due-diligence, sanctions, x402, stablecoins, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://agosint.shveik.dev/mcp
+
 ### agpay
 
 Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid; disputes are decided by hand. Paid in stablecoins, no account.
