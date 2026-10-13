@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 293 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 294 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2958,6 +2958,17 @@ Process PayPal payments and manage merchant operations.
 - Provider: PayPal
 - Official: yes
 - Tags: payments, commerce, fintech
+- Category: Finance, Commerce, and Business Apps
+
+### Pink Agentic AI Payments
+
+Approval layer for AI agent payments: per-agent budgets and rules return allow (single-use credential), ask a human, or block before money moves, over remote Streamable HTTP with OAuth 2.1; public sandbox with test money only.
+
+- URL: https://pinkwallet.com/agentic/developers/
+- Language: TypeScript
+- Provider: PinkWallet
+- Official: yes
+- Tags: payments, spending-limits, approvals, remote, oauth
 - Category: Finance, Commerce, and Business Apps
 
 ### Plaid MCP Server

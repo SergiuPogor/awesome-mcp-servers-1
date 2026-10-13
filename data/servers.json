@@ -2083,6 +2083,22 @@
     "official": true
   },
   {
+    "name": "Pink Agentic AI Payments",
+    "url": "https://pinkwallet.com/agentic/developers/",
+    "description": "Approval layer for AI agent payments: per-agent budgets and rules return allow (single-use credential), ask a human, or block before money moves, over remote Streamable HTTP with OAuth 2.1; public sandbox with test money only.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "PinkWallet",
+    "tags": [
+      "payments",
+      "spending-limits",
+      "approvals",
+      "remote",
+      "oauth"
+    ],
+    "official": true
+  },
+  {
     "name": "LynxPrompt MCP Server",
     "url": "https://github.com/GeiserX/lynxprompt-mcp",
     "description": "Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance.",
