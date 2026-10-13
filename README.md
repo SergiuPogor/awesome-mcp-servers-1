@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-279-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-287-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,13 +46,13 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (31)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (23)
 - [Filesystems and Documents](#filesystems-and-documents) (11)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (17)
-- [Communication and Productivity](#communication-and-productivity) (30)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (36)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (18)
+- [Communication and Productivity](#communication-and-productivity) (31)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (38)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (25)
 - [Legal and Court Data](#legal-and-court-data) (4)
-- [Security and Identity](#security-and-identity) (16)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (47)
+- [Security and Identity](#security-and-identity) (17)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (50)
 - [Utilities and Examples](#utilities-and-examples) (14)
 
 <a id="official-and-reference"></a>
@@ -290,6 +290,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `cloudflare` `edge` `workers`
 - **[DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp)** `Official` `JavaScript` — Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.  
   `hosting` `deployment` `domains` `https` `remote`
+- **[Duplicacy MCP Server](https://github.com/GeiserX/duplicacy-mcp)** `Go` — Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.  
+  `duplicacy` `backup` `prometheus`
 - **[Fly.io MCP Server](https://github.com/superfly/flymcp)** `Official` `TypeScript` — Manage Fly.io apps, machines, and deployments via MCP.  
   `fly` `deploy` `edge`
 - **[Network Sketcher](https://github.com/cisco-open/network-sketcher)** `Python` — Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation.  
@@ -341,6 +343,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `calendar` `scheduling` `google`
 - **[HeyReagent](https://heyreagent.com/linkedin-mcp?utm_source=mcphq&utm_medium=listing)** `JavaScript` — Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send messages and connection invitations, search people, and read profiles and posts; OAuth or API key, free plan available. Not affiliated with LinkedIn.  
   `linkedin` `sales` `remote` `oauth`
+- **[LinkedNav](https://www.linkednav.com/mcp?utm_source=mcphq&utm_medium=listing)** `JavaScript` — Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buying signals, launch outreach campaigns, write messages, and read and answer replies; OAuth or API key, free 7-day trial. Not affiliated with LinkedIn.  
+  `linkedin` `sales` `remote` `oauth`
 - **[LinkMCP](https://app.linkmcp.io)** `TypeScript` — Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, people and Sales Navigator search, inbox, posts, connection requests and work email finding; OAuth 2.1 or access key, paid plans with a 7-day free trial.  
   `linkedin` `sales` `remote` `oauth`
 - **[Mailcoach](https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/)** `Official` `PHP` — Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list.  
@@ -390,6 +394,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `coding-agents` `local-first`
 - **[Aeon](https://www.aeon.fun/connect)** `Official` `TypeScript` — Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strategy, packs and settings, through a hosted MCP server with GitHub sign-in.  
   `agents` `automation` `github` `remote` `oauth`
+- **[Agent Commons](https://github.com/sibi-narendran/common-agent-network)** `TypeScript` — Free public meeting place for AI agents: chat rooms, an inbox of replies and @mentions that survives restarts, a wake note read back each session, shared knowledge, a job board and a human-help queue; no key needed.  
+  `agents` `collaboration` `memory` `a2a` `remote`
 - **[Agentage Memory](https://agentage.io/blog/mcp-endpoint-is-live)** `Official` `TypeScript` — Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp.  
   `memory` `remote` `oauth`
 - **[Aident Loadout](https://github.com/Aident-AI/aident-skill)** `Official` `TypeScript` — Remote MCP capability layer that connects coding agents to 1000+ apps and 400+ Skills through one OAuth setup, with vaulted credentials and an audit trail.  
@@ -438,6 +444,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `openai` `gpt` `inference`
 - **[ORANO](https://oranoai.com/mcp)** `Official` `Python` — Read-only access to a user's ORANO library: projects built from saved Reels, videos, articles and PDFs, selectable video context, ordered tasks and curated memory facts.  
   `memory` `knowledge` `video` `remote`
+- **[Plazmi](https://plazmi.gg/SKILL.md)** `Other` — A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.  
+  `agents` `game` `persistent-world` `no-auth`
 - **[Pyrimid](https://github.com/pyrimid-ai/pyrimid)** `TypeScript` — Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.  
   `x402` `ai-agent` `payments` `base` `usdc`
 - **[RunAPI MCP Server](https://github.com/runapi-ai/mcp)** `TypeScript` — Discover model inputs and create AI image, video, music, speech, and other model API tasks.  
@@ -561,6 +569,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `auth` `identity` `oauth` `mcp`
 - **[Snyk MCP Server](https://github.com/snyk/studio-mcp)** `Official` `TypeScript` — Scan dependencies and code for vulnerabilities with Snyk.  
   `security` `vulnerabilities` `dependencies`
+- **[Sunglasses](https://github.com/sunglasses-dev/sunglasses)** `Python` — Scans text and files locally for prompt injection, credential leaks and data exfiltration; runs as a CLI, a Python API or an MCP server (python -m sunglasses.mcp).  
+  `security` `prompt-injection` `scanner` `python`
 - **[Tanod](https://tanod.dev)** `Official` `Python` — Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).  
   `security` `smart-contracts` `x402` `web3` `remote`
 - **[Vault MCP Server](https://github.com/hashicorp/vault-mcp-server)** `Official` `Go` — Read secrets and manage HashiCorp Vault policies via MCP.  
@@ -580,6 +590,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `video` `advertising` `ecommerce` `remote` `oauth`
 - **[AgentServices](https://github.com/vbkotecha/agentservices-api)** `Python` — Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.  
   `crypto` `defi` `x402` `mcp` `agents`
+- **[agosint](https://agosint.shveik.dev)** `Official` `Go` — Company and domain due diligence for AI agents: legal entity from official registers, LEI, EU VAT, sanctions lists (OFAC, EU, UK) and domain checks, every answer signed. Pay per call in stablecoins with x402 or MPP, no account.  
+  `due-diligence` `sanctions` `x402` `stablecoins` `remote`
 - **[agpay](https://agpay.shveik.dev)** `Official` `Go` — Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid; disputes are decided by hand. Paid in stablecoins, no account.  
   `payments` `x402` `stablecoins` `remote`
 - **[Ariadne for Therapists](https://github.com/bgrieco22/ariadne-mcp)** `Official` `TypeScript` — Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews.  
@@ -634,6 +646,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `accounting` `finance` `bookkeeping`
 - **[Salesforce MCP Server](https://github.com/salesforcecli/mcp)** `Official` `TypeScript` — Query Salesforce CRM records and manage business workflows.  
   `crm` `sales` `enterprise`
+- **[ScentVerdict](https://scentverdict.com/connect)** `Official` `C#` — Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.  
+  `fragrance` `perfume` `shopping` `read-only` `remote`
 - **[Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp)** `TypeScript` — Community-maintained integration for Shopify products, orders, and store operations.  
   `ecommerce` `shopify` `retail`
 - **[Silicon Floor](https://github.com/Baptoshi/silicon-floor)** `Official` `TypeScript` — Ownership, insider trades, short interest and financial statements as filed for listed AI and semiconductor companies, each figure dated and linked to its SEC or FINRA source.  
@@ -648,6 +662,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `company-data` `business` `finance` `remote`
 - **[Stripe MCP Server](https://github.com/stripe/agent-toolkit)** `Official` `TypeScript` — Manage Stripe payments, customers, and subscriptions via MCP tools.  
   `payments` `billing` `fintech`
+- **[SwapWallet](https://github.com/SwapWallet/swapwallet-mcp)** `Official` `Kotlin` — Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram.  
+  `crypto` `wallet` `finance` `oauth` `remote`
 - **[Synci](https://github.com/synciio/synci-mcp)** `Official` `Other` — Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health.  
   `banking` `personal-finance` `open-banking` `oauth` `read-only`
 - **[Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp)** `Official` `TypeScript` — Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking.  
