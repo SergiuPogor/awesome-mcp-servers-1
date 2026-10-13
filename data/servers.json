@@ -4173,7 +4173,10 @@
       "risk",
       "x402"
     ],
-    "official": true
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agentsapi.top/mcp"
+    }
   },
   {
     "name": "Grandpa's AI",

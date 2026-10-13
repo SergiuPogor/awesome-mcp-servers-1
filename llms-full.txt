@@ -2374,6 +2374,7 @@ On-chain address intelligence for Base: seven read-only MCP tools for EVM addres
 - Official: yes
 - Tags: web3, base, address-labels, risk, x402
 - Category: Security and Identity
+- Streamable HTTP endpoint: https://agentsapi.top/mcp
 
 ### Council of AI GSPC
 
