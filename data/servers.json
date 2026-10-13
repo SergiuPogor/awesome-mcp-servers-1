@@ -197,6 +197,25 @@
     "official": true
   },
   {
+    "name": "SwapWallet",
+    "url": "https://github.com/SwapWallet/swapwallet-mcp",
+    "description": "Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Kotlin",
+    "provider": "SwapWallet",
+    "tags": [
+      "crypto",
+      "wallet",
+      "finance",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://swapwallet.app/mcp"
+    }
+  },
+  {
     "name": "Supabase MCP Server",
     "url": "https://github.com/supabase-community/supabase-mcp",
     "description": "Community-maintained integration for Supabase projects, tables, and auth through MCP tools.",
@@ -1111,6 +1130,20 @@
     "official": true
   },
   {
+    "name": "Duplicacy MCP Server",
+    "url": "https://github.com/GeiserX/duplicacy-mcp",
+    "description": "Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.",
+    "category": "cloud-and-infrastructure",
+    "language": "Go",
+    "provider": "Community",
+    "tags": [
+      "duplicacy",
+      "backup",
+      "prometheus"
+    ],
+    "official": false
+  },
+  {
     "name": "Shipvela",
     "url": "https://shipvela.com/integrations/codex",
     "description": "Create website projects, deploy supported GitHub repositories, and inspect deployment status, build logs, and usage via a remote OAuth MCP server.",
@@ -1352,6 +1385,20 @@
       "atlassian"
     ],
     "official": true
+  },
+  {
+    "name": "Atlassian Browser MCP Server",
+    "url": "https://github.com/GeiserX/atlassian-browser-mcp",
+    "description": "Wraps mcp-atlassian with Playwright browser-cookie login, so its Jira and Confluence tools work on Atlassian Server/Data Center behind corporate SSO (Okta, SAML) where API tokens are not available.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "jira",
+      "confluence",
+      "sso"
+    ],
+    "official": false
   },
   {
     "name": "Todoist MCP Server",
@@ -2132,6 +2179,24 @@
     }
   },
   {
+    "name": "LinkedNav",
+    "url": "https://www.linkednav.com/mcp?utm_source=mcphq&utm_medium=listing",
+    "description": "Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buying signals, launch outreach campaigns, write messages, and read and answer replies; OAuth or API key, free 7-day trial. Not affiliated with LinkedIn.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "LinkedNav",
+    "tags": [
+      "linkedin",
+      "sales",
+      "remote",
+      "oauth"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.linkednav.com/"
+    }
+  },
+  {
     "name": "MusedIn",
     "url": "https://musedin.com/mcp",
     "description": "Job network for AI agents: join in one request, apply, get hired, deliver and get paid; hosted MCP at https://musedin.com/mcp, A2A card at https://musedin.com/.well-known/agent-card.json.",
@@ -2277,6 +2342,19 @@
     "official": true
   },
   {
+    "name": "Agent Commons",
+    "url": "https://github.com/sibi-narendran/common-agent-network",
+    "description": "Free public meeting place for AI agents: chat rooms, an inbox of replies and @mentions that survives restarts, a wake note read back each session, shared knowledge, a job board and a human-help queue; no key needed.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": ["agents", "collaboration", "memory", "a2a", "remote"],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://agents.dooza.ai/mcp"
+    }
+  },
+  {
     "name": "Datacircle",
     "url": "https://docs.datacircle.dev/mcp-server",
     "description": "Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.",
@@ -2294,6 +2372,22 @@
     "endpoints": {
       "streamableHttp": "https://api.datacircle.dev/mcp"
     }
+  },
+  {
+    "name": "Apple Docs 2.0 MCP",
+    "url": "https://github.com/mishafyi/Apple-Docs-2.0-MCP",
+    "description": "Searches and reads Apple's developer documentation, Human Interface Guidelines and 1,700 WWDC sessions with code, with an offline index of 336,629 pages.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "apple",
+      "ios",
+      "swift",
+      "documentation",
+      "wwdc"
+    ],
+    "official": false
   },
   {
     "name": "Liminal",
@@ -2403,6 +2497,25 @@
       "remote"
     ],
     "official": true
+  },
+  {
+    "name": "ScentVerdict",
+    "url": "https://scentverdict.com/connect",
+    "description": "Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "C#",
+    "provider": "ScentVerdict",
+    "tags": [
+      "fragrance",
+      "perfume",
+      "shopping",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://scentverdict.com/mcp"
+    }
   },
   {
     "name": "Whimbrel MedTech Analyst",
@@ -3511,7 +3624,7 @@
   },
   {
     "name": "Live Tennis API MCP",
-    "url": "https://github.com/livetennisapi/livetennisapi-mcp",
+    "url": "https://www.npmjs.com/package/livetennisapi-mcp",
     "description": "Real-time tennis match state \u2014 score, current server, three-valued break-point flag, and retirement/walkover/completed status \u2014 plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
@@ -4161,7 +4274,10 @@
       "risk",
       "x402"
     ],
-    "official": true
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agentsapi.top/mcp"
+    }
   },
   {
     "name": "Grandpa's AI",
@@ -4287,6 +4403,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agpay.shveik.dev/mcp"
+    }
+  },
+  {
+    "name": "agosint",
+    "url": "https://agosint.shveik.dev",
+    "description": "Company and domain due diligence for AI agents: legal entity from official registers, LEI, EU VAT, sanctions lists (OFAC, EU, UK) and domain checks, every answer signed. Pay per call in stablecoins with x402 or MPP, no account.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Go",
+    "provider": "agosint",
+    "tags": [
+      "due-diligence",
+      "sanctions",
+      "x402",
+      "stablecoins",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agosint.shveik.dev/mcp"
     }
   },
   {

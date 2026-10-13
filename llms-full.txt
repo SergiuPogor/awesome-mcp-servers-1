@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 277 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 285 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -325,6 +325,17 @@ Proprietary hosted OAuth gateway with five tools for API discovery, schemas, exe
 - Tags: api, gateway, oauth, hosted
 - Category: Developer Tools and Code Intelligence
 - Streamable HTTP endpoint: https://api.market/api/mcp/gateway
+
+### Apple Docs 2.0 MCP
+
+Searches and reads Apple's developer documentation, Human Interface Guidelines and 1,700 WWDC sessions with code, with an offline index of 336,629 pages.
+
+- URL: https://github.com/mishafyi/Apple-Docs-2.0-MCP
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: apple, ios, swift, documentation, wwdc
+- Category: Developer Tools and Code Intelligence
 
 ### ax
 
@@ -1105,6 +1116,17 @@ Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19
 - Category: Cloud and Infrastructure
 - Streamable HTTP endpoint: https://dropthehassle.com/mcp
 
+### Duplicacy MCP Server
+
+Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.
+
+- URL: https://github.com/GeiserX/duplicacy-mcp
+- Language: Go
+- Provider: Community
+- Official: no
+- Tags: duplicacy, backup, prometheus
+- Category: Cloud and Infrastructure
+
 ### Fly.io MCP Server
 
 Manage Fly.io apps, machines, and deployments via MCP.
@@ -1246,6 +1268,17 @@ Email inboxes for AI agents, by the hour: an address of your choice, one call wa
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://agmail.shveik.dev/mcp
 
+### Atlassian Browser MCP Server
+
+Wraps mcp-atlassian with Playwright browser-cookie login, so its Jira and Confluence tools work on Atlassian Server/Data Center behind corporate SSO (Okta, SAML) where API tokens are not available.
+
+- URL: https://github.com/GeiserX/atlassian-browser-mcp
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: jira, confluence, sso
+- Category: Communication and Productivity
+
 ### Atlassian MCP Server
 
 Manage Jira issues and Confluence pages across Atlassian Cloud.
@@ -1348,6 +1381,18 @@ Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send m
 - Tags: linkedin, sales, remote, oauth
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.heyreagent.com/mcp
+
+### LinkedNav
+
+Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buying signals, launch outreach campaigns, write messages, and read and answer replies; OAuth or API key, free 7-day trial. Not affiliated with LinkedIn.
+
+- URL: https://www.linkednav.com/mcp?utm_source=mcphq&utm_medium=listing
+- Language: JavaScript
+- Provider: LinkedNav
+- Official: no
+- Tags: linkedin, sales, remote, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.linkednav.com/
 
 ### LinkMCP
 
@@ -1583,6 +1628,18 @@ Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strat
 - Tags: agents, automation, github, remote, oauth
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://www.aeon.fun/connect/mcp
+
+### Agent Commons
+
+Free public meeting place for AI agents: chat rooms, an inbox of replies and @mentions that survives restarts, a wake note read back each session, shared knowledge, a job board and a human-help queue; no key needed.
+
+- URL: https://github.com/sibi-narendran/common-agent-network
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: agents, collaboration, memory, a2a, remote
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://agents.dooza.ai/mcp
 
 ### Agentage Memory
 
@@ -2364,6 +2421,7 @@ On-chain address intelligence for Base: seven read-only MCP tools for EVM addres
 - Official: yes
 - Tags: web3, base, address-labels, risk, x402
 - Category: Security and Identity
+- Streamable HTTP endpoint: https://agentsapi.top/mcp
 
 ### Council of AI GSPC
 
@@ -2539,6 +2597,18 @@ Paid API platform for AI agents — crypto prices, DeFi yields, market indicator
 - Tags: crypto, defi, x402, mcp, agents
 - Category: Finance, Commerce, and Business Apps
 - SSE endpoint: https://agentservices.to/mcp
+
+### agosint
+
+Company and domain due diligence for AI agents: legal entity from official registers, LEI, EU VAT, sanctions lists (OFAC, EU, UK) and domain checks, every answer signed. Pay per call in stablecoins with x402 or MPP, no account.
+
+- URL: https://agosint.shveik.dev
+- Language: Go
+- Provider: agosint
+- Official: yes
+- Tags: due-diligence, sanctions, x402, stablecoins, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://agosint.shveik.dev/mcp
 
 ### agpay
 
@@ -2757,7 +2827,7 @@ People and company data from Kooperativa.io: enrich and search profiles, hiring 
 
 Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.
 
-- URL: https://github.com/livetennisapi/livetennisapi-mcp
+- URL: https://www.npmjs.com/package/livetennisapi-mcp
 - Language: TypeScript
 - Provider: Live Tennis API
 - Official: no
@@ -2854,6 +2924,18 @@ Query Salesforce CRM records and manage business workflows.
 - Tags: crm, sales, enterprise
 - Category: Finance, Commerce, and Business Apps
 
+### ScentVerdict
+
+Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.
+
+- URL: https://scentverdict.com/connect
+- Language: C#
+- Provider: ScentVerdict
+- Official: yes
+- Tags: fragrance, perfume, shopping, read-only, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://scentverdict.com/mcp
+
 ### Shopify MCP Server
 
 Community-maintained integration for Shopify products, orders, and store operations.
@@ -2931,6 +3013,18 @@ Manage Stripe payments, customers, and subscriptions via MCP tools.
 - Official: yes
 - Tags: payments, billing, fintech
 - Category: Finance, Commerce, and Business Apps
+
+### SwapWallet
+
+Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram.
+
+- URL: https://github.com/SwapWallet/swapwallet-mcp
+- Language: Kotlin
+- Provider: SwapWallet
+- Official: yes
+- Tags: crypto, wallet, finance, oauth, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://swapwallet.app/mcp
 
 ### Synci
 

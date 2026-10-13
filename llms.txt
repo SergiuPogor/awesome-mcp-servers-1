@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 277 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 285 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -49,6 +49,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Harness MCP Server](https://github.com/harness/mcp-server): Official Harness.io MCP server for CI/CD pipelines, deployments, GitOps, and platform engineering workflows. (TypeScript, official)
 - [Agent QA](https://github.com/vostride/agent-qa): Run natural-language web and mobile regression tests with persistent test memory through CLI and MCP interfaces. (TypeScript)
 - [API.market MCP Gateway](https://api.market/mcp): Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API. (TypeScript, official)
+- [Apple Docs 2.0 MCP](https://github.com/mishafyi/Apple-Docs-2.0-MCP): Searches and reads Apple's developer documentation, Human Interface Guidelines and 1,700 WWDC sessions with code, with an offline index of 336,629 pages. (TypeScript)
 - [ax](https://github.com/Necmttn/ax): Local-first MCP server for querying coding-agent sessions, tool calls, skills, and costs. (TypeScript)
 - [Bestax](https://github.com/allxsmith/bestax/tree/main/bestax-mcp): Build Bulma v1 React apps with Bestax using an offline index of its component props, examples, CSS variables and Agent Skills. (TypeScript, official)
 - [Communicate](https://developer.communicate.so/docs/mcp): List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials. (TypeScript, official)
@@ -126,6 +127,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [CloudBurn](https://github.com/towardsthecloud/cloudburn): Read-only AWS cost analysis for Terraform, CloudFormation, and live AWS accounts through a local stdio MCP server. (TypeScript, official)
 - [Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare): Manage Workers, KV, R2, and Cloudflare platform resources. (TypeScript, official)
 - [DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp): Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google. (JavaScript, official)
+- [Duplicacy MCP Server](https://github.com/GeiserX/duplicacy-mcp): Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status. (Go)
 - [Fly.io MCP Server](https://github.com/superfly/flymcp): Manage Fly.io apps, machines, and deployments via MCP. (TypeScript, official)
 - [Network Sketcher](https://github.com/cisco-open/network-sketcher): Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation. (Python)
 - [Port MCP Server](https://github.com/port-labs/port-mcp-server): Manage software catalog, scorecards, and actions in Port.io. (TypeScript, official)
@@ -141,6 +143,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [Agent Media](https://github.com/agent-media-ai/agent-media): Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts. (Other, official)
 - [agmail](https://agmail.shveik.dev): Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account. (Go, official)
+- [Atlassian Browser MCP Server](https://github.com/GeiserX/atlassian-browser-mcp): Wraps mcp-atlassian with Playwright browser-cookie login, so its Jira and Confluence tools work on Atlassian Server/Data Center behind corporate SSO (Okta, SAML) where API tokens are not available. (Python)
 - [Atlassian MCP Server](https://github.com/atlassian/atlassian-mcp-server): Manage Jira issues and Confluence pages across Atlassian Cloud. (TypeScript, official)
 - [BulkPublish MCP Server](https://github.com/azeemkafridi/bulkpublish-api): MCP server for AI agents to plan, review, schedule, publish, and analyze social media content through BulkPublish. (TypeScript)
 - [CallForMe](https://github.com/callforme-tel/callforme): Remote MCP server that lets an agent phone US and Canadian businesses: it works phone menus, waits on hold, asks the agent mid-call when needed, and returns a transcript plus structured answers. (TypeScript, official)
@@ -150,6 +153,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Gmail MCP Server](https://github.com/GongRzhe/Gmail-MCP-Server): Search, read, and compose Gmail messages from MCP clients. (TypeScript)
 - [Google Calendar MCP Server](https://github.com/nspady/google-calendar-mcp): View and manage Google Calendar events and schedules. (TypeScript)
 - [HeyReagent](https://heyreagent.com/linkedin-mcp?utm_source=mcphq&utm_medium=listing): Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send messages and connection invitations, search people, and read profiles and posts; OAuth or API key, free plan available. Not affiliated with LinkedIn. (JavaScript)
+- [LinkedNav](https://www.linkednav.com/mcp?utm_source=mcphq&utm_medium=listing): Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buying signals, launch outreach campaigns, write messages, and read and answer replies; OAuth or API key, free 7-day trial. Not affiliated with LinkedIn. (JavaScript)
 - [LinkMCP](https://app.linkmcp.io): Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, people and Sales Navigator search, inbox, posts, connection requests and work email finding; OAuth 2.1 or access key, paid plans with a 7-day free trial. (TypeScript)
 - [Mailcoach](https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/): Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list. (PHP, official)
 - [Microsoft Teams MCP Server](https://github.com/InditexTech/mcp-teams-server): Interact with Microsoft Teams channels, messages, and meetings. (TypeScript)
@@ -173,6 +177,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [AbuzzHive](https://www.abuzzhive.com): Public Q&A boards where AI agents help each other: exact-error lookup of problems other agents solved, posting problems when stuck, solving open ones. (Go, official)
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence): Local-first MCP Work Model that gives coding agents scored memory retrieval, commitments, and outcome-based credit. (Rust)
 - [Aeon](https://www.aeon.fun/connect): Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strategy, packs and settings, through a hosted MCP server with GitHub sign-in. (TypeScript, official)
+- [Agent Commons](https://github.com/sibi-narendran/common-agent-network): Free public meeting place for AI agents: chat rooms, an inbox of replies and @mentions that survives restarts, a wake note read back each session, shared knowledge, a job board and a human-help queue; no key needed. (TypeScript)
 - [Agentage Memory](https://agentage.io/blog/mcp-endpoint-is-live): Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp. (TypeScript, official)
 - [Aident Loadout](https://github.com/Aident-AI/aident-skill): Remote MCP capability layer that connects coding agents to 1000+ apps and 400+ Skills through one OAuth setup, with vaulted credentials and an audit trail. (TypeScript, official)
 - [Anansi Haven](https://github.com/kburrus64-max/anansi-haven): Remote MCP server (also A2A and HTTP) giving agents a persistent identity, versioned key-value memory that survives restarts, client-side encrypted storage, an agent directory and a job board. (JavaScript)
@@ -267,6 +272,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [ADEXTO](https://github.com/0xcuy/adexto): Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key. (TypeScript, official)
 - [AdsTurbo](https://adsturbo.ai): Create ecommerce video ads and product images: clone a reference ad around a product, AI actor videos, text/image-to-video, lip sync and video translation, over remote Streamable HTTP with OAuth 2.1 or an API key. (Other, official)
 - [AgentServices](https://github.com/vbkotecha/agentservices-api): Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments. (Python)
+- [agosint](https://agosint.shveik.dev): Company and domain due diligence for AI agents: legal entity from official registers, LEI, EU VAT, sanctions lists (OFAC, EU, UK) and domain checks, every answer signed. Pay per call in stablecoins with x402 or MPP, no account. (Go, official)
 - [agpay](https://agpay.shveik.dev): Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid; disputes are decided by hand. Paid in stablecoins, no account. (Go, official)
 - [Ariadne for Therapists](https://github.com/bgrieco22/ariadne-mcp): Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews. (TypeScript, official)
 - [Astral Twin](https://astraldaily.com): Create and mint NFT asset packs on the Base blockchain from AI clients. (Other, official)
@@ -285,7 +291,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [HubSpot MCP Server](https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server): Access HubSpot contacts, deals, and marketing automation data. (TypeScript, official)
 - [Invompt](https://mcp.invompt.com/mcp): Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com (TypeScript, official)
 - [Kooperativa.io](https://github.com/kooperativa-team/kooperativa-mcp): People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors. (TypeScript, official)
-- [Live Tennis API MCP](https://github.com/livetennisapi/livetennisapi-mcp): Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors. (TypeScript)
+- [Live Tennis API MCP](https://www.npmjs.com/package/livetennisapi-mcp): Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors. (TypeScript)
 - [MAQAMI Travel](https://github.com/negm17111995/mcp-server): Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key. (JavaScript, official)
 - [NotFair](https://github.com/nowork-studio/NotFair): Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. (TypeScript)
 - [PandaStock](https://github.com/D-Asce/pandastocksdk): A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account. (Python)
@@ -294,6 +300,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Pocket Drives](https://github.com/RevList/pocket-drives-mcp): Search, quote, and browse luxury, exotic, and EV rentals from independent hosts. Location autocomplete, availability, and airport/venue delivery. Booking finishes in the iOS app. (TypeScript)
 - [QuickBooks MCP Server](https://github.com/intuit/quickbooks-online-mcp-server): Manage QuickBooks accounting records and financial reports. (TypeScript, official)
 - [Salesforce MCP Server](https://github.com/salesforcecli/mcp): Query Salesforce CRM records and manage business workflows. (TypeScript, official)
+- [ScentVerdict](https://scentverdict.com/connect): Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication. (C#, official)
 - [Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp): Community-maintained integration for Shopify products, orders, and store operations. (TypeScript)
 - [Silicon Floor](https://github.com/Baptoshi/silicon-floor): Ownership, insider trades, short interest and financial statements as filed for listed AI and semiconductor companies, each figure dated and linked to its SEC or FINRA source. (TypeScript, official)
 - [SkyAccess](https://github.com/sky-access/skyaccess-mcp): Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key. (JavaScript, official)
@@ -301,6 +308,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Square MCP Server](https://github.com/square/square-mcp-server): Process Square payments and manage point-of-sale operations. (TypeScript, official)
 - [Statsnet](https://github.com/usenetstate/statsnet-mcp): Company data for Kazakhstan, Uzbekistan and Kyrgyzstan: registration, executives and finances. (TypeScript, official)
 - [Stripe MCP Server](https://github.com/stripe/agent-toolkit): Manage Stripe payments, customers, and subscriptions via MCP tools. (TypeScript, official)
+- [SwapWallet](https://github.com/SwapWallet/swapwallet-mcp): Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram. (Kotlin, official)
 - [Synci](https://github.com/synciio/synci-mcp): Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health. (Other, official)
 - [Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp): Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking. (TypeScript, official)
 - [TraderSpy](https://github.com/target1m/traderspy-mcp): Read-only crypto futures market data: AI signals, top-trader positions on Hyperliquid, Binance, Bybit and OKX, indicators, funding, open interest, a screener and backtests. No order or withdrawal tools. (Other, official)
