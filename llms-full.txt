@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 286 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 287 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -335,6 +335,17 @@ Searches and reads Apple's developer documentation, Human Interface Guidelines a
 - Provider: Community
 - Official: no
 - Tags: apple, ios, swift, documentation, wwdc
+- Category: Developer Tools and Code Intelligence
+
+### AsItIs
+
+Read-only server that lints CLAUDE.md, AGENTS.md and SKILL.md against vendor rules, estimates the tokens they load per session, and flags hidden instructions such as comments addressed to the AI and invisible Unicode.
+
+- URL: https://github.com/Katta041/asitis-agent-tools
+- Language: TypeScript
+- Provider: AsItIs
+- Official: yes
+- Tags: claude-md, agents-md, linting, prompt-injection, markdown
 - Category: Developer Tools and Code Intelligence
 
 ### ax
