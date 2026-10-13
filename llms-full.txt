@@ -2990,6 +2990,18 @@ Manage Stripe payments, customers, and subscriptions via MCP tools.
 - Tags: payments, billing, fintech
 - Category: Finance, Commerce, and Business Apps
 
+### SwapWallet
+
+Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram.
+
+- URL: https://github.com/SwapWallet/swapwallet-mcp
+- Language: Kotlin
+- Provider: SwapWallet
+- Official: yes
+- Tags: crypto, wallet, finance, oauth, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://swapwallet.app/mcp
+
 ### Synci
 
 Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health.
