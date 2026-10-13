@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 278 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 279 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1115,6 +1115,17 @@ Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19
 - Tags: hosting, deployment, domains, https, remote
 - Category: Cloud and Infrastructure
 - Streamable HTTP endpoint: https://dropthehassle.com/mcp
+
+### Duplicacy MCP Server
+
+Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.
+
+- URL: https://github.com/GeiserX/duplicacy-mcp
+- Language: Go
+- Provider: Community
+- Official: no
+- Tags: duplicacy, backup, prometheus
+- Category: Cloud and Infrastructure
 
 ### Fly.io MCP Server
 
