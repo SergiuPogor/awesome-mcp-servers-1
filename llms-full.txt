@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 278 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 280 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1008,6 +1008,17 @@ Extract text and metadata from PDF documents for analysis.
 - Provider: Community
 - Official: no
 - Tags: pdf, documents, extraction
+- Category: Filesystems and Documents
+
+### ReadGZH
+
+Read public WeChat Official Account articles as Markdown for AI agents over remote MCP and REST.
+
+- URL: https://github.com/sweesama/readgzh
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: wechat, markdown, documents, reader
 - Category: Filesystems and Documents
 
 ### Readwise MCP Server
@@ -3107,6 +3118,17 @@ Python framework for building MCP servers quickly with decorators.
 - Provider: Community
 - Official: no
 - Tags: framework, python, starter
+- Category: Utilities and Examples
+
+### FaviconDL
+
+Extract and download website favicons via MCP; wraps the free no-key FaviconDL API.
+
+- URL: https://github.com/sweesama/favicondl.com
+- Language: JavaScript
+- Provider: Community
+- Official: no
+- Tags: favicon, icons, devtools, utilities
 - Category: Utilities and Examples
 
 ### genealogy-mcp
