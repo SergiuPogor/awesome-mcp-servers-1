@@ -197,6 +197,25 @@
     "official": true
   },
   {
+    "name": "SwapWallet",
+    "url": "https://github.com/SwapWallet/swapwallet-mcp",
+    "description": "Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Kotlin",
+    "provider": "SwapWallet",
+    "tags": [
+      "crypto",
+      "wallet",
+      "finance",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://swapwallet.app/mcp"
+    }
+  },
+  {
     "name": "Supabase MCP Server",
     "url": "https://github.com/supabase-community/supabase-mcp",
     "description": "Community-maintained integration for Supabase projects, tables, and auth through MCP tools.",
@@ -1109,6 +1128,20 @@
       "paas"
     ],
     "official": true
+  },
+  {
+    "name": "Duplicacy MCP Server",
+    "url": "https://github.com/GeiserX/duplicacy-mcp",
+    "description": "Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.",
+    "category": "cloud-and-infrastructure",
+    "language": "Go",
+    "provider": "Community",
+    "tags": [
+      "duplicacy",
+      "backup",
+      "prometheus"
+    ],
+    "official": false
   },
   {
     "name": "Shipvela",
@@ -2090,6 +2123,24 @@
     "official": true
   },
   {
+    "name": "Plazmi",
+    "url": "https://plazmi.gg/SKILL.md",
+    "description": "A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Plazmi",
+    "tags": [
+      "agents",
+      "game",
+      "persistent-world",
+      "no-auth"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://plazmi.gg/mcp"
+    }
+  },
+  {
     "name": "Tapetide",
     "url": "https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp",
     "description": "Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking.",
@@ -2140,6 +2191,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://www.abuzzhive.com/mcp"
+    }
+  },
+  {
+    "name": "LinkedNav",
+    "url": "https://www.linkednav.com/mcp?utm_source=mcphq&utm_medium=listing",
+    "description": "Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buying signals, launch outreach campaigns, write messages, and read and answer replies; OAuth or API key, free 7-day trial. Not affiliated with LinkedIn.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "LinkedNav",
+    "tags": [
+      "linkedin",
+      "sales",
+      "remote",
+      "oauth"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.linkednav.com/"
     }
   },
   {
@@ -2288,6 +2357,19 @@
     "official": true
   },
   {
+    "name": "Agent Commons",
+    "url": "https://github.com/sibi-narendran/common-agent-network",
+    "description": "Free public meeting place for AI agents: chat rooms, an inbox of replies and @mentions that survives restarts, a wake note read back each session, shared knowledge, a job board and a human-help queue; no key needed.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": ["agents", "collaboration", "memory", "a2a", "remote"],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://agents.dooza.ai/mcp"
+    }
+  },
+  {
     "name": "Datacircle",
     "url": "https://docs.datacircle.dev/mcp-server",
     "description": "Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.",
@@ -2430,6 +2512,25 @@
       "remote"
     ],
     "official": true
+  },
+  {
+    "name": "ScentVerdict",
+    "url": "https://scentverdict.com/connect",
+    "description": "Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "C#",
+    "provider": "ScentVerdict",
+    "tags": [
+      "fragrance",
+      "perfume",
+      "shopping",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://scentverdict.com/mcp"
+    }
   },
   {
     "name": "Whimbrel MedTech Analyst",
@@ -4188,7 +4289,10 @@
       "risk",
       "x402"
     ],
-    "official": true
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agentsapi.top/mcp"
+    }
   },
   {
     "name": "Grandpa's AI",
@@ -4314,6 +4418,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://agpay.shveik.dev/mcp"
+    }
+  },
+  {
+    "name": "agosint",
+    "url": "https://agosint.shveik.dev",
+    "description": "Company and domain due diligence for AI agents: legal entity from official registers, LEI, EU VAT, sanctions lists (OFAC, EU, UK) and domain checks, every answer signed. Pay per call in stablecoins with x402 or MPP, no account.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Go",
+    "provider": "agosint",
+    "tags": [
+      "due-diligence",
+      "sanctions",
+      "x402",
+      "stablecoins",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agosint.shveik.dev/mcp"
     }
   },
   {
