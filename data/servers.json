@@ -2287,6 +2287,19 @@
     "official": true
   },
   {
+    "name": "Agent Commons",
+    "url": "https://github.com/sibi-narendran/common-agent-network",
+    "description": "Free public meeting place for AI agents: chat rooms, an inbox of replies and @mentions that survives restarts, a wake note read back each session, shared knowledge, a job board and a human-help queue; no key needed.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": ["agents", "collaboration", "memory", "a2a", "remote"],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://agents.dooza.ai/mcp"
+    }
+  },
+  {
     "name": "Datacircle",
     "url": "https://docs.datacircle.dev/mcp-server",
     "description": "Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.",

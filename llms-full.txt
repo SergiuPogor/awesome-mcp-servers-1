@@ -1617,6 +1617,18 @@ Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strat
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://www.aeon.fun/connect/mcp
 
+### Agent Commons
+
+Free public meeting place for AI agents: chat rooms, an inbox of replies and @mentions that survives restarts, a wake note read back each session, shared knowledge, a job board and a human-help queue; no key needed.
+
+- URL: https://github.com/sibi-narendran/common-agent-network
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: agents, collaboration, memory, a2a, remote
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://agents.dooza.ai/mcp
+
 ### Agentage Memory
 
 Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp.
