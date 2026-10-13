@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 278 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 279 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2549,6 +2549,18 @@ Paid API platform for AI agents — crypto prices, DeFi yields, market indicator
 - Tags: crypto, defi, x402, mcp, agents
 - Category: Finance, Commerce, and Business Apps
 - SSE endpoint: https://agentservices.to/mcp
+
+### agosint
+
+Company and domain due diligence for AI agents: legal entity from official registers, LEI, EU VAT, sanctions lists (OFAC, EU, UK) and domain checks, every answer signed. Pay per call in stablecoins with x402 or MPP, no account.
+
+- URL: https://agosint.shveik.dev
+- Language: Go
+- Provider: agosint
+- Official: yes
+- Tags: due-diligence, sanctions, x402, stablecoins, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://agosint.shveik.dev/mcp
 
 ### agpay
 
