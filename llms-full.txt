@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 279 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 292 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1010,6 +1010,17 @@ Extract text and metadata from PDF documents for analysis.
 - Tags: pdf, documents, extraction
 - Category: Filesystems and Documents
 
+### ReadGZH
+
+Read public WeChat Official Account articles as Markdown for AI agents over remote MCP and REST.
+
+- URL: https://github.com/sweesama/readgzh
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: wechat, markdown, documents, reader
+- Category: Filesystems and Documents
+
 ### Readwise MCP Server
 
 Search highlights and reading notes from Readwise.
@@ -1115,6 +1126,17 @@ Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19
 - Tags: hosting, deployment, domains, https, remote
 - Category: Cloud and Infrastructure
 - Streamable HTTP endpoint: https://dropthehassle.com/mcp
+
+### Duplicacy MCP Server
+
+Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.
+
+- URL: https://github.com/GeiserX/duplicacy-mcp
+- Language: Go
+- Provider: Community
+- Official: no
+- Tags: duplicacy, backup, prometheus
+- Category: Cloud and Infrastructure
 
 ### Fly.io MCP Server
 
@@ -1371,6 +1393,18 @@ Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send m
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.heyreagent.com/mcp
 
+### LinkedNav
+
+Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buying signals, launch outreach campaigns, write messages, and read and answer replies; OAuth or API key, free 7-day trial. Not affiliated with LinkedIn.
+
+- URL: https://www.linkednav.com/mcp?utm_source=mcphq&utm_medium=listing
+- Language: JavaScript
+- Provider: LinkedNav
+- Official: no
+- Tags: linkedin, sales, remote, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.linkednav.com/
+
 ### LinkMCP
 
 Hosted LinkedIn MCP server for your own LinkedIn account: profile, company, people and Sales Navigator search, inbox, posts, connection requests and work email finding; OAuth 2.1 or access key, paid plans with a 7-day free trial.
@@ -1544,6 +1578,18 @@ AI content generation and social media scheduling: generate images, video, talki
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://mcp.tryunsora.com/mcp
 
+### Warmerly
+
+Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant.
+
+- URL: https://github.com/WarmerlyApp/mcp
+- Language: TypeScript
+- Provider: Warmerly
+- Official: yes
+- Tags: email, cold-email, deliverability, outreach, oauth
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://app.warmerly.com/api/mcp
+
 ### Zoom MCP Server
 
 Official hosted Zoom MCP servers for meetings, chat, docs, and whiteboards.
@@ -1617,6 +1663,18 @@ Run and manage your Aeon autonomous agent from chat: skills, runs, memory, strat
 - Tags: agents, automation, github, remote, oauth
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://www.aeon.fun/connect/mcp
+
+### Agent Commons
+
+Free public meeting place for AI agents: chat rooms, an inbox of replies and @mentions that survives restarts, a wake note read back each session, shared knowledge, a job board and a human-help queue; no key needed.
+
+- URL: https://github.com/sibi-narendran/common-agent-network
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: agents, collaboration, memory, a2a, remote
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://agents.dooza.ai/mcp
 
 ### Agentage Memory
 
@@ -1892,6 +1950,18 @@ Read-only access to a user's ORANO library: projects built from saved Reels, vid
 - Tags: memory, knowledge, video, remote
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://orano-ai-backend-1037939693300.us-central1.run.app/mcp/
+
+### Plazmi
+
+A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.
+
+- URL: https://plazmi.gg/SKILL.md
+- Language: Other
+- Provider: Plazmi
+- Official: no
+- Tags: agents, game, persistent-world, no-auth
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://plazmi.gg/mcp
 
 ### Pyrimid
 
@@ -2251,6 +2321,18 @@ Real-time infrastructure monitoring and health metrics via MCP.
 - Tags: monitoring, infra, metrics
 - Category: Data, Analytics, and BI
 
+### Proofsource
+
+Hosted AI visibility server: which buyer questions name your brand in ChatGPT, Perplexity, Claude and Google AI Overviews, competitors named instead, cited sources, and fix tracking. OAuth.
+
+- URL: https://proofsource.co/docs/chatgpt-and-claude
+- Language: Go
+- Provider: Proofsource
+- Official: yes
+- Tags: ai-visibility, geo, aeo, marketing, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://app.proofsource.co/v1/mcp
+
 ### Robot Speed
 
 SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing.
@@ -2286,6 +2368,18 @@ Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keywor
 - Tags: seo, analytics, ai-visibility, remote
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://serpel.app/mcp
+
+### StatOrigin
+
+Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence.
+
+- URL: https://statorigin.org/docs/mcp
+- Language: Other
+- Provider: StatOrigin
+- Official: yes
+- Tags: statistics, open-data, citations, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://statorigin.org/mcp
 
 ## Legal and Court Data
 
@@ -2386,6 +2480,7 @@ On-chain address intelligence for Base: seven read-only MCP tools for EVM addres
 - Official: yes
 - Tags: web3, base, address-labels, risk, x402
 - Category: Security and Identity
+- Streamable HTTP endpoint: https://agentsapi.top/mcp
 
 ### Council of AI GSPC
 
@@ -2488,6 +2583,17 @@ Scan dependencies and code for vulnerabilities with Snyk.
 - Tags: security, vulnerabilities, dependencies
 - Category: Security and Identity
 
+### Sunglasses
+
+Scans text and files locally for prompt injection, credential leaks and data exfiltration; runs as a CLI, a Python API or an MCP server (python -m sunglasses.mcp).
+
+- URL: https://github.com/sunglasses-dev/sunglasses
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: security, prompt-injection, scanner, python
+- Category: Security and Identity
+
 ### Tanod
 
 Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).
@@ -2561,6 +2667,18 @@ Paid API platform for AI agents — crypto prices, DeFi yields, market indicator
 - Tags: crypto, defi, x402, mcp, agents
 - Category: Finance, Commerce, and Business Apps
 - SSE endpoint: https://agentservices.to/mcp
+
+### agosint
+
+Company and domain due diligence for AI agents: legal entity from official registers, LEI, EU VAT, sanctions lists (OFAC, EU, UK) and domain checks, every answer signed. Pay per call in stablecoins with x402 or MPP, no account.
+
+- URL: https://agosint.shveik.dev
+- Language: Go
+- Provider: agosint
+- Official: yes
+- Tags: due-diligence, sanctions, x402, stablecoins, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://agosint.shveik.dev/mcp
 
 ### agpay
 
@@ -2876,6 +2994,18 @@ Query Salesforce CRM records and manage business workflows.
 - Tags: crm, sales, enterprise
 - Category: Finance, Commerce, and Business Apps
 
+### ScentVerdict
+
+Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication.
+
+- URL: https://scentverdict.com/connect
+- Language: C#
+- Provider: ScentVerdict
+- Official: yes
+- Tags: fragrance, perfume, shopping, read-only, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://scentverdict.com/mcp
+
 ### Shopify MCP Server
 
 Community-maintained integration for Shopify products, orders, and store operations.
@@ -2953,6 +3083,18 @@ Manage Stripe payments, customers, and subscriptions via MCP tools.
 - Official: yes
 - Tags: payments, billing, fintech
 - Category: Finance, Commerce, and Business Apps
+
+### SwapWallet
+
+Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram.
+
+- URL: https://github.com/SwapWallet/swapwallet-mcp
+- Language: Kotlin
+- Provider: SwapWallet
+- Official: yes
+- Tags: crypto, wallet, finance, oauth, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://swapwallet.app/mcp
 
 ### Synci
 
@@ -3119,6 +3261,17 @@ Python framework for building MCP servers quickly with decorators.
 - Provider: Community
 - Official: no
 - Tags: framework, python, starter
+- Category: Utilities and Examples
+
+### FaviconDL
+
+Extract and download website favicons via MCP; wraps the free no-key FaviconDL API.
+
+- URL: https://github.com/sweesama/favicondl.com
+- Language: JavaScript
+- Provider: Community
+- Official: no
+- Tags: favicon, icons, devtools, utilities
 - Category: Utilities and Examples
 
 ### genealogy-mcp
