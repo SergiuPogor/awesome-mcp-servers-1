@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 294 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 295 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -881,6 +881,18 @@ Headless Chrome automation using Puppeteer for scraping and testing.
 - Official: no
 - Tags: puppeteer, browser, scraping
 - Category: Browsers, Search, and Web Automation
+
+### Surface
+
+URL preflight for agents: preflight_url unwraps short links, follows redirects, refuses private hosts, and returns the final URL with next: fetch or skip. Never returns the page body; no API key.
+
+- URL: https://github.com/Surface-ops/surface
+- Language: JavaScript
+- Provider: Surface
+- Official: yes
+- Tags: url, redirects, link-safety, preflight, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://nova-otter-delta-cloud.grok.me/mcp
 
 ### Tavily MCP Server
 
