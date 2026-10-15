@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 325 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 326 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -538,6 +538,7 @@ Official hosted MCP server for Latchkey's self-healing GitHub Actions runners: f
 - Official: yes
 - Tags: ci-cd, github-actions, devops, hosted, remote
 - Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://latchkey.dev/mcp
 
 ### Linear MCP Server
 
@@ -983,6 +984,17 @@ MCP server that completes authorized test or owned verification flows in an agen
 - Provider: MasakaAI
 - Official: yes
 - Tags: browser-automation, agent-completion, playwright, cdp, verification
+- Category: Browsers, Search, and Web Automation
+
+### Surface
+
+URL preflight for agents: preflight_url unwraps short links, follows redirects, refuses private hosts, and returns the final URL with next: fetch or skip. Never returns the page body; no API key.
+
+- URL: https://github.com/Surface-ops/surface
+- Language: JavaScript
+- Provider: Surface
+- Official: yes
+- Tags: url, redirects, link-safety, preflight, remote
 - Category: Browsers, Search, and Web Automation
 
 ### Tavily MCP Server

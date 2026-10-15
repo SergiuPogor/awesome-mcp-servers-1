@@ -2771,6 +2771,22 @@
     "official": true
   },
   {
+    "name": "Surface",
+    "url": "https://github.com/Surface-ops/surface",
+    "description": "URL preflight for agents: preflight_url unwraps short links, follows redirects, refuses private hosts, and returns the final URL with next: fetch or skip. Never returns the page body; no API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Surface",
+    "tags": [
+      "url",
+      "redirects",
+      "link-safety",
+      "preflight",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "MusedIn",
     "url": "https://musedin.com/mcp",
     "description": "Job network for AI agents: join in one request, apply, get hired, deliver and get paid; hosted MCP at https://musedin.com/mcp, A2A card at https://musedin.com/.well-known/agent-card.json.",
