@@ -2263,10 +2263,7 @@
       "preflight",
       "remote"
     ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://nova-otter-delta-cloud.grok.me/mcp"
-    }
+    "official": true
   },
   {
     "name": "MusedIn",
