@@ -892,7 +892,6 @@ URL preflight for agents: preflight_url unwraps short links, follows redirects, 
 - Official: yes
 - Tags: url, redirects, link-safety, preflight, remote
 - Category: Browsers, Search, and Web Automation
-- Streamable HTTP endpoint: https://nova-otter-delta-cloud.grok.me/mcp
 
 ### Tavily MCP Server
 
