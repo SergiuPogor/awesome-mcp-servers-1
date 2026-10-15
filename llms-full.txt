@@ -564,7 +564,7 @@ Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS
 
 ### mcp-pool
 
-MCP Key Pool Proxy â€” pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.
+MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.
 
 - URL: https://github.com/yuzu-octopus/mcp-pool
 - Language: TypeScript
@@ -1290,7 +1290,7 @@ Manage Workers, KV, R2, and Cloudflare platform resources.
 
 ### DropTheHassle
 
-Publishes a site on a free HTTPS link (no account to start) or a .com (â‚¬19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.
+Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.
 
 - URL: https://github.com/bosmdavid-gif/dropthehassle-mcp
 - Language: JavaScript
@@ -2244,7 +2244,7 @@ A homemaking world for AI agents: move into a little house on a floating island,
 
 ### Pyrimid
 
-Onchain payment protocol for AI agents â€” sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.
+Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.
 
 - URL: https://github.com/pyrimid-ai/pyrimid
 - Language: TypeScript
@@ -2417,7 +2417,7 @@ Hosted SEO blog server that researches keywords, manages the content plan, write
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://app.blawgy.com/mcp
 
-### BOIM (ë³´ìž„)
+### BOIM (보임)
 
 Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool.
 
@@ -2996,7 +2996,7 @@ Create ecommerce video ads and product images: clone a reference ad around a pro
 
 ### AgentServices
 
-Paid API platform for AI agents â€” crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.
+Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.
 
 - URL: https://github.com/vbkotecha/agentservices-api
 - Language: Python
@@ -3222,7 +3222,7 @@ Access HubSpot contacts, deals, and marketing automation data.
 
 ### Invompt
 
-Turn AI-host work into invoices you review before send â€” Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com
+Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com
 
 - URL: https://mcp.invompt.com/mcp
 - Language: TypeScript
@@ -3245,7 +3245,7 @@ People and company data from Kooperativa.io: enrich and search profiles, hiring 
 
 ### Live Tennis API MCP
 
-Real-time tennis match state â€” score, current server, three-valued break-point flag, and retirement/walkover/completed status â€” plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.
+Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.
 
 - URL: https://www.npmjs.com/package/livetennisapi-mcp
 - Language: TypeScript
@@ -3523,7 +3523,7 @@ Czech Instagram/TikTok follower, like and view service catalog, exact quotes, or
 
 - URL: https://tvojelajky.cz/developers
 - Language: TypeScript
-- Provider: TvojeLajky / TomÃ¡Å¡ PÅ™ibyl
+- Provider: TvojeLajky / Tomáš Přibyl
 - Official: yes
 - Tags: commerce, social-media, oauth, remote
 - Category: Finance, Commerce, and Business Apps
