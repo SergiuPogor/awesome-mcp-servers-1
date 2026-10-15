@@ -538,7 +538,6 @@ Official hosted MCP server for Latchkey's self-healing GitHub Actions runners: f
 - Official: yes
 - Tags: ci-cd, github-actions, devops, hosted, remote
 - Category: Developer Tools and Code Intelligence
-- Streamable HTTP endpoint: https://latchkey.dev/mcp
 
 ### Linear MCP Server
 

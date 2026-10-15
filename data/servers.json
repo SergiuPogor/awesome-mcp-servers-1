@@ -2799,10 +2799,7 @@
       "hosted",
       "remote"
     ],
-    "official": true,
-    "endpoints": {
-      "streamableHttp": "https://latchkey.dev/mcp"
-    }
+    "official": true
   },
   {
     "name": "Universal Crypto MCP",
