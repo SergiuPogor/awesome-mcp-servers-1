@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (31)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (17)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (54)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (56)
 - [Utilities and Examples](#utilities-and-examples) (16)
 
 <a id="official-and-reference"></a>
@@ -680,6 +680,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `ecommerce` `shopping` `search` `remote`
 - **[canli-validation-mcp](https://github.com/arhancanli/canli-validation-mcp)** `Official` `JavaScript` — Checks whether a backtest result is real or just the luckiest of the variants tried: deflated Sharpe ratio, CSCV overfitting probability, data-snooping tests, lookahead checks and pipeline placebos.  
   `finance` `backtesting` `statistics` `quant` `remote`
+- **[Chord](https://github.com/getchordlabs/chord)** `Official` `TypeScript` — Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial.  
+  `blockchain` `defi` `swap` `trading` `crypto`
 - **[Clera](https://github.com/getclera/mcp)** `Official` `TypeScript` — Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.  
   `recruiting` `hiring` `candidates` `remote` `oauth`
 - **[Datacircle](https://docs.datacircle.dev/mcp-server)** `Official` `Python` — Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.  
@@ -706,6 +708,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `tennis` `sports` `live-scores` `fixtures` `event-markets`
 - **[MAQAMI Travel](https://github.com/negm17111995/mcp-server)** `Official` `JavaScript` — Search hotels (3M+) and flights, read hotel details and reviews, then send the customer a secure checkout link on book.maqami.co for the chosen offer; payment is taken only there. Hosted, no API key.  
   `travel` `hotels` `flights` `booking` `remote`
+- **[MoltNode by Chord](https://github.com/tuantqse90/moltnode-mcp)** `Official` `Other` — Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.  
+  `blockchain` `json-rpc` `defi` `swap` `crypto`
 - **[NotFair](https://github.com/nowork-studio/NotFair)** `TypeScript` — Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.  
   `seo` `google-ads` `meta-ads` `marketing`
 - **[PandaStock](https://github.com/D-Asce/pandastocksdk)** `Python` — A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account.  

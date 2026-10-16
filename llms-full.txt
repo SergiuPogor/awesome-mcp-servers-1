@@ -3149,6 +3149,18 @@ Checks whether a backtest result is real or just the luckiest of the variants tr
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://canlicapital.com/mcp
 
+### Chord
+
+Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial.
+
+- URL: https://github.com/getchordlabs/chord
+- Language: TypeScript
+- Provider: Chord
+- Official: yes
+- Tags: blockchain, defi, swap, trading, crypto
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.getchord.xyz/v1/mcp
+
 ### Clera
 
 Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.
@@ -3300,6 +3312,18 @@ Search hotels (3M+) and flights, read hotel details and reviews, then send the c
 - Tags: travel, hotels, flights, booking, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.maqami.co/
+
+### MoltNode by Chord
+
+Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.
+
+- URL: https://github.com/tuantqse90/moltnode-mcp
+- Language: Other
+- Provider: Chord
+- Official: yes
+- Tags: blockchain, json-rpc, defi, swap, crypto
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://moltnode.ag/mcp
 
 ### NotFair
 

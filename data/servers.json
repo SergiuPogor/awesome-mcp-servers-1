@@ -3583,6 +3583,44 @@
     }
   },
   {
+    "name": "MoltNode by Chord",
+    "url": "https://github.com/tuantqse90/moltnode-mcp",
+    "description": "Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Chord",
+    "tags": [
+      "blockchain",
+      "json-rpc",
+      "defi",
+      "swap",
+      "crypto"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://moltnode.ag/mcp"
+    }
+  },
+  {
+    "name": "Chord",
+    "url": "https://github.com/getchordlabs/chord",
+    "description": "Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Chord",
+    "tags": [
+      "blockchain",
+      "defi",
+      "swap",
+      "trading",
+      "crypto"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.getchord.xyz/v1/mcp"
+    }
+  },
+  {
     "name": "NAIF Gravity",
     "url": "https://naifgravity.com",
     "description": "Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.",
