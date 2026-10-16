@@ -2601,6 +2601,24 @@
     }
   },
   {
+    "name": "MakeAIVideo",
+    "url": "https://github.com/makeaivideo-ai/mcp",
+    "description": "Official MakeAIVideo server for creating short-form AI videos with voiceover, scenes, captions and music, then posting them to connected social accounts.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "MakeAIVideo",
+    "tags": [
+      "video",
+      "video-generation",
+      "social-media",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.makeaivideo.ai"
+    }
+  },
+  {
     "name": "Elori",
     "url": "https://github.com/elori-debug/elori-mcp",
     "description": "Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.",

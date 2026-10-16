@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (30)
 - [Filesystems and Documents](#filesystems-and-documents) (13)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (20)
-- [Communication and Productivity](#communication-and-productivity) (38)
+- [Communication and Productivity](#communication-and-productivity) (39)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (41)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (31)
 - [Legal and Court Data](#legal-and-court-data) (4)
@@ -385,6 +385,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `linkedin` `sales` `remote` `oauth`
 - **[Mailcoach](https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/)** `Official` `PHP` — Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list.  
   `email-marketing` `newsletters` `campaigns` `oauth`
+- **[MakeAIVideo](https://github.com/makeaivideo-ai/mcp)** `Official` `TypeScript` — Official MakeAIVideo server for creating short-form AI videos with voiceover, scenes, captions and music, then posting them to connected social accounts.  
+  `video` `video-generation` `social-media` `remote`
 - **[Microsoft Teams MCP Server](https://github.com/InditexTech/mcp-teams-server)** `TypeScript` — Interact with Microsoft Teams channels, messages, and meetings.  
   `teams` `chat` `microsoft`
 - **[Multi Upload Tool](https://docs.multi-upload-tool.com/mcp)** `Official` `TypeScript` — Schedule and publish videos and photos to TikTok, YouTube Shorts, Instagram, Facebook, LinkedIn, Pinterest, Bluesky, Threads and X; validate, reschedule, cancel and retry posts, and read post status and analytics.  

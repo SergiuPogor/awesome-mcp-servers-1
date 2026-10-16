@@ -1626,6 +1626,18 @@ Read Mailcoach email lists, subscribers, campaigns, statistics and transactional
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://mcp.mailcoach.app
 
+### MakeAIVideo
+
+Official MakeAIVideo server for creating short-form AI videos with voiceover, scenes, captions and music, then posting them to connected social accounts.
+
+- URL: https://github.com/makeaivideo-ai/mcp
+- Language: TypeScript
+- Provider: MakeAIVideo
+- Official: yes
+- Tags: video, video-generation, social-media, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.makeaivideo.ai
+
 ### Microsoft Teams MCP Server
 
 Interact with Microsoft Teams channels, messages, and meetings.
