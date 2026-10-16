@@ -606,6 +606,18 @@ Native macOS app with a built-in MCP server that lets AI agents see and drive th
 - Tags: android, emulator, mobile, testing
 - Category: Developer Tools and Code Intelligence
 
+### Openhook
+
+Open-source webhook inbox for AI agents to capture callbacks, inspect payloads, and wait for events over MCP; hosted or self-hosted, with private per-inbox access tokens.
+
+- URL: https://github.com/openhook-dev/openhook-inbox
+- Language: Python
+- Provider: Openhook
+- Official: yes
+- Tags: webhooks, testing, callbacks, agents
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://openhook.dev/mcp
+
 ### Postman MCP Server
 
 Explore and run Postman collections and API workflows from AI clients.

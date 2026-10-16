@@ -181,6 +181,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `diagnostics` `api` `auth` `webhooks` `remote`
 - **[Oh My Android](https://github.com/ateymoori/oh-my-android)** `Swift` — Native macOS app with a built-in MCP server that lets AI agents see and drive the Android Emulator and adb devices: screenshots, UI tree in dp, taps, logcat, dark mode, font scale, and locale.  
   `android` `emulator` `mobile` `testing`
+- **[Openhook](https://github.com/openhook-dev/openhook-inbox)** `Official` `Python` — Open-source webhook inbox for AI agents to capture callbacks, inspect payloads, and wait for events over MCP; hosted or self-hosted, with private per-inbox access tokens.  
+  `webhooks` `testing` `callbacks` `agents`
 - **[Postman MCP Server](https://github.com/postmanlabs/postman-mcp-server)** `Official` `TypeScript` — Explore and run Postman collections and API workflows from AI clients.  
   `api` `testing` `http`
 - **[REA](https://github.com/morluto/rea)** `TypeScript` — Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies.  
