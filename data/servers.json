@@ -2539,6 +2539,21 @@
     "official": false
   },
   {
+    "name": "Chain.Love MCP",
+    "url": "https://github.com/Chain-Love/chain.love-mcp",
+    "description": "Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Chain.Love",
+    "tags": [
+      "web3",
+      "infrastructure",
+      "discovery",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "TubeText YouTube Transcripts & Channel Analytics",
     "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/youtube-transcripts",
     "description": "YouTube transcripts from videos, Shorts, playlists or channels, plus channel and Social Blade stats. Hosted on Apify (OAuth), pay per result.",

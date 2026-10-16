@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 326 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 327 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -382,6 +382,17 @@ Build Bulma v1 React apps with Bestax using an offline index of its component pr
 - Tags: bulma, react, typescript, components, local
 - Category: Developer Tools and Code Intelligence
 
+### Chain.Love MCP
+
+Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network.
+
+- URL: https://github.com/Chain-Love/chain.love-mcp
+- Language: Other
+- Provider: Chain.Love
+- Official: yes
+- Tags: web3, infrastructure, discovery, remote
+- Category: Developer Tools and Code Intelligence
+
 ### Communicate
 
 List workspace AI agents through a read-only hosted Streamable HTTP MCP server authenticated with OAuth client credentials.
@@ -539,7 +550,6 @@ Official hosted MCP server for Latchkey's self-healing GitHub Actions runners: f
 - Official: yes
 - Tags: ci-cd, github-actions, devops, hosted, remote
 - Category: Developer Tools and Code Intelligence
-- Streamable HTTP endpoint: https://latchkey.dev/mcp
 
 ### Linear MCP Server
 
