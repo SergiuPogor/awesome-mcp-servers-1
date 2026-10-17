@@ -346,7 +346,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [QuickBooks MCP Server](https://github.com/intuit/quickbooks-online-mcp-server): Manage QuickBooks accounting records and financial reports. (TypeScript, official)
 - [Salesforce MCP Server](https://github.com/salesforcecli/mcp): Query Salesforce CRM records and manage business workflows. (TypeScript, official)
 - [ScentVerdict](https://scentverdict.com/connect): Look up fragrances with verdicts, similarity scores, scent profiles, drydowns and local prices; free hosted read-only server, no authentication. (C#, official)
-- [Shop Nobi](https://nobi.ai/shop/mcp): Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission. (Java, official)
+- [Shop Nobi](https://nobi.ai/shop): Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission. (Java, official)
 - [Shopify MCP Server](https://github.com/GeLi2001/shopify-mcp): Community-maintained integration for Shopify products, orders, and store operations. (TypeScript)
 - [Silicon Floor](https://github.com/Baptoshi/silicon-floor): Ownership, insider trades, short interest and financial statements as filed for listed AI and semiconductor companies, each figure dated and linked to its SEC or FINRA source. (TypeScript, official)
 - [SkyAccess](https://github.com/sky-access/skyaccess-mcp): Search 5,000+ live empty leg flights, get charter price estimates and booking links. No account or API key. (JavaScript, official)

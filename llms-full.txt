@@ -3465,7 +3465,7 @@ Look up fragrances with verdicts, similarity scores, scent profiles, drydowns an
 
 Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission.
 
-- URL: https://nobi.ai/shop/mcp
+- URL: https://nobi.ai/shop
 - Language: Java
 - Provider: Nobi
 - Official: yes
