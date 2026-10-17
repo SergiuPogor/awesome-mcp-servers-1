@@ -2605,6 +2605,25 @@
     }
   },
   {
+    "name": "RestoSignals",
+    "url": "https://github.com/paperandbeyond23-gif/restosignals-mcp",
+    "description": "Finds US restaurants and bars 1-6 months before they open by fusing public liquor-license, food-permit and new-business filings into scored venues with owner contact.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "RestoSignals",
+    "tags": [
+      "lead-generation",
+      "restaurants",
+      "sales",
+      "public-records",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.restosignals.com/mcp"
+    }
+  },
+  {
     "name": "Pink Agentic AI Payments",
     "url": "https://pinkwallet.com/agentic/developers/",
     "description": "Approval layer for AI agent payments: per-agent budgets and rules return allow (single-use credential), ask a human, or block before money moves, over remote Streamable HTTP with OAuth 2.1; public sandbox with test money only.",
