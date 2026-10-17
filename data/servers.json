@@ -2721,6 +2721,24 @@
     }
   },
   {
+    "name": "BacklinkGenie",
+    "url": "https://backlinkgenie.com/mcp/",
+    "description": "Hosted link-building outreach agent: find posts where your product fits, approve pitches, read editor replies and track earned backlinks; OAuth or API key.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "BacklinkGenie",
+    "tags": [
+      "seo",
+      "link-building",
+      "outreach",
+      "marketing"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.backlinkgenie.com/mcp"
+    }
+  },
+  {
     "name": "TubeText Meta Ad Library & Video Ad Analyzer",
     "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ad-intelligence",
     "description": "Facebook/Instagram ads from Meta Ad Library plus AI teardowns of Meta and YouTube video ads. Hosted on Apify (OAuth), pay per result.",
