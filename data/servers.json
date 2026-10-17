@@ -3010,6 +3010,24 @@
     }
   },
   {
+    "name": "HirePulse Agent Gateway",
+    "url": "https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/",
+    "description": "Remote MCP tools for website technologies and company job listings; paid HTTP API calls use x402 on Base.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "HirePulse",
+    "tags": [
+      "remote",
+      "jobs",
+      "technology",
+      "x402"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/mcp"
+    }
+  },
+  {
     "name": "Amplitude MCP Server",
     "url": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp",
     "description": "Analyze product analytics events and user behavior in Amplitude.",
