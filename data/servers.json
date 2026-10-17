@@ -1915,6 +1915,22 @@
     "official": false
   },
   {
+    "name": "Everything2MCP",
+    "url": "https://github.com/shcdwz1234/Everything2MCP",
+    "description": "Turn local capabilities, private-net services, OpenAPI/gRPC/MQTT/queues, and Feishu/DingTalk/WeCom into one MCP surface with hot-reload and Safe defaults.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "openapi",
+      "grpc",
+      "mqtt",
+      "hot-reload",
+      "integrations"
+    ],
+    "official": false
+  },
+  {
     "name": "Hugging Face MCP Server",
     "url": "https://github.com/huggingface/hf-mcp-server",
     "description": "Access Hugging Face models, datasets, and Spaces from MCP clients.",
