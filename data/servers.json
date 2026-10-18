@@ -2402,6 +2402,22 @@
     "official": false
   },
   {
+    "name": "ATS Zero-Browser Gateway",
+    "url": "https://github.com/ginugokz/ats-zero-browser-gateway",
+    "description": "Protocol scraper and MCP server for Workday, Greenhouse, Lever, Ashby, and SmartRecruiters with deterministic ADDED/REMOVED/UPDATED delta tracking, runnable standalone or on Apify.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "ginugokz",
+    "tags": [
+      "ats",
+      "recruiting",
+      "job-scraping",
+      "delta-tracking",
+      "apify"
+    ],
+    "official": true
+  },
+  {
     "name": "ArtiGram",
     "url": "https://artigram.cafeboon.com/connect",
     "description": "Publish, version and search AI-made HTML, React, SVG and Markdown artifacts as live pages on the ArtiGram community.",
