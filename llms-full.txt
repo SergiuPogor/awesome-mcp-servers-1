@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 354 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 355 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1589,6 +1589,18 @@ Manage Jira issues and Confluence pages across Atlassian Cloud.
 - Official: yes
 - Tags: jira, confluence, atlassian
 - Category: Communication and Productivity
+
+### BacklinkGenie
+
+Hosted link-building outreach agent: find posts where your product fits, approve pitches, read editor replies and track earned backlinks; OAuth or API key.
+
+- URL: https://backlinkgenie.com/mcp/
+- Language: TypeScript
+- Provider: BacklinkGenie
+- Official: yes
+- Tags: seo, link-building, outreach, marketing
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://app.backlinkgenie.com/mcp
 
 ### BulkPublish MCP Server
 

@@ -5760,5 +5760,23 @@
     "endpoints": {
       "streamableHttp": "https://api.restosignals.com/mcp"
     }
+  },
+  {
+    "name": "BacklinkGenie",
+    "url": "https://backlinkgenie.com/mcp/",
+    "description": "Hosted link-building outreach agent: find posts where your product fits, approve pitches, read editor replies and track earned backlinks; OAuth or API key.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "BacklinkGenie",
+    "tags": [
+      "seo",
+      "link-building",
+      "outreach",
+      "marketing"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.backlinkgenie.com/mcp"
+    }
   }
 ]
