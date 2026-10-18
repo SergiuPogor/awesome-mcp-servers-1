@@ -5796,5 +5796,24 @@
     "endpoints": {
       "streamableHttp": "https://app.backlinkgenie.com/mcp"
     }
+  },
+  {
+    "name": "agentic sinkhole research",
+    "url": "https://docs.rocketship.sh/llms.txt",
+    "description": "Zero-auth inbox, state, webhook, and wake tools for agent sandboxes: research honeypot, no login, traffic logged, do not send secrets.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "inbox",
+      "webhook",
+      "honeypot",
+      "research",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.rocketship.sh/mcp"
+    }
   }
 ]
