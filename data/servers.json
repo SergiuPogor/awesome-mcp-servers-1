@@ -5833,5 +5833,21 @@
     "endpoints": {
       "streamableHttp": "https://mcp.rocketship.sh/mcp"
     }
+  },
+  {
+    "name": "Open Health Sync",
+    "url": "https://github.com/soma-intelligence/open-health-sync",
+    "description": "Read-only MCP server, over stdio or Streamable HTTP, for a self-hosted store of wearable and health data synced from Apple Health, Health Connect, Oura, WHOOP, Withings and 8 other sources.",
+    "category": "data-analytics-and-bi",
+    "language": "Go",
+    "provider": "Open Health Sync",
+    "tags": [
+      "health",
+      "wearables",
+      "fitness",
+      "fhir",
+      "self-hosted"
+    ],
+    "official": true
   }
 ]
