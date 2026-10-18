@@ -474,7 +474,7 @@
   {
     "name": "mcp-pool",
     "url": "https://github.com/yuzu-octopus/mcp-pool",
-    "description": "MCP Key Pool Proxy \u2014 pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
+    "description": "MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.",
     "category": "developer-tools-and-code-intelligence",
     "language": "TypeScript",
     "provider": "yuzu-octopus",
@@ -1218,7 +1218,7 @@
   {
     "name": "RowSafe",
     "url": "https://github.com/rowsafe/rowsafe",
-    "description": "CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on isolated copies, and opt-in named restore points; requires a RowSafe account.",
+    "description": "Database health, backups, recovery and provisioning via local stdio or remote Streamable HTTP; requires a RowSafe account for the separate hosted service, with an Apache-2.0 agent, CLI and MCP server.",
     "category": "databases-and-storage",
     "language": "Go",
     "provider": "RowSafe",
@@ -1227,7 +1227,10 @@
       "backups",
       "migrations"
     ],
-    "official": true
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.rowsafe.sh/mcp"
+    }
   },
   {
     "name": "Railway MCP Server",
@@ -1386,6 +1389,24 @@
     }
   },
   {
+    "name": "Sequential",
+    "url": "https://www.usesequential.com/docs/agent-tools.md",
+    "description": "Hosted MCP server for Sequential session replay and product analytics: query sessions, AI-judge findings, events, funnels, flows and retention, with OAuth sign-in.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Sequential",
+    "tags": [
+      "session-replay",
+      "product-analytics",
+      "funnels",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.usesequential.com/mcp"
+    }
+  },
+  {
     "name": "Slack MCP Server",
     "url": "https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack",
     "description": "Send messages and interact with Slack channels and workspaces.",
@@ -1424,7 +1445,7 @@
     "description": "Czech Instagram/TikTok follower, like and view service catalog, exact quotes, order status and paid CZK purchases; private operations use OAuth and customer-approved prepaid budgets.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
-    "provider": "TvojeLajky / Tom\u00e1\u0161 P\u0159ibyl",
+    "provider": "TvojeLajky / Tomáš Přibyl",
     "tags": [
       "commerce",
       "social-media",
@@ -2518,6 +2539,21 @@
     "official": false
   },
   {
+    "name": "Chain.Love MCP",
+    "url": "https://github.com/Chain-Love/chain.love-mcp",
+    "description": "Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Chain.Love",
+    "tags": [
+      "web3",
+      "infrastructure",
+      "discovery",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "TubeText YouTube Transcripts & Channel Analytics",
     "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/youtube-transcripts",
     "description": "YouTube transcripts from videos, Shorts, playlists or channels, plus channel and Social Blade stats. Hosted on Apify (OAuth), pay per result.",
@@ -2548,6 +2584,25 @@
       "observability"
     ],
     "official": true
+  },
+  {
+    "name": "MCP Ads",
+    "url": "https://mcp-ads.com",
+    "description": "Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "MCP Ads",
+    "tags": [
+      "advertising",
+      "google-ads",
+      "meta-ads",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp-ads.com/mcp-slim"
+    }
   },
   {
     "name": "Pink Agentic AI Payments",
@@ -2595,6 +2650,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/video-breakdown-ai"
+    }
+  },
+  {
+    "name": "MakeAIVideo",
+    "url": "https://github.com/makeaivideo-ai/mcp",
+    "description": "Official MakeAIVideo server for creating short-form AI videos with voiceover, scenes, captions and music, then posting them to connected social accounts.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "MakeAIVideo",
+    "tags": [
+      "video",
+      "video-generation",
+      "social-media",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.makeaivideo.ai"
     }
   },
   {
@@ -3077,7 +3150,7 @@
   {
     "name": "DropTheHassle",
     "url": "https://github.com/bosmdavid-gif/dropthehassle-mcp",
-    "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (\u20ac19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
+    "description": "Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.",
     "category": "cloud-and-infrastructure",
     "language": "JavaScript",
     "provider": "DropTheHassle",
@@ -3332,7 +3405,7 @@
     }
   },
   {
-    "name": "BOIM (\ubcf4\uc784)",
+    "name": "BOIM (보임)",
     "url": "https://github.com/kikiyop1101/boim-mcp",
     "description": "Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool.",
     "category": "data-analytics-and-bi",
@@ -3394,6 +3467,21 @@
     "official": true
   },
   {
+    "name": "Google Hotels",
+    "url": "https://github.com/huynhtanan/google-hotels-mcp",
+    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and more) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "hotels",
+      "travel",
+      "pricing",
+      "apify"
+    ],
+    "official": false
+  },
+  {
     "name": "Auth0 MCP Server",
     "url": "https://github.com/auth0/auth0-mcp-server",
     "description": "Manage Auth0 tenants, applications, and user identity settings.",
@@ -3423,6 +3511,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://bilbop-x402-mcp.watchdogsfreak.workers.dev/mcp"
+    }
+  },
+  {
+    "name": "Openhook",
+    "url": "https://github.com/openhook-dev/openhook-inbox",
+    "description": "Open-source webhook inbox for AI agents to capture callbacks, inspect payloads, and wait for events over MCP; hosted or self-hosted, with private per-inbox access tokens.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Openhook",
+    "tags": [
+      "webhooks",
+      "testing",
+      "callbacks",
+      "agents"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://openhook.dev/mcp"
     }
   },
   {
@@ -3512,6 +3618,44 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://docs.blockvectra.com/mcp"
+    }
+  },
+  {
+    "name": "MoltNode by Chord",
+    "url": "https://github.com/tuantqse90/moltnode-mcp",
+    "description": "Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Chord",
+    "tags": [
+      "blockchain",
+      "json-rpc",
+      "defi",
+      "swap",
+      "crypto"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://moltnode.ag/mcp"
+    }
+  },
+  {
+    "name": "Chord",
+    "url": "https://github.com/getchordlabs/chord",
+    "description": "Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Chord",
+    "tags": [
+      "blockchain",
+      "defi",
+      "swap",
+      "trading",
+      "crypto"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.getchord.xyz/v1/mcp"
     }
   },
   {
@@ -4079,7 +4223,7 @@
   {
     "name": "AgentServices",
     "url": "https://github.com/vbkotecha/agentservices-api",
-    "description": "Paid API platform for AI agents \u2014 crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
+    "description": "Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments.",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "AgentServices",
@@ -4149,7 +4293,7 @@
   {
     "name": "Pyrimid",
     "url": "https://github.com/pyrimid-ai/pyrimid",
-    "description": "Onchain payment protocol for AI agents \u2014 sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
+    "description": "Onchain payment protocol for AI agents — sell any data product with x402, USDC on Base. Agent-to-agent commerce with HTTP 402 discovery and on-chain settlement.",
     "category": "ai-agents-and-memory",
     "language": "TypeScript",
     "provider": "Pyrimid Protocol",
@@ -4274,7 +4418,7 @@
   {
     "name": "Live Tennis API MCP",
     "url": "https://www.npmjs.com/package/livetennisapi-mcp",
-    "description": "Real-time tennis match state \u2014 score, current server, three-valued break-point flag, and retirement/walkover/completed status \u2014 plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
+    "description": "Real-time tennis match state — score, current server, three-valued break-point flag, and retirement/walkover/completed status — plus players, rankings, Elo, and fixtures across ATP, WTA, Challenger, ITF, and juniors.",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Live Tennis API",
@@ -4743,7 +4887,7 @@
   {
     "name": "Invompt",
     "url": "https://mcp.invompt.com/mcp",
-    "description": "Turn AI-host work into invoices you review before send \u2014 Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
+    "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
     "category": "finance-commerce-and-business-apps",
     "language": "TypeScript",
     "provider": "Invompt",

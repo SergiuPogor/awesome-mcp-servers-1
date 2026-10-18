@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 327 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -257,7 +257,7 @@ Read and write Redis keys, lists, and data structures through MCP.
 
 ### RowSafe
 
-CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on isolated copies, and opt-in named restore points; requires a RowSafe account.
+Database health, backups, recovery and provisioning via local stdio or remote Streamable HTTP; requires a RowSafe account for the separate hosted service, with an Apache-2.0 agent, CLI and MCP server.
 
 - URL: https://github.com/rowsafe/rowsafe
 - Language: Go
@@ -265,6 +265,7 @@ CLI-bundled stdio MCP server for PostgreSQL backup health, migration previews on
 - Official: yes
 - Tags: postgresql, backups, migrations
 - Category: Databases and Storage
+- Streamable HTTP endpoint: https://api.rowsafe.sh/mcp
 
 ### Snowflake MCP Server
 
@@ -379,6 +380,17 @@ Build Bulma v1 React apps with Bestax using an offline index of its component pr
 - Provider: Bestax
 - Official: yes
 - Tags: bulma, react, typescript, components, local
+- Category: Developer Tools and Code Intelligence
+
+### Chain.Love MCP
+
+Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network.
+
+- URL: https://github.com/Chain-Love/chain.love-mcp
+- Language: Other
+- Provider: Chain.Love
+- Official: yes
+- Tags: web3, infrastructure, discovery, remote
 - Category: Developer Tools and Code Intelligence
 
 ### Communicate
@@ -593,6 +605,18 @@ Native macOS app with a built-in MCP server that lets AI agents see and drive th
 - Official: no
 - Tags: android, emulator, mobile, testing
 - Category: Developer Tools and Code Intelligence
+
+### Openhook
+
+Open-source webhook inbox for AI agents to capture callbacks, inspect payloads, and wait for events over MCP; hosted or self-hosted, with private per-inbox access tokens.
+
+- URL: https://github.com/openhook-dev/openhook-inbox
+- Language: Python
+- Provider: Openhook
+- Official: yes
+- Tags: webhooks, testing, callbacks, agents
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://openhook.dev/mcp
 
 ### Postman MCP Server
 
@@ -1635,6 +1659,18 @@ Read Mailcoach email lists, subscribers, campaigns, statistics and transactional
 - Tags: email-marketing, newsletters, campaigns, oauth
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://mcp.mailcoach.app
+
+### MakeAIVideo
+
+Official MakeAIVideo server for creating short-form AI videos with voiceover, scenes, captions and music, then posting them to connected social accounts.
+
+- URL: https://github.com/makeaivideo-ai/mcp
+- Language: TypeScript
+- Provider: MakeAIVideo
+- Official: yes
+- Tags: video, video-generation, social-media, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.makeaivideo.ai
 
 ### Microsoft Teams MCP Server
 
@@ -2682,6 +2718,18 @@ Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Co
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://mcp.screpy.com
 
+### Sequential
+
+Hosted MCP server for Sequential session replay and product analytics: query sessions, AI-judge findings, events, funnels, flows and retention, with OAuth sign-in.
+
+- URL: https://www.usesequential.com/docs/agent-tools.md
+- Language: TypeScript
+- Provider: Sequential
+- Official: yes
+- Tags: session-replay, product-analytics, funnels, oauth
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://api.usesequential.com/mcp
+
 ### Serpel
 
 Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring.
@@ -3125,6 +3173,18 @@ Checks whether a backtest result is real or just the luckiest of the variants tr
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://canlicapital.com/mcp
 
+### Chord
+
+Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial.
+
+- URL: https://github.com/getchordlabs/chord
+- Language: TypeScript
+- Provider: Chord
+- Official: yes
+- Tags: blockchain, defi, swap, trading, crypto
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.getchord.xyz/v1/mcp
+
 ### Clera
 
 Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.
@@ -3220,6 +3280,17 @@ Lets an agent buy and sell physical goods on the Glongus UK marketplace, with ha
 - Tags: marketplace, ecommerce, escrow, shopping
 - Category: Finance, Commerce, and Business Apps
 
+### Google Hotels
+
+Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and more) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).
+
+- URL: https://github.com/huynhtanan/google-hotels-mcp
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: hotels, travel, pricing, apify
+- Category: Finance, Commerce, and Business Apps
+
 ### HubSpot MCP Server
 
 Access HubSpot contacts, deals, and marketing automation data.
@@ -3276,6 +3347,30 @@ Search hotels (3M+) and flights, read hotel details and reviews, then send the c
 - Tags: travel, hotels, flights, booking, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.maqami.co/
+
+### MCP Ads
+
+Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth.
+
+- URL: https://mcp-ads.com
+- Language: Python
+- Provider: MCP Ads
+- Official: yes
+- Tags: advertising, google-ads, meta-ads, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp-ads.com/mcp-slim
+
+### MoltNode by Chord
+
+Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.
+
+- URL: https://github.com/tuantqse90/moltnode-mcp
+- Language: Other
+- Provider: Chord
+- Official: yes
+- Tags: blockchain, json-rpc, defi, swap, crypto
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://moltnode.ag/mcp
 
 ### NotFair
 
