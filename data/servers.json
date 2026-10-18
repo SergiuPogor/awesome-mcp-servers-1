@@ -2316,6 +2316,21 @@
     }
   },
   {
+    "name": "Dare MCP Server",
+    "url": "https://github.com/avi-aggarwal14/dare-mcp-server",
+    "description": "Generate AI video and images on Dare (Seedance, Veo, Kling, Hailuo) from Claude, billed to your own Dare credits, with local cost estimates and dry runs.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "ai-video",
+      "image-generation",
+      "video-generation",
+      "claude"
+    ],
+    "official": false
+  },
+  {
     "name": "Tanod",
     "url": "https://tanod.dev",
     "description": "Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).",
