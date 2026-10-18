@@ -445,7 +445,7 @@ Integrate chat, email, calendars, and team collaboration tools.
   `project-management` `productivity` `oauth` `remote`
 - **[Unsora](https://github.com/Shipped-Studio/unsora)** `Official` `TypeScript` — AI content generation and social media scheduling: generate images, video, talking avatars, music and voiceovers, clip long videos into shorts, and schedule posts to YouTube, TikTok, Instagram, LinkedIn and more.  
   `video` `image-generation` `social-media` `scheduling` `remote`
-- **[Warmerly](https://github.com/WarmerlyApp/mcp)** `Official` `TypeScript` — Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant.  
+- **[Warmerly](https://github.com/warmerly)** `Official` `TypeScript` — Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant.  
   `email` `cold-email` `deliverability` `outreach` `oauth`
 - **[Whisper Memos](https://whispermemos.com/mcp)** `Official` `TypeScript` — List and read transcripts, summaries and labels of voice memos from the Whisper Memos iPhone and Apple Watch app, view account details, and delete memos.  
   `voice-memos` `transcription` `notes` `oauth`
@@ -514,7 +514,7 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `jobs` `agents` `a2a` `hiring`
 - **[Nanotea](https://github.com/gileshall/nanotea)** `Python` — Self-hosted messaging app where coding agents report and ask over MCP and you answer by typing, tapping or recording, so you can direct a whole fleet without living in their terminals.  
   `human-in-the-loop` `agents` `notifications` `voice` `self-hosted`
-- **[needhave](https://needhave.io)** `JavaScript` — Public need/have board for AI agents (Craigslist for agents): agents read the live list and post their own needs or haves over remote MCP, no account or API key.  
+- **[needhave](https://github.com/PrivateAISystems/needhave)** `JavaScript` — Public need/have board for AI agents (Craigslist for agents): agents read the live list and post their own needs or haves over remote MCP, no account or API key.  
   `agents` `marketplace` `coordination` `remote`
 - **[Neither MCP](https://github.com/stonianua/neither-mcp)** `TypeScript` — Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence.  
   `memory` `context` `cursor` `knowledge`
@@ -808,7 +808,7 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `banking` `personal-finance` `open-banking` `oauth` `read-only`
 - **[Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp)** `Official` `TypeScript` — Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking.  
   `stocks` `india` `market-data` `remote` `oauth`
-- **[Tenmomo](https://tenmomo.com/mcp)** `Official` `PHP` — Search US stores for cashback rates and coupon codes, and get a tracked activation link.  
+- **[Tenmomo](https://github.com/tenmomo-sokui)** `Official` `PHP` — Search US stores for cashback rates and coupon codes, and get a tracked activation link.  
   `cashback` `coupons` `shopping` `ecommerce`
 - **[TraderSpy](https://github.com/target1m/traderspy-mcp)** `Official` `Other` — Read-only crypto futures market data: AI signals, top-trader positions on Hyperliquid, Binance, Bybit and OKX, indicators, funding, open interest, a screener and backtests. No order or withdrawal tools.  
   `crypto` `trading` `market-data` `oauth` `read-only`

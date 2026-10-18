@@ -1041,7 +1041,7 @@
   },
   {
     "name": "Tenmomo",
-    "url": "https://tenmomo.com/mcp",
+    "url": "https://github.com/tenmomo-sokui",
     "description": "Search US stores for cashback rates and coupon codes, and get a tracked activation link.",
     "category": "finance-commerce-and-business-apps",
     "language": "PHP",
@@ -1294,7 +1294,7 @@
   },
   {
     "name": "needhave",
-    "url": "https://needhave.io",
+    "url": "https://github.com/PrivateAISystems/needhave",
     "description": "Public need/have board for AI agents (Craigslist for agents): agents read the live list and post their own needs or haves over remote MCP, no account or API key.",
     "category": "ai-agents-and-memory",
     "language": "JavaScript",
@@ -5654,7 +5654,7 @@
   },
   {
     "name": "Warmerly",
-    "url": "https://github.com/WarmerlyApp/mcp",
+    "url": "https://github.com/warmerly",
     "description": "Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant.",
     "category": "communication-and-productivity",
     "language": "TypeScript",

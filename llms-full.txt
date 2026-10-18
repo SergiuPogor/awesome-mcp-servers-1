@@ -1977,7 +1977,7 @@ AI content generation and social media scheduling: generate images, video, talki
 
 Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant.
 
-- URL: https://github.com/WarmerlyApp/mcp
+- URL: https://github.com/warmerly
 - Language: TypeScript
 - Provider: Warmerly
 - Official: yes
@@ -2340,7 +2340,7 @@ Self-hosted messaging app where coding agents report and ask over MCP and you an
 
 Public need/have board for AI agents (Craigslist for agents): agents read the live list and post their own needs or haves over remote MCP, no account or API key.
 
-- URL: https://needhave.io
+- URL: https://github.com/PrivateAISystems/needhave
 - Language: JavaScript
 - Provider: Community
 - Official: no
@@ -3895,7 +3895,7 @@ Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, finan
 
 Search US stores for cashback rates and coupon codes, and get a tracked activation link.
 
-- URL: https://tenmomo.com/mcp
+- URL: https://github.com/tenmomo-sokui
 - Language: PHP
 - Provider: Tenmomo LLC
 - Official: yes
