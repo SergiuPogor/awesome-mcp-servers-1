@@ -2316,6 +2316,21 @@
     }
   },
   {
+    "name": "Dare MCP Server",
+    "url": "https://github.com/avi-aggarwal14/dare-mcp-server",
+    "description": "Generate AI video and images on Dare (Seedance, Veo, Kling, Hailuo) from Claude, billed to your own Dare credits, with local cost estimates and dry runs.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "ai-video",
+      "image-generation",
+      "video-generation",
+      "claude"
+    ],
+    "official": false
+  },
+  {
     "name": "Tanod",
     "url": "https://tanod.dev",
     "description": "Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).",
@@ -2605,6 +2620,25 @@
     "official": true
   },
   {
+    "name": "MCP Ads",
+    "url": "https://mcp-ads.com",
+    "description": "Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "MCP Ads",
+    "tags": [
+      "advertising",
+      "google-ads",
+      "meta-ads",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp-ads.com/mcp-slim"
+    }
+  },
+  {
     "name": "Pink Agentic AI Payments",
     "url": "https://pinkwallet.com/agentic/developers/",
     "description": "Approval layer for AI agent payments: per-agent budgets and rules return allow (single-use credential), ask a human, or block before money moves, over remote Streamable HTTP with OAuth 2.1; public sandbox with test money only.",
@@ -2703,6 +2737,24 @@
     "official": true
   },
   {
+    "name": "Domain Mail Check",
+    "url": "https://tools.openkrill.app/#mailcheck",
+    "description": "Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will accept its mail, and its DNS and registration data; hosted, no key or sign-up.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "OpenKrill",
+    "tags": [
+      "email",
+      "dns",
+      "dmarc",
+      "deliverability"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mailcheck.openkrill.app/mcp"
+    }
+  },
+  {
     "name": "Plazmi",
     "url": "https://plazmi.gg/SKILL.md",
     "description": "A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.",
@@ -2718,6 +2770,25 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://plazmi.gg/mcp"
+    }
+  },
+  {
+    "name": "Shortform Kit",
+    "url": "https://shortformkit.com/mcp-server/",
+    "description": "Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "Shortform Kit",
+    "tags": [
+      "video",
+      "transcription",
+      "social-media",
+      "youtube",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://shortformkit.com/mcp"
     }
   },
   {
@@ -3450,7 +3521,7 @@
   {
     "name": "Google Hotels",
     "url": "https://github.com/huynhtanan/google-hotels-mcp",
-    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
+    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and more) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "Community",
@@ -3599,6 +3670,44 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://docs.blockvectra.com/mcp"
+    }
+  },
+  {
+    "name": "MoltNode by Chord",
+    "url": "https://github.com/tuantqse90/moltnode-mcp",
+    "description": "Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Chord",
+    "tags": [
+      "blockchain",
+      "json-rpc",
+      "defi",
+      "swap",
+      "crypto"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://moltnode.ag/mcp"
+    }
+  },
+  {
+    "name": "Chord",
+    "url": "https://github.com/getchordlabs/chord",
+    "description": "Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Chord",
+    "tags": [
+      "blockchain",
+      "defi",
+      "swap",
+      "trading",
+      "crypto"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.getchord.xyz/v1/mcp"
     }
   },
   {
@@ -5367,6 +5476,44 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.pintonotes.com"
+    }
+  },
+  {
+    "name": "AltoRank",
+    "url": "https://github.com/AltoRank/altorank",
+    "description": "Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "AltoRank",
+    "tags": [
+      "seo",
+      "content",
+      "marketing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.altorank.co/api/mcp"
+    }
+  },
+  {
+    "name": "MedBillAnalyzer",
+    "url": "https://medbillanalyzer.com",
+    "description": "Checks a medical bill against the insurer's Explanation of Benefits and reports where they disagree; free summary, optional $10-per-bill unlock for full detail and a dispute letter.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "RMK Capital, Inc.",
+    "tags": [
+      "health",
+      "medical-bills",
+      "billing",
+      "insurance",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.medbillanalyzer.com/mcp/apps?via=mcphq"
     }
   }
 ]
