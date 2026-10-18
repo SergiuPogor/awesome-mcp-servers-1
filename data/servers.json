@@ -1741,6 +1741,25 @@
     }
   },
   {
+    "name": "OutreachGenie",
+    "url": "https://github.com/Outreachgenie/outreachgenie-linkedin-mcp",
+    "description": "Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "OutreachGenie",
+    "tags": [
+      "linkedin",
+      "crm",
+      "outreach",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.outreachgenie.ai/mcp"
+    }
+  },
+  {
     "name": "Nestbolt",
     "url": "https://github.com/skulitom/Nestbolt",
     "description": "Nests 2D SVG/DXF parts on fixed sheets for laser, CNC, plasma and waterjet cutting, with validated layouts and per-sheet SVG/DXF export.",
@@ -1911,6 +1930,22 @@
       "ollama",
       "local-llm",
       "inference"
+    ],
+    "official": false
+  },
+  {
+    "name": "Everything2MCP",
+    "url": "https://github.com/shcdwz1234/Everything2MCP",
+    "description": "Turn local capabilities, private-net services, OpenAPI/gRPC/MQTT/queues, and Feishu/DingTalk/WeCom into one MCP surface with hot-reload and Safe defaults.",
+    "category": "utilities-and-examples",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "openapi",
+      "grpc",
+      "mqtt",
+      "hot-reload",
+      "integrations"
     ],
     "official": false
   },
@@ -2120,6 +2155,21 @@
     }
   },
   {
+    "name": "Selvedge",
+    "url": "https://github.com/masondelan/selvedge",
+    "description": "Local SQLite decision memory for coding agents to save and retrieve rationale, rejected approaches, and entity history.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "decision-memory",
+      "coding-agents",
+      "sqlite",
+      "local-first"
+    ],
+    "official": false
+  },
+  {
     "name": "CrewAI Enterprise MCP Server",
     "url": "https://github.com/crewAIInc/enterprise-mcp-server",
     "description": "Kick off CrewAI crew deployments and check their status from MCP clients.",
@@ -2219,6 +2269,24 @@
     }
   },
   {
+    "name": "CareJobs.Now Healthcare Jobs",
+    "url": "https://github.com/yumaheymans/carejobs-mcp",
+    "description": "Remote MCP server for US healthcare jobs: search 170,000+ open jobs read daily from 270 hospitals' and health systems' career sites, with the posted pay. Free, read-only, no API key.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "CareJobs.Now (O-mega Enterprise, Inc.)",
+    "tags": [
+      "healthcare",
+      "jobs",
+      "job-search",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://carejobs.now/api/mcp"
+    }
+  },
+  {
     "name": "Agentage Memory",
     "url": "https://agentage.io/blog/mcp-endpoint-is-live",
     "description": "Remote MCP memory server - one markdown memory every AI reads and writes via OAuth 2.1 Streamable HTTP at https://memory.agentage.io/mcp.",
@@ -2314,6 +2382,21 @@
     "endpoints": {
       "streamableHttp": "https://cloud.getbruin.com/mcp"
     }
+  },
+  {
+    "name": "Dare MCP Server",
+    "url": "https://github.com/avi-aggarwal14/dare-mcp-server",
+    "description": "Generate AI video and images on Dare (Seedance, Veo, Kling, Hailuo) from Claude, billed to your own Dare credits, with local cost estimates and dry runs.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "ai-video",
+      "image-generation",
+      "video-generation",
+      "claude"
+    ],
+    "official": false
   },
   {
     "name": "Tanod",
@@ -2505,6 +2588,22 @@
     }
   },
   {
+    "name": "agentcomms",
+    "url": "https://github.com/web3wes/agentcomms",
+    "description": "Exchange end-to-end encrypted messages between AI agents through an account-free public hub or a self-hosted hub.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "web3wes",
+    "tags": [
+      "agents",
+      "messaging",
+      "encryption",
+      "self-hosted",
+      "mcp"
+    ],
+    "official": true
+  },
+  {
     "name": "Zovo Time Tracker",
     "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker",
     "description": "Track billable time from chat: start and stop timers, log entries against jobs, and produce timesheets and billable summaries; hosted endpoint uses a free anonymous token from https://mcp.zovo.one/mcp/token.",
@@ -2537,6 +2636,25 @@
       "self-hosted"
     ],
     "official": false
+  },
+  {
+    "name": "SheetsData",
+    "url": "https://sheetsdata.com",
+    "description": "Electronic component datasheets for AI agents: pinouts, specs, package info and design checks from manufacturer PDFs, with part search across JLCPCB, Mouser and DigiKey; hosted, OAuth or API key, paid per call.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Octoco Ltd",
+    "tags": [
+      "electronics",
+      "datasheets",
+      "hardware",
+      "embedded",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.sheetsdata.com/mcp"
+    }
   },
   {
     "name": "Chain.Love MCP",
@@ -2605,22 +2723,22 @@
     }
   },
   {
-    "name": "agentic sinkhole research",
-    "url": "https://docs.rocketship.sh/llms.txt",
-    "description": "Zero-auth inbox, state, webhook, and wake tools for agent sandboxes: research honeypot, no login, traffic logged, do not send secrets.",
-    "category": "communication-and-productivity",
-    "language": "JavaScript",
-    "provider": "Community",
+    "name": "Vedar Kamchatka",
+    "url": "https://github.com/tourhabk-ui/pos",
+    "description": "Kamchatka (Russia) travel: search tours, accommodation and transfers, build trip plans, send booking requests, and get volcano status, weather and safety info. Hosted, no API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Vedar",
     "tags": [
-      "inbox",
-      "webhook",
-      "honeypot",
-      "research",
+      "travel",
+      "tours",
+      "kamchatka",
+      "booking",
       "remote"
     ],
-    "official": false,
+    "official": true,
     "endpoints": {
-      "streamableHttp": "https://mcp.rocketship.sh/mcp"
+      "streamableHttp": "https://vedarai.ru/api/mcp"
     }
   },
   {
@@ -2690,6 +2808,22 @@
     }
   },
   {
+    "name": "Sqwakie",
+    "url": "https://github.com/alexcarney460-hue/walkie",
+    "description": "Lets AI coding agents on different machines message each other through MCP tools (walkie_post, walkie_read, walkie_reply, walkie_ask, walkie_inbox), with a shared live dashboard and project kanban boards.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "RC Studios",
+    "tags": [
+      "multi-agent",
+      "claude-code",
+      "codex",
+      "kanban",
+      "agent-messaging"
+    ],
+    "official": true
+  },
+  {
     "name": "Elori",
     "url": "https://github.com/elori-debug/elori-mcp",
     "description": "Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.",
@@ -2722,6 +2856,24 @@
     "official": true
   },
   {
+    "name": "Domain Mail Check",
+    "url": "https://tools.openkrill.app/#mailcheck",
+    "description": "Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will accept its mail, and its DNS and registration data; hosted, no key or sign-up.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "OpenKrill",
+    "tags": [
+      "email",
+      "dns",
+      "dmarc",
+      "deliverability"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mailcheck.openkrill.app/mcp"
+    }
+  },
+  {
     "name": "Plazmi",
     "url": "https://plazmi.gg/SKILL.md",
     "description": "A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.",
@@ -2737,6 +2889,25 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://plazmi.gg/mcp"
+    }
+  },
+  {
+    "name": "Shortform Kit",
+    "url": "https://shortformkit.com/mcp-server/",
+    "description": "Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "Shortform Kit",
+    "tags": [
+      "video",
+      "transcription",
+      "social-media",
+      "youtube",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://shortformkit.com/mcp"
     }
   },
   {
@@ -2954,6 +3125,24 @@
     "official": true
   },
   {
+    "name": "Browser Use MCP Server",
+    "url": "https://docs.browser-use.com/cloud/guides/mcp-server",
+    "description": "Hosted MCP server that runs browser agent tasks in Browser Use stealth cloud browsers and returns results, sessions, and saved browser profiles.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "Browser Use",
+    "tags": [
+      "browser",
+      "cloud",
+      "automation",
+      "agents"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.browser-use.com/v3/mcp"
+    }
+  },
+  {
     "name": "Invokely",
     "url": "https://invokely.ai/docs",
     "description": "Query source-cited official statistics by indicator, place and period; retrieve values and time series, compare places, and rank regions. No-account MCP trial allows 25 calls per IP per day.",
@@ -3026,6 +3215,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.equibles.com/mcp"
+    }
+  },
+  {
+    "name": "HirePulse Agent Gateway",
+    "url": "https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/",
+    "description": "Remote MCP tools for website technologies and company job listings; paid HTTP API calls use x402 on Base.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "HirePulse",
+    "tags": [
+      "remote",
+      "jobs",
+      "technology",
+      "x402"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/mcp"
     }
   },
   {
@@ -3469,7 +3676,7 @@
   {
     "name": "Google Hotels",
     "url": "https://github.com/huynhtanan/google-hotels-mcp",
-    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
+    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and more) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "Community",
@@ -4765,6 +4972,25 @@
     }
   },
   {
+    "name": "BKK Staff",
+    "url": "https://app.bkkstaff.com/mcp",
+    "description": "Automated resume screening for small businesses: create and manage job posts, rank applicants (strong/possible/weak), search candidates and email applicants via a hosted OAuth MCP server.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "BKK Staff",
+    "tags": [
+      "recruiting",
+      "hiring",
+      "resume-screening",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.bkkstaff.com/mcp"
+    }
+  },
+  {
     "name": "API.market MCP Gateway",
     "url": "https://api.market/mcp",
     "description": "Proprietary hosted OAuth gateway with five tools for API discovery, schemas, execution, usage and subscriptions; free tiers and paid plans vary by API.",
@@ -5424,6 +5650,170 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.pintonotes.com"
+    }
+  },
+  {
+    "name": "AltoRank",
+    "url": "https://github.com/AltoRank/altorank",
+    "description": "Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "AltoRank",
+    "tags": [
+      "seo",
+      "content",
+      "marketing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.altorank.co/api/mcp"
+    }
+  },
+  {
+    "name": "MedBillAnalyzer",
+    "url": "https://medbillanalyzer.com",
+    "description": "Checks a medical bill against the insurer's Explanation of Benefits and reports where they disagree; free summary, optional $10-per-bill unlock for full detail and a dispute letter.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "RMK Capital, Inc.",
+    "tags": [
+      "health",
+      "medical-bills",
+      "billing",
+      "insurance",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.medbillanalyzer.com/mcp/apps?via=mcphq"
+    }
+  },
+  {
+    "name": "YouTube Transcripts MCP",
+    "url": "https://github.com/gunnargray-dev/youtube-transcripts-mcp",
+    "description": "Fetches YouTube transcripts with video metadata as text, timestamped segments, or SRT, plus filtered YouTube search, chapters, and timestamped extractive summaries, with no YouTube API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Parallel Studio",
+    "tags": [
+      "youtube",
+      "transcripts",
+      "search",
+      "summaries",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://parallelstudio--youtube-transcripts-mcp.apify.actor/mcp"
+    }
+  },
+  {
+    "name": "Finder Jobs",
+    "url": "https://mcp.finder.work",
+    "description": "Job vacancies and salary stats for Russia, Kazakhstan, Belarus, Kyrgyzstan, Germany, France, Belgium, Switzerland, Sweden and Indonesia. Free, read-only, no auth.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "Finder",
+    "tags": [
+      "jobs",
+      "salaries",
+      "vacancies",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.finder.work/mcp"
+    }
+  },
+  {
+    "name": "Mac MCP",
+    "url": "https://github.com/bulutarkan/mac-mcp",
+    "description": "Local-first macOS MCP server for controlling browser tabs, Mac apps, files and terminal.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "bulutarkan",
+    "tags": [
+      "macos",
+      "browser-automation",
+      "desktop-automation",
+      "agents",
+      "local"
+    ],
+    "official": false
+  },
+  {
+    "name": "Shop Nobi",
+    "url": "https://nobi.ai/shop",
+    "description": "Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Java",
+    "provider": "Nobi",
+    "tags": [
+      "shopping",
+      "product-search",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.nobi.ai/v1/shop/mcp"
+    }
+  },
+  {
+    "name": "RestoSignals",
+    "url": "https://github.com/paperandbeyond23-gif/restosignals-mcp",
+    "description": "Finds US restaurants and bars 1-6 months before they open by fusing public liquor-license, food-permit and new-business filings into scored venues with owner contact.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "RestoSignals",
+    "tags": [
+      "lead-generation",
+      "restaurants",
+      "sales",
+      "public-records",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.restosignals.com/mcp"
+    }
+  },
+  {
+    "name": "BacklinkGenie",
+    "url": "https://backlinkgenie.com/mcp/",
+    "description": "Hosted link-building outreach agent: find posts where your product fits, approve pitches, read editor replies and track earned backlinks; OAuth or API key.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "BacklinkGenie",
+    "tags": [
+      "seo",
+      "link-building",
+      "outreach",
+      "marketing"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.backlinkgenie.com/mcp"
+    }
+  },
+  {
+    "name": "agentic sinkhole research",
+    "url": "https://docs.rocketship.sh/llms.txt",
+    "description": "Zero-auth inbox, state, webhook, and wake tools for agent sandboxes: research honeypot, no login, traffic logged, do not send secrets.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "Community",
+    "tags": [
+      "inbox",
+      "webhook",
+      "honeypot",
+      "research",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://mcp.rocketship.sh/mcp"
     }
   }
 ]
