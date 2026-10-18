@@ -5440,5 +5440,24 @@
     "endpoints": {
       "streamableHttp": "https://mcp.pintonotes.com"
     }
+  },
+  {
+    "name": "AltoRank",
+    "url": "https://github.com/AltoRank/altorank",
+    "description": "Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "AltoRank",
+    "tags": [
+      "seo",
+      "content",
+      "marketing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.altorank.co/api/mcp"
+    }
   }
 ]
