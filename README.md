@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-334-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-335-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (32)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (17)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (58)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (59)
 - [Utilities and Examples](#utilities-and-examples) (16)
 
 <a id="official-and-reference"></a>
@@ -718,6 +718,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `blockchain` `json-rpc` `defi` `swap` `crypto`
 - **[NotFair](https://github.com/nowork-studio/NotFair)** `TypeScript` — Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.  
   `seo` `google-ads` `meta-ads` `marketing`
+- **[Openpath](https://openpath.sh/docs/connect)** `Official` `TypeScript` — Hosted read-only MCP server that searches live employer job-board listings and Austin business listings with no sign-in or API key.  
+  `jobs` `business-directory` `austin` `remote` `listings`
 - **[PandaStock](https://github.com/D-Asce/pandastocksdk)** `Python` — A-share real-time market data MCP server with NATS-pushed quotes, Level2, DDX big orders, money flow and AI stock screening; 176 server-side endpoints, 22 open endpoints, free public test account.  
   `a-share` `stock-data` `real-time-quotes` `market-data`
 - **[PayPal MCP Server](https://github.com/paypal/agent-toolkit)** `Official` `TypeScript` — Process PayPal payments and manage merchant operations.  
