@@ -5708,5 +5708,22 @@
       "local"
     ],
     "official": false
+  },
+  {
+    "name": "Shop Nobi",
+    "url": "https://nobi.ai/shop",
+    "description": "Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Java",
+    "provider": "Nobi",
+    "tags": [
+      "shopping",
+      "product-search",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.nobi.ai/v1/shop/mcp"
+    }
   }
 ]
