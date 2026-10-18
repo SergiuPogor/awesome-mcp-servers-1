@@ -2084,6 +2084,25 @@
     }
   },
   {
+    "name": "GSCmate",
+    "url": "https://gscmate.com",
+    "description": "Read-only access to Google Search Console properties, Search Analytics, sitemaps, and URL inspection through user-authorized OAuth 2.1.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "GSCmate",
+    "tags": [
+      "google-search-console",
+      "seo",
+      "analytics",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://gscmate.com/mcp"
+    }
+  },
+  {
     "name": "Cluefinch MCP",
     "url": "https://github.com/cluefinch/mcp-server",
     "description": "Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.",
