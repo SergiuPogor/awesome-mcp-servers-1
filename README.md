@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-337-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-338-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (33)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (17)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (58)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (59)
 - [Utilities and Examples](#utilities-and-examples) (16)
 
 <a id="official-and-reference"></a>
@@ -720,6 +720,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `travel` `hotels` `flights` `booking` `remote`
 - **[MCP Ads](https://mcp-ads.com)** `Official` `Python` — Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth.  
   `advertising` `google-ads` `meta-ads` `remote` `oauth`
+- **[MedBillAnalyzer](https://medbillanalyzer.com)** `Official` `TypeScript` — Checks a medical bill against the insurer's Explanation of Benefits and reports where they disagree; free summary, optional $10-per-bill unlock for full detail and a dispute letter.  
+  `health` `medical-bills` `billing` `insurance` `remote`
 - **[MoltNode by Chord](https://github.com/tuantqse90/moltnode-mcp)** `Official` `Other` — Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.  
   `blockchain` `json-rpc` `defi` `swap` `crypto`
 - **[NotFair](https://github.com/nowork-studio/NotFair)** `TypeScript` — Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.  
