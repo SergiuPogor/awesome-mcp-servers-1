@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -673,6 +673,18 @@ Investigate errors, releases, and performance issues in Sentry.
 - Official: yes
 - Tags: observability, errors, monitoring
 - Category: Developer Tools and Code Intelligence
+
+### SFXMint
+
+Find CC0 sound effects by event, set or description and retrieve audio URLs without a key; optional custom generation requires a key and paid pass or plan.
+
+- URL: https://github.com/flreey/sfxmint-mcp
+- Language: TypeScript
+- Provider: SFXMint
+- Official: yes
+- Tags: audio, sound-effects, remote, cc0
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://sfxmint.com/mcp
 
 ### SkillDB
 
