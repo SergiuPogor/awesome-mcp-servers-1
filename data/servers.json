@@ -589,6 +589,20 @@
     "official": false
   },
   {
+    "name": "Concord MCP",
+    "url": "https://github.com/Get-Concord-AI/concord-mcp",
+    "description": "Local-first shared work-state for coding agents with presence, claims, messaging, handoffs, and review packets.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Get Concord AI",
+    "tags": [
+      "coding-agents",
+      "coordination",
+      "local-first"
+    ],
+    "official": false
+  },
+  {
     "name": "Docker MCP Server",
     "url": "https://github.com/docker/mcp-gateway",
     "description": "Manage containers, images, and Docker environments through MCP.",

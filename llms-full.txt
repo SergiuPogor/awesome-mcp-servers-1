@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 334 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -404,6 +404,17 @@ List workspace AI agents through a read-only hosted Streamable HTTP MCP server a
 - Tags: agents, customer-support, remote, oauth
 - Category: Developer Tools and Code Intelligence
 - Streamable HTTP endpoint: https://app.communicate.so/mcp
+
+### Concord MCP
+
+Local-first shared work-state for coding agents with presence, claims, messaging, handoffs, and review packets.
+
+- URL: https://github.com/Get-Concord-AI/concord-mcp
+- Language: TypeScript
+- Provider: Get Concord AI
+- Official: no
+- Tags: coding-agents, coordination, local-first
+- Category: Developer Tools and Code Intelligence
 
 ### Constitution Lint MCP Server
 
