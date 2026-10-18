@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 335 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 358 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -573,6 +573,17 @@ Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS
 - Tags: agents-md, prompts, ai-rules
 - Category: Developer Tools and Code Intelligence
 
+### Mac MCP
+
+Local-first macOS MCP server for controlling browser tabs, Mac apps, files and terminal.
+
+- URL: https://github.com/bulutarkan/mac-mcp
+- Language: Python
+- Provider: bulutarkan
+- Official: no
+- Tags: macos, browser-automation, desktop-automation, agents, local
+- Category: Developer Tools and Code Intelligence
+
 ### mcp-pool
 
 MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.
@@ -685,6 +696,18 @@ Find CC0 sound effects by event, set or description and retrieve audio URLs with
 - Tags: audio, sound-effects, remote, cc0
 - Category: Developer Tools and Code Intelligence
 - Streamable HTTP endpoint: https://sfxmint.com/mcp
+
+### SheetsData
+
+Electronic component datasheets for AI agents: pinouts, specs, package info and design checks from manufacturer PDFs, with part search across JLCPCB, Mouser and DigiKey; hosted, OAuth or API key, paid per call.
+
+- URL: https://sheetsdata.com
+- Language: Python
+- Provider: Octoco Ltd
+- Official: yes
+- Tags: electronics, datasheets, hardware, embedded, remote
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://mcp.sheetsdata.com/mcp
 
 ### SkillDB
 
@@ -862,6 +885,18 @@ Automate a local Chrome browser from MCP-compatible AI clients.
 - Tags: chrome, local, automation
 - Category: Browsers, Search, and Web Automation
 
+### Browser Use MCP Server
+
+Hosted MCP server that runs browser agent tasks in Browser Use stealth cloud browsers and returns results, sessions, and saved browser profiles.
+
+- URL: https://docs.browser-use.com/cloud/guides/mcp-server
+- Language: Python
+- Provider: Browser Use
+- Official: yes
+- Tags: browser, cloud, automation, agents
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://api.browser-use.com/v3/mcp
+
 ### browser-buddy
 
 MCP server plus Chrome extension that lets coding agents read the user's real, logged-in browser pages.
@@ -1021,6 +1056,18 @@ MCP server that completes authorized test or owned verification flows in an agen
 - Tags: browser-automation, agent-completion, playwright, cdp, verification
 - Category: Browsers, Search, and Web Automation
 
+### Shortform Kit
+
+Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key.
+
+- URL: https://shortformkit.com/mcp-server/
+- Language: Python
+- Provider: Shortform Kit
+- Official: yes
+- Tags: video, transcription, social-media, youtube, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://shortformkit.com/mcp
+
 ### Surface
 
 URL preflight for agents: preflight_url unwraps short links, follows redirects, refuses private hosts, and returns the final URL with next: fetch or skip. Never returns the page body; no API key.
@@ -1088,6 +1135,18 @@ Search, monitor, and extract X/Twitter data from Xquik through MCP.
 - Official: no
 - Tags: twitter, social-data, search
 - Category: Browsers, Search, and Web Automation
+
+### YouTube Transcripts MCP
+
+Fetches YouTube transcripts with video metadata as text, timestamped segments, or SRT, plus filtered YouTube search, chapters, and timestamped extractive summaries, with no YouTube API key.
+
+- URL: https://github.com/gunnargray-dev/youtube-transcripts-mcp
+- Language: TypeScript
+- Provider: Parallel Studio
+- Official: no
+- Tags: youtube, transcripts, search, summaries, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://parallelstudio--youtube-transcripts-mcp.apify.actor/mcp
 
 ## Filesystems and Documents
 
@@ -1486,6 +1545,29 @@ Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.agent-media.ai/mcp
 
+### agentcomms
+
+Exchange end-to-end encrypted messages between AI agents through an account-free public hub or a self-hosted hub.
+
+- URL: https://github.com/web3wes/agentcomms
+- Language: Python
+- Provider: web3wes
+- Official: yes
+- Tags: agents, messaging, encryption, self-hosted, mcp
+- Category: Communication and Productivity
+
+### agentic sinkhole research
+
+Zero-auth inbox, state, webhook, and wake tools for agent sandboxes: research honeypot, no login, traffic logged, do not send secrets.
+
+- URL: https://docs.rocketship.sh/llms.txt
+- Language: JavaScript
+- Provider: Community
+- Official: no
+- Tags: inbox, webhook, honeypot, research, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.rocketship.sh/mcp
+
 ### agmail
 
 Email inboxes for AI agents, by the hour: an address of your choice, one call waits for a message and returns the code or link, paid per call with x402 stablecoins; no account.
@@ -1531,6 +1613,18 @@ Manage Jira issues and Confluence pages across Atlassian Cloud.
 - Official: yes
 - Tags: jira, confluence, atlassian
 - Category: Communication and Productivity
+
+### BacklinkGenie
+
+Hosted link-building outreach agent: find posts where your product fits, approve pitches, read editor replies and track earned backlinks; OAuth or API key.
+
+- URL: https://backlinkgenie.com/mcp/
+- Language: TypeScript
+- Provider: BacklinkGenie
+- Official: yes
+- Tags: seo, link-building, outreach, marketing
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://app.backlinkgenie.com/mcp
 
 ### BulkPublish MCP Server
 
@@ -2059,6 +2153,17 @@ Kick off CrewAI crew deployments and check their status from MCP clients.
 - Tags: agents, multi-agent, orchestration
 - Category: AI, Agents, and Memory
 
+### Dare MCP Server
+
+Generate AI video and images on Dare (Seedance, Veo, Kling, Hailuo) from Claude, billed to your own Dare credits, with local cost estimates and dry runs.
+
+- URL: https://github.com/avi-aggarwal14/dare-mcp-server
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: ai-video, image-generation, video-generation, claude
+- Category: AI, Agents, and Memory
+
 ### Decide Runtime
 
 Evaluate supplied facts against approved rules and read/export owned decision records via scoped bearer or registered OAuth/PKCE; USD 10/1,000 records in a controlled business pilot, with no external execution.
@@ -2356,6 +2461,17 @@ Search locally captured screen text and audio history via MCP under the Screenpi
 - Tags: memory, screen, audio, local-first
 - Category: AI, Agents, and Memory
 
+### Selvedge
+
+Local SQLite decision memory for coding agents to save and retrieve rationale, rejected approaches, and entity history.
+
+- URL: https://github.com/masondelan/selvedge
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: decision-memory, coding-agents, sqlite, local-first
+- Category: AI, Agents, and Memory
+
 ### SigRank MCP
 
 AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.
@@ -2365,6 +2481,17 @@ AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for a
 - Provider: SigRank
 - Official: no
 - Tags: token-efficiency, leaderboard, ai-agents, telemetry, yield-cascade
+- Category: AI, Agents, and Memory
+
+### Sqwakie
+
+Lets AI coding agents on different machines message each other through MCP tools (walkie_post, walkie_read, walkie_reply, walkie_ask, walkie_inbox), with a shared live dashboard and project kanban boards.
+
+- URL: https://github.com/alexcarney460-hue/walkie
+- Language: TypeScript
+- Provider: RC Studios
+- Official: yes
+- Tags: multi-agent, claude-code, codex, kanban, agent-messaging
 - Category: AI, Agents, and Memory
 
 ### Takibi Base
@@ -2405,6 +2532,18 @@ Community MCP wrapper for long-term memory and context retrieval with Zep.
 ## Data, Analytics, and BI
 
 Analytics platforms, monitoring, and business intelligence tooling.
+
+### AltoRank
+
+Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.
+
+- URL: https://github.com/AltoRank/altorank
+- Language: TypeScript
+- Provider: AltoRank
+- Official: yes
+- Tags: seo, content, marketing, remote, oauth
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://app.altorank.co/api/mcp
 
 ### Amplitude MCP Server
 
@@ -2499,6 +2638,18 @@ Local MCP server in the open-source Bruin CLI that lets agents query databases, 
 - Tags: data-pipelines, etl, sql, data-quality
 - Category: Data, Analytics, and BI
 
+### CareJobs.Now Healthcare Jobs
+
+Remote MCP server for US healthcare jobs: search 170,000+ open jobs read daily from 270 hospitals' and health systems' career sites, with the posted pay. Free, read-only, no API key.
+
+- URL: https://github.com/yumaheymans/carejobs-mcp
+- Language: Other
+- Provider: CareJobs.Now (O-mega Enterprise, Inc.)
+- Official: yes
+- Tags: healthcare, jobs, job-search, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://carejobs.now/api/mcp
+
 ### CompanyProof
 
 Hosted company search, registry profiles and verification of six company identity fields with source evidence, OAuth or API key access, and shared account credits.
@@ -2578,6 +2729,18 @@ Explore Grafana dashboards, alerts, and observability data.
 - Official: yes
 - Tags: monitoring, dashboards, observability
 - Category: Data, Analytics, and BI
+
+### HirePulse Agent Gateway
+
+Remote MCP tools for website technologies and company job listings; paid HTTP API calls use x402 on Base.
+
+- URL: https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/
+- Language: Other
+- Provider: HirePulse
+- Official: yes
+- Tags: remote, jobs, technology, x402
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://hirepulse-gateway.hirepulse-commerce-sandbox.workers.dev/mcp
 
 ### Hoot Lens
 
@@ -2912,6 +3075,18 @@ Start autonomous AI pentest runs, poll status, list campaigns and read findings 
 - Tags: pentest, vulnerabilities, security, stdio
 - Category: Security and Identity
 
+### Domain Mail Check
+
+Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will accept its mail, and its DNS and registration data; hosted, no key or sign-up.
+
+- URL: https://tools.openkrill.app/#mailcheck
+- Language: TypeScript
+- Provider: OpenKrill
+- Official: yes
+- Tags: email, dns, dmarc, deliverability
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://mailcheck.openkrill.app/mcp
+
 ### FractalAI Agent Passport
 
 Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-call x402 tools (USDC on Base) that return post-quantum signed receipts.
@@ -3137,6 +3312,18 @@ Pay-per-call agent tools paid in USDC on Solana over x402, no account or API key
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://bilbop-x402-mcp.watchdogsfreak.workers.dev/mcp
 
+### BKK Staff
+
+Automated resume screening for small businesses: create and manage job posts, rank applicants (strong/possible/weak), search candidates and email applicants via a hosted OAuth MCP server.
+
+- URL: https://app.bkkstaff.com/mcp
+- Language: Other
+- Provider: BKK Staff
+- Official: yes
+- Tags: recruiting, hiring, resume-screening, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://app.bkkstaff.com/mcp
+
 ### BlockVectra
 
 Remote MCP server for multi-chain EVM JSON-RPC, an indexed Data API, documentation, pricing and status, for developers and AI agents. Documentation, chain and status tools need no API key; Data API tools require one.
@@ -3245,6 +3432,18 @@ Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamen
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://enterprise.fincept.in/mcp
 
+### Finder Jobs
+
+Job vacancies and salary stats for Russia, Kazakhstan, Belarus, Kyrgyzstan, Germany, France, Belgium, Switzerland, Sweden and Indonesia. Free, read-only, no auth.
+
+- URL: https://mcp.finder.work
+- Language: Python
+- Provider: Finder
+- Official: yes
+- Tags: jobs, salaries, vacancies, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.finder.work/mcp
+
 ### FirstSales MCP
 
 Retrieve CRM contacts, deals, lists and workflows, and create contacts in approved workspaces via hosted OAuth MCP; requires an eligible paid FirstSales plan.
@@ -3282,7 +3481,7 @@ Lets an agent buy and sell physical goods on the Glongus UK marketplace, with ha
 
 ### Google Hotels
 
-Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).
+Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and more) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).
 
 - URL: https://github.com/huynhtanan/google-hotels-mcp
 - Language: Python
@@ -3360,6 +3559,18 @@ Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp-ads.com/mcp-slim
 
+### MedBillAnalyzer
+
+Checks a medical bill against the insurer's Explanation of Benefits and reports where they disagree; free summary, optional $10-per-bill unlock for full detail and a dispute letter.
+
+- URL: https://medbillanalyzer.com
+- Language: TypeScript
+- Provider: RMK Capital, Inc.
+- Official: yes
+- Tags: health, medical-bills, billing, insurance, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://app.medbillanalyzer.com/mcp/apps?via=mcphq
+
 ### MoltNode by Chord
 
 Hosted MCP server with no API key: read 31 blockchains over JSON-RPC (Ethereum, Base, Arbitrum, Solana, Monad, Sui and more) and get DEX swap quotes with unsigned transactions via Chord. Non-custodial: the agent signs with its own key.
@@ -3382,6 +3593,18 @@ Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, con
 - Official: no
 - Tags: seo, google-ads, meta-ads, marketing
 - Category: Finance, Commerce, and Business Apps
+
+### OutreachGenie
+
+Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys.
+
+- URL: https://github.com/Outreachgenie/outreachgenie-linkedin-mcp
+- Language: TypeScript
+- Provider: OutreachGenie
+- Official: yes
+- Tags: linkedin, crm, outreach, remote, oauth
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.outreachgenie.ai/mcp
 
 ### PandaStock
 
@@ -3450,6 +3673,18 @@ Manage QuickBooks accounting records and financial reports.
 - Tags: accounting, finance, bookkeeping
 - Category: Finance, Commerce, and Business Apps
 
+### RestoSignals
+
+Finds US restaurants and bars 1-6 months before they open by fusing public liquor-license, food-permit and new-business filings into scored venues with owner contact.
+
+- URL: https://github.com/paperandbeyond23-gif/restosignals-mcp
+- Language: Python
+- Provider: RestoSignals
+- Official: yes
+- Tags: lead-generation, restaurants, sales, public-records, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.restosignals.com/mcp
+
 ### Salesforce MCP Server
 
 Query Salesforce CRM records and manage business workflows.
@@ -3472,6 +3707,18 @@ Look up fragrances with verdicts, similarity scores, scent profiles, drydowns an
 - Tags: fragrance, perfume, shopping, read-only, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://scentverdict.com/mcp
+
+### Shop Nobi
+
+Read-only product search across independent stores and exact-topic shopping page lookup; purchases happen on merchant sites, where some links may earn Nobi a commission.
+
+- URL: https://nobi.ai/shop
+- Language: Java
+- Provider: Nobi
+- Official: yes
+- Tags: shopping, product-search, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.nobi.ai/v1/shop/mcp
 
 ### Shopify MCP Server
 
@@ -3645,6 +3892,18 @@ MCP server for agents to work across Ethereum, Arbitrum, Base, Polygon and BNB C
 - Tags: crypto, defi, x402, blockchain
 - Category: Finance, Commerce, and Business Apps
 
+### Vedar Kamchatka
+
+Kamchatka (Russia) travel: search tours, accommodation and transfers, build trip plans, send booking requests, and get volcano status, weather and safety info. Hosted, no API key.
+
+- URL: https://github.com/tourhabk-ui/pos
+- Language: TypeScript
+- Provider: Vedar
+- Official: yes
+- Tags: travel, tours, kamchatka, booking, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://vedarai.ru/api/mcp
+
 ### Voidpay Marketplace MCP
 
 Find services and storefronts on Voidly's hosted marketplace for AI-agent services and prepare checkout links that the owner reviews and approves in their own browser; the connector never signs, pays or holds keys.
@@ -3742,6 +4001,17 @@ Track symptoms, mood, medications, and wellness patterns through a remote OAuth 
 - Tags: health, tracking, oauth, wellness
 - Category: Utilities and Examples
 - Streamable HTTP endpoint: https://mcp.careclinic.io/mcp
+
+### Everything2MCP
+
+Turn local capabilities, private-net services, OpenAPI/gRPC/MQTT/queues, and Feishu/DingTalk/WeCom into one MCP surface with hot-reload and Safe defaults.
+
+- URL: https://github.com/shcdwz1234/Everything2MCP
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: openapi, grpc, mqtt, hot-reload, integrations
+- Category: Utilities and Examples
 
 ### FastMCP
 
