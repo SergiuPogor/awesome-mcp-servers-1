@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-357-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-358-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (15)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (40)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (41)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (33)
 - [Filesystems and Documents](#filesystems-and-documents) (13)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (20)
@@ -195,6 +195,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `security` `sast` `code-quality`
 - **[Sentry MCP Server](https://docs.sentry.io/product/sentry-mcp/)** `Official` `TypeScript` — Investigate errors, releases, and performance issues in Sentry.  
   `observability` `errors` `monitoring`
+- **[SFXMint](https://github.com/flreey/sfxmint-mcp)** `Official` `TypeScript` — Find CC0 sound effects by event, set or description and retrieve audio URLs without a key; optional custom generation requires a key and paid pass or plan.  
+  `audio` `sound-effects` `remote` `cc0`
 - **[SheetsData](https://sheetsdata.com)** `Official` `Python` — Electronic component datasheets for AI agents: pinouts, specs, package info and design checks from manufacturer PDFs, with part search across JLCPCB, Mouser and DigiKey; hosted, OAuth or API key, paid per call.  
   `electronics` `datasheets` `hardware` `embedded` `remote`
 - **[SkillDB](https://github.com/devchad-cmd/skilldb-sdk)** `Official` `TypeScript` — Search reusable AI agent skills through an installable TypeScript MCP server; full skill content requires a Pro or Studio account.  

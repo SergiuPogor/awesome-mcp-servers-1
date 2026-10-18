@@ -2758,6 +2758,24 @@
     "official": true
   },
   {
+    "name": "SFXMint",
+    "url": "https://github.com/flreey/sfxmint-mcp",
+    "description": "Find CC0 sound effects by event, set or description and retrieve audio URLs without a key; optional custom generation requires a key and paid pass or plan.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "SFXMint",
+    "tags": [
+      "audio",
+      "sound-effects",
+      "remote",
+      "cc0"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://sfxmint.com/mcp"
+    }
+  },
+  {
     "name": "LynxPrompt MCP Server",
     "url": "https://github.com/GeiserX/lynxprompt-mcp",
     "description": "Browse, search, create and update LynxPrompt AI configuration blueprints (AGENTS.md, CLAUDE.md) on lynxprompt.com or a self-hosted instance.",
