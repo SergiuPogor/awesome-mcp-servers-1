@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-348-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-349-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (20)
 - [Communication and Productivity](#communication-and-productivity) (40)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (43)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (34)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (35)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (18)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (62)
@@ -579,6 +579,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `bigquery` `gcp` `data`
 - **[Grafana MCP Server](https://github.com/grafana/mcp-grafana)** `Official` `Go` — Explore Grafana dashboards, alerts, and observability data.  
   `monitoring` `dashboards` `observability`
+- **[GSCmate](https://gscmate.com)** `Official` `JavaScript` — Read-only access to Google Search Console properties, Search Analytics, sitemaps, and URL inspection through user-authorized OAuth 2.1.  
+  `google-search-console` `seo` `analytics` `oauth` `remote`
 - **[Hoot Lens](https://github.com/Parallel-Platforms/hootlens-mcp)** `Official` `TypeScript` — Read website session replays, click heatmaps and broken clicks, trace one to its JavaScript error and source line, and check whether a shipped change helped.  
   `session-replay` `heatmaps` `web-analytics` `debugging`
 - **[Invokely](https://invokely.ai/docs)** `Official` `Other` — Query source-cited official statistics by indicator, place and period; retrieve values and time series, compare places, and rank regions. No-account MCP trial allows 25 calls per IP per day.  
