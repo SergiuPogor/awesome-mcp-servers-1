@@ -2334,6 +2334,21 @@
     }
   },
   {
+    "name": "Dare MCP Server",
+    "url": "https://github.com/avi-aggarwal14/dare-mcp-server",
+    "description": "Generate AI video and images on Dare (Seedance, Veo, Kling, Hailuo) from Claude, billed to your own Dare credits, with local cost estimates and dry runs.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "ai-video",
+      "image-generation",
+      "video-generation",
+      "claude"
+    ],
+    "official": false
+  },
+  {
     "name": "Tanod",
     "url": "https://tanod.dev",
     "description": "Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).",
@@ -2523,6 +2538,22 @@
     }
   },
   {
+    "name": "agentcomms",
+    "url": "https://github.com/web3wes/agentcomms",
+    "description": "Exchange end-to-end encrypted messages between AI agents through an account-free public hub or a self-hosted hub.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "web3wes",
+    "tags": [
+      "agents",
+      "messaging",
+      "encryption",
+      "self-hosted",
+      "mcp"
+    ],
+    "official": true
+  },
+  {
     "name": "Zovo Time Tracker",
     "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker",
     "description": "Track billable time from chat: start and stop timers, log entries against jobs, and produce timesheets and billable summaries; hosted endpoint uses a free anonymous token from https://mcp.zovo.one/mcp/token.",
@@ -2555,6 +2586,25 @@
       "self-hosted"
     ],
     "official": false
+  },
+  {
+    "name": "SheetsData",
+    "url": "https://sheetsdata.com",
+    "description": "Electronic component datasheets for AI agents: pinouts, specs, package info and design checks from manufacturer PDFs, with part search across JLCPCB, Mouser and DigiKey; hosted, OAuth or API key, paid per call.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Octoco Ltd",
+    "tags": [
+      "electronics",
+      "datasheets",
+      "hardware",
+      "embedded",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.sheetsdata.com/mcp"
+    }
   },
   {
     "name": "Chain.Love MCP",
@@ -2620,6 +2670,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp-ads.com/mcp-slim"
+    }
+  },
+  {
+    "name": "Vedar Kamchatka",
+    "url": "https://github.com/tourhabk-ui/pos",
+    "description": "Kamchatka (Russia) travel: search tours, accommodation and transfers, build trip plans, send booking requests, and get volcano status, weather and safety info. Hosted, no API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Vedar",
+    "tags": [
+      "travel",
+      "tours",
+      "kamchatka",
+      "booking",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://vedarai.ru/api/mcp"
     }
   },
   {
@@ -2721,6 +2790,24 @@
     "official": true
   },
   {
+    "name": "Domain Mail Check",
+    "url": "https://tools.openkrill.app/#mailcheck",
+    "description": "Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will accept its mail, and its DNS and registration data; hosted, no key or sign-up.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "OpenKrill",
+    "tags": [
+      "email",
+      "dns",
+      "dmarc",
+      "deliverability"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mailcheck.openkrill.app/mcp"
+    }
+  },
+  {
     "name": "Plazmi",
     "url": "https://plazmi.gg/SKILL.md",
     "description": "A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.",
@@ -2736,6 +2823,25 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://plazmi.gg/mcp"
+    }
+  },
+  {
+    "name": "Shortform Kit",
+    "url": "https://shortformkit.com/mcp-server/",
+    "description": "Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Python",
+    "provider": "Shortform Kit",
+    "tags": [
+      "video",
+      "transcription",
+      "social-media",
+      "youtube",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://shortformkit.com/mcp"
     }
   },
   {
@@ -3468,7 +3574,7 @@
   {
     "name": "Google Hotels",
     "url": "https://github.com/huynhtanan/google-hotels-mcp",
-    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and 10+ other providers) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
+    "description": "Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booking.com, Expedia, Agoda, Vrbo, Airbnb, Hotels.com and more) plus a 3-month daily price calendar. Pay-per-use via Apify (bring your own APIFY_TOKEN).",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "Community",
@@ -5423,6 +5529,63 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.pintonotes.com"
+    }
+  },
+  {
+    "name": "AltoRank",
+    "url": "https://github.com/AltoRank/altorank",
+    "description": "Hosted MCP server for open-source SEO content software: site readiness checks, keyword research, Search Console data and sourced drafts into a review queue via OAuth; no publish tool.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "AltoRank",
+    "tags": [
+      "seo",
+      "content",
+      "marketing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.altorank.co/api/mcp"
+    }
+  },
+  {
+    "name": "MedBillAnalyzer",
+    "url": "https://medbillanalyzer.com",
+    "description": "Checks a medical bill against the insurer's Explanation of Benefits and reports where they disagree; free summary, optional $10-per-bill unlock for full detail and a dispute letter.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "RMK Capital, Inc.",
+    "tags": [
+      "health",
+      "medical-bills",
+      "billing",
+      "insurance",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.medbillanalyzer.com/mcp/apps?via=mcphq"
+    }
+  },
+  {
+    "name": "YouTube Transcripts MCP",
+    "url": "https://github.com/gunnargray-dev/youtube-transcripts-mcp",
+    "description": "Fetches YouTube transcripts with video metadata as text, timestamped segments, or SRT, plus filtered YouTube search, chapters, and timestamped extractive summaries, with no YouTube API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Parallel Studio",
+    "tags": [
+      "youtube",
+      "transcripts",
+      "search",
+      "summaries",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://parallelstudio--youtube-transcripts-mcp.apify.actor/mcp"
     }
   }
 ]
