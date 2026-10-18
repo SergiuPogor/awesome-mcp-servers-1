@@ -5659,5 +5659,23 @@
     "endpoints": {
       "streamableHttp": "https://parallelstudio--youtube-transcripts-mcp.apify.actor/mcp"
     }
+  },
+  {
+    "name": "Finder Jobs",
+    "url": "https://mcp.finder.work",
+    "description": "Job vacancies and salary stats for Russia, Kazakhstan, Belarus, Kyrgyzstan, Germany, France, Belgium, Switzerland, Sweden and Indonesia. Free, read-only, no auth.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "Finder",
+    "tags": [
+      "jobs",
+      "salaries",
+      "vacancies",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.finder.work/mcp"
+    }
   }
 ]
