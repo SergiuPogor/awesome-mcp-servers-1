@@ -5677,5 +5677,21 @@
     "endpoints": {
       "streamableHttp": "https://mcp.finder.work/mcp"
     }
+  },
+  {
+    "name": "Mac MCP",
+    "url": "https://github.com/bulutarkan/mac-mcp",
+    "description": "Local-first macOS MCP server for controlling browser tabs, Mac apps, files and terminal.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "bulutarkan",
+    "tags": [
+      "macos",
+      "browser-automation",
+      "desktop-automation",
+      "agents",
+      "local"
+    ],
+    "official": false
   }
 ]
