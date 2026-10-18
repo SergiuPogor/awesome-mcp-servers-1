@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 339 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 340 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -673,6 +673,18 @@ Investigate errors, releases, and performance issues in Sentry.
 - Official: yes
 - Tags: observability, errors, monitoring
 - Category: Developer Tools and Code Intelligence
+
+### SheetsData
+
+Electronic component datasheets for AI agents: pinouts, specs, package info and design checks from manufacturer PDFs, with part search across JLCPCB, Mouser and DigiKey; hosted, OAuth or API key, paid per call.
+
+- URL: https://sheetsdata.com
+- Language: Python
+- Provider: Octoco Ltd
+- Official: yes
+- Tags: electronics, datasheets, hardware, embedded, remote
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://mcp.sheetsdata.com/mcp
 
 ### SkillDB
 
