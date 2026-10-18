@@ -5863,5 +5863,24 @@
       "self-hosted"
     ],
     "official": true
+  },
+  {
+    "name": "Openpath",
+    "url": "https://openpath.sh/docs/connect",
+    "description": "Hosted read-only MCP server that searches live employer job-board listings and Austin business listings with no sign-in or API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Openpath",
+    "tags": [
+      "jobs",
+      "business-directory",
+      "austin",
+      "remote",
+      "listings"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://openpath.sh/mcp/search"
+    }
   }
 ]

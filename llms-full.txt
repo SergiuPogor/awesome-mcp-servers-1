@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 360 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 361 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3615,6 +3615,18 @@ Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, con
 - Official: no
 - Tags: seo, google-ads, meta-ads, marketing
 - Category: Finance, Commerce, and Business Apps
+
+### Openpath
+
+Hosted read-only MCP server that searches live employer job-board listings and Austin business listings with no sign-in or API key.
+
+- URL: https://openpath.sh/docs/connect
+- Language: TypeScript
+- Provider: Openpath
+- Official: yes
+- Tags: jobs, business-directory, austin, remote, listings
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://openpath.sh/mcp/search
 
 ### OutreachGenie
 
