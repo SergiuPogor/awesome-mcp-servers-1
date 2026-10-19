@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 365 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 374 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1265,6 +1265,17 @@ Search and read notes from local Obsidian vaults.
 - Tags: obsidian, notes, local
 - Category: Filesystems and Documents
 
+### officegrep
+
+Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, slide, cell and page locators, backed by a local SQLite FTS5 index.
+
+- URL: https://github.com/Asgoresmilelong/officegrep
+- Language: Python
+- Provider: Asgoresmilelong
+- Official: no
+- Tags: documents, search, docx, pdf, sqlite
+- Category: Filesystems and Documents
+
 ### PDF MCP Server
 
 Extract text and metadata from PDF documents for analysis.
@@ -2335,6 +2346,17 @@ Official hosted MCP server with 44 tools for AI video, image, and audio generati
 - Tags: ai-video, image-generation, audio-generation, media-editing, remote
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp.magichour.ai/
+
+### MELRA
+
+Local MCP runtime for agent tool calls that rechecks policy and scoped approvals, verifies declared outcomes, records redacted receipts, and parks interrupted writes for reconciliation.
+
+- URL: https://github.com/XAGI-Lab/melra
+- Language: TypeScript
+- Provider: XAGI Labs
+- Official: yes
+- Tags: agents, mcp, policy, approvals, recovery
+- Category: AI, Agents, and Memory
 
 ### mem0 MCP Server
 

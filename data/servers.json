@@ -2925,6 +2925,22 @@
     }
   },
   {
+    "name": "MELRA",
+    "url": "https://github.com/XAGI-Lab/melra",
+    "description": "Local MCP runtime for agent tool calls that rechecks policy and scoped approvals, verifies declared outcomes, records redacted receipts, and parks interrupted writes for reconciliation.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "XAGI Labs",
+    "tags": [
+      "agents",
+      "mcp",
+      "policy",
+      "approvals",
+      "recovery"
+    ],
+    "official": true
+  },
+  {
     "name": "agent-chain-doctor",
     "url": "https://github.com/elfovo/agent-chain-doctor",
     "description": "Read-only diagnostic that inspects the scheduler config (launchd, cron, systemd) and trace files of a scheduled AI agent and reports which of 30 silent-failure modes it is exposed to.",
