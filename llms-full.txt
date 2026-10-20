@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 365 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 374 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1263,6 +1263,17 @@ Search and read notes from local Obsidian vaults.
 - Provider: Community
 - Official: no
 - Tags: obsidian, notes, local
+- Category: Filesystems and Documents
+
+### officegrep
+
+Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, slide, cell and page locators, backed by a local SQLite FTS5 index.
+
+- URL: https://github.com/Asgoresmilelong/officegrep
+- Language: Python
+- Provider: Asgoresmilelong
+- Official: no
+- Tags: documents, search, docx, pdf, sqlite
 - Category: Filesystems and Documents
 
 ### PDF MCP Server
@@ -2538,6 +2549,17 @@ AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for a
 - Provider: SigRank
 - Official: no
 - Tags: token-efficiency, leaderboard, ai-agents, telemetry, yield-cascade
+- Category: AI, Agents, and Memory
+
+### sqlite-graph-memory
+
+Local stdio MCP server that gives an agent recall over its own markdown notes: vector retrieval for entry points, hand-written wikilinks as the graph, cross-encoder rerank, in one SQLite file.
+
+- URL: https://github.com/tonydzi/sqlite-graph-memory
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: memory, rag, obsidian, sqlite, knowledge-graph
 - Category: AI, Agents, and Memory
 
 ### Sqwakie
