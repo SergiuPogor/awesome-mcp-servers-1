@@ -3268,6 +3268,24 @@
     }
   },
   {
+    "name": "MEDIAPRONET",
+    "url": "https://mediapronet.com/mcp",
+    "description": "Read-only MCP server for the MEDIAPRONET directory: search 249 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "MEDIAPRONET",
+    "tags": [
+      "search",
+      "directory",
+      "startups",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mediapronet.com/api/mcp"
+    }
+  },
+  {
     "name": "LinkedNav",
     "url": "https://www.linkednav.com/mcp?utm_source=mcphq&utm_medium=listing",
     "description": "Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buying signals, launch outreach campaigns, write messages, and read and answer replies; OAuth or API key, free 7-day trial. Not affiliated with LinkedIn.",
