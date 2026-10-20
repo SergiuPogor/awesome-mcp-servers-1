@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 365 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 374 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -137,6 +137,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Markovo](https://github.com/fisher-byte/markovo): Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean Markdown for agent context; hosted Streamable HTTP with OAuth 2.1 plus sandboxed local stdio. (Python)
 - [Notion MCP Server](https://github.com/makenotion/notion-mcp-server): Read and write Notion pages, databases, and workspace content. (TypeScript, official)
 - [Obsidian MCP Server](https://github.com/MarkusPfundstein/mcp-obsidian): Search and read notes from local Obsidian vaults. (TypeScript)
+- [officegrep](https://github.com/Asgoresmilelong/officegrep): Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, slide, cell and page locators, backed by a local SQLite FTS5 index. (Python)
 - [PDF MCP Server](https://github.com/jztan/pdf-mcp): Extract text and metadata from PDF documents for analysis. (Python)
 - [PDFtoMarkdown.ai](https://github.com/happywpco/pdftomarkdown-mcp): Convert local PDF, DOCX, PPTX, XLSX, image, HTML and EPUB files into structured Markdown with headings, tables and optional OCR via the PDFtoMarkdown.ai API; free pages, then pay-per-page credits. (JavaScript, official)
 - [ReadGZH](https://github.com/sweesama/readgzh): Read public WeChat Official Account articles as Markdown for AI agents over remote MCP and REST. (TypeScript)
@@ -237,6 +238,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [LangGraph MCP Server](https://docs.langchain.com/langsmith/server-mcp): Expose deployed LangGraph agents as MCP tools through the Agent Server MCP endpoint. (Other, official)
 - [Liminal](https://github.com/jaybro2042-alt/liminality-mcp): Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps. (Python, official)
 - [LlamaParse MCP Server](https://developers.llamaindex.ai/for-agents/): Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs. (Other, official)
+- [LLMSlim](https://github.com/Thanatos9404/llmslim): Local stdio MCP server that stores agent messages word for word in SQLite or Postgres and recalls the ones that answer a question within a token budget, with no LLM call. (Python)
 - [Magic Hour MCP Server](https://magichour.ai): Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing. (Python, official)
 - [mem0 MCP Server](https://docs.mem0.ai/platform/mem0-mcp): Hosted persistent memory layer for personalized agent interactions. (Other, official)
 - [MuAPI MCP Server](https://muapi.ai/docs/mcp): Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint. (Other, official)

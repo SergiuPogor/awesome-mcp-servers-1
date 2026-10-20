@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 365 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 374 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1265,6 +1265,17 @@ Search and read notes from local Obsidian vaults.
 - Tags: obsidian, notes, local
 - Category: Filesystems and Documents
 
+### officegrep
+
+Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, slide, cell and page locators, backed by a local SQLite FTS5 index.
+
+- URL: https://github.com/Asgoresmilelong/officegrep
+- Language: Python
+- Provider: Asgoresmilelong
+- Official: no
+- Tags: documents, search, docx, pdf, sqlite
+- Category: Filesystems and Documents
+
 ### PDF MCP Server
 
 Extract text and metadata from PDF documents for analysis.
@@ -2323,6 +2334,17 @@ Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs.
 - Tags: rag, indexing, agents
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp.llamaindex.ai/mcp
+
+### LLMSlim
+
+Local stdio MCP server that stores agent messages word for word in SQLite or Postgres and recalls the ones that answer a question within a token budget, with no LLM call.
+
+- URL: https://github.com/Thanatos9404/llmslim
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: memory, long-term-memory, sqlite, local
+- Category: AI, Agents, and Memory
 
 ### Magic Hour MCP Server
 
