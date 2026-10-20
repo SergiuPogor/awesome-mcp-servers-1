@@ -2891,6 +2891,18 @@ Query Mixpanel funnels, retention, and event analytics.
 - Tags: analytics, funnels, product
 - Category: Data, Analytics, and BI
 
+### Mysocial
+
+Official hosted OAuth MCP for social media intelligence: connected content history, performance signals, and creator memory over Streamable HTTP.
+
+- URL: https://github.com/mysocialio/mysocial-intelligence
+- Language: JavaScript
+- Provider: Mysocial
+- Official: yes
+- Tags: social-media, content-memory, analytics, oauth
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://app.mysocial.io/mcp
+
 ### Netdata MCP Server
 
 Real-time infrastructure monitoring and health metrics via MCP.
