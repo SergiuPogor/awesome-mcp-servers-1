@@ -554,6 +554,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `decision-memory` `coding-agents` `sqlite` `local-first`
 - **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
+- **[sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)** `Python` — Local stdio MCP server that gives an agent recall over its own markdown notes: vector retrieval for entry points, hand-written wikilinks as the graph, cross-encoder rerank, in one SQLite file.  
+  `memory` `rag` `obsidian` `sqlite` `knowledge-graph`
 - **[Sqwakie](https://github.com/alexcarney460-hue/walkie)** `Official` `TypeScript` — Lets AI coding agents on different machines message each other through MCP tools (walkie_post, walkie_read, walkie_reply, walkie_ask, walkie_inbox), with a shared live dashboard and project kanban boards.  
   `multi-agent` `claude-code` `codex` `kanban` `agent-messaging`
 - **[Takibi Base](https://takibibase.com/docs/connector)** `Official` `Other` — Ask your Takibi Base collections anything; get answers with cited passages and a support score.  
