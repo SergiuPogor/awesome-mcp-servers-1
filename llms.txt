@@ -329,6 +329,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 ## Finance, Commerce, and Business Apps
 
+- [Account Executive Jobs](https://github.com/854Labs/account-executive-jobs): Hosted OAuth MCP server to search and apply to account executive and sales jobs, and for employers to manage job posts and applicants. (Other, official)
 - [ADEXTO](https://github.com/0xcuy/adexto): Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key. (TypeScript, official)
 - [AdsTurbo](https://adsturbo.ai): Create ecommerce video ads and product images: clone a reference ad around a product, AI actor videos, text/image-to-video, lip sync and video translation, over remote Streamable HTTP with OAuth 2.1 or an API key. (Other, official)
 - [AgentServices](https://github.com/vbkotecha/agentservices-api): Paid API platform for AI agents — crypto prices, DeFi yields, market indicators, dispute resolution, and on-chain analytics via x402 micropayments. (Python)

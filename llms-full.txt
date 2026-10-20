@@ -3260,6 +3260,18 @@ Cloud security posture management and risk insights from Wiz.
 
 Payments, banking, CRM, e-commerce, and business system integrations.
 
+### Account Executive Jobs
+
+Hosted OAuth MCP server to search and apply to account executive and sales jobs, and for employers to manage job posts and applicants.
+
+- URL: https://github.com/854Labs/account-executive-jobs
+- Language: Other
+- Provider: Account Executive Jobs
+- Official: yes
+- Tags: jobs, sales, recruiting, oauth, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.accountexecutivejobs.com/mcp
+
 ### ADEXTO
 
 Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key.
