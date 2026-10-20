@@ -1752,6 +1752,18 @@ Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send m
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.heyreagent.com/mcp
 
+### KanbanMCP
+
+Hosted kanban board with a remote MCP server where AI agents claim cards, check in while they work, and hand off with notes.
+
+- URL: https://kanbanmcp.com/docs/connect
+- Language: Other
+- Provider: Onitsoga Labs
+- Official: yes
+- Tags: kanban, project-management, multi-agent, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://kanbanmcp.com/
+
 ### LinkedNav
 
 Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buying signals, launch outreach campaigns, write messages, and read and answer replies; OAuth or API key, free 7-day trial. Not affiliated with LinkedIn.

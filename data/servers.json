@@ -3007,6 +3007,24 @@
     "official": true
   },
   {
+    "name": "KanbanMCP",
+    "url": "https://kanbanmcp.com/docs/connect",
+    "description": "Hosted kanban board with a remote MCP server where AI agents claim cards, check in while they work, and hand off with notes.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Onitsoga Labs",
+    "tags": [
+      "kanban",
+      "project-management",
+      "multi-agent",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://kanbanmcp.com/"
+    }
+  },
+  {
     "name": "Domain Mail Check",
     "url": "https://tools.openkrill.app/#mailcheck",
     "description": "Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will accept its mail, and its DNS and registration data; hosted, no key or sign-up.",
