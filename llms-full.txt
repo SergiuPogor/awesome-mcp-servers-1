@@ -3391,6 +3391,18 @@ Pay-per-call agent tools paid in USDC on Solana over x402, no account or API key
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://bilbop-x402-mcp.watchdogsfreak.workers.dev/mcp
 
+### BirkinBagStock
+
+Independent Hermès resale listings, price comparisons, and price alerts.
+
+- URL: https://birkinbagstock.com/llms.txt
+- Language: Other
+- Provider: BirkinBagStock
+- Official: yes
+- Tags: ecommerce, resale, price-comparison, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://birkinbagstock.com/mcp
+
 ### BKK Staff
 
 Automated resume screening for small businesses: create and manage job posts, rank applicants (strong/possible/weak), search candidates and email applicants via a hosted OAuth MCP server.
