@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 374 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 379 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1044,6 +1044,18 @@ Hosted remote MCP server to search, price and run 2,500+ data API endpoints from
 - Tags: data, enrichment, search, api-gateway
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://api.looot.ai/mcp
+
+### MEDIAPRONET
+
+Read-only MCP server for the MEDIAPRONET directory: search 249 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.
+
+- URL: https://mediapronet.com/mcp
+- Language: TypeScript
+- Provider: MEDIAPRONET
+- Official: yes
+- Tags: search, directory, startups, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://mediapronet.com/api/mcp
 
 ### Playwright MCP
 
@@ -3362,6 +3374,18 @@ Cloud security posture management and risk insights from Wiz.
 ## Finance, Commerce, and Business Apps
 
 Payments, banking, CRM, e-commerce, and business system integrations.
+
+### 3Descu 3D Printing Quotes (EU)
+
+Instant FDM and SLA 3D printing quotes from an ISO 9001:2015 certified EU factory: list materials, measure an STL or OBJ link and get a price in EUR.
+
+- URL: https://quote.3descu.com/ai-agents/
+- Language: TypeScript
+- Provider: 3Descu
+- Official: yes
+- Tags: 3d-printing, manufacturing, quotes, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://zzamnvhadwibvafqcfpd.supabase.co/functions/v1/mcp
 
 ### Account Executive Jobs
 
