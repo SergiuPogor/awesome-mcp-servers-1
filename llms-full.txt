@@ -3616,6 +3616,17 @@ Turn AI-host work into invoices you review before send — Continue as guest or 
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.invompt.com/mcp
 
+### Kandle
+
+Lets an agent drive candlestick charts for crypto, stocks and forex in an open browser tab: read candles and indicator values, draw levels, set alerts, run scripts and strategy backtests, and take screenshots.
+
+- URL: https://github.com/Kernel-Hunter/kandle
+- Language: TypeScript
+- Provider: Kandle
+- Official: yes
+- Tags: finance, trading, charts, crypto, backtesting
+- Category: Finance, Commerce, and Business Apps
+
 ### Kooperativa.io
 
 People and company data from Kooperativa.io: enrich and search profiles, hiring signals, job changes, headcount by seniority and webhook monitors.
