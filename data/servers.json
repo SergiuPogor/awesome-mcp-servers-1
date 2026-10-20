@@ -5967,5 +5967,21 @@
     "endpoints": {
       "streamableHttp": "https://openpath.sh/mcp/search"
     }
+  },
+  {
+    "name": "officegrep",
+    "url": "https://github.com/Asgoresmilelong/officegrep",
+    "description": "Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, slide, cell and page locators, backed by a local SQLite FTS5 index.",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "Asgoresmilelong",
+    "tags": [
+      "documents",
+      "search",
+      "docx",
+      "pdf",
+      "sqlite"
+    ],
+    "official": false
   }
 ]
