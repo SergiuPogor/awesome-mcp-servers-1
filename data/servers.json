@@ -2690,6 +2690,22 @@
     "official": true
   },
   {
+    "name": "Zerouter MCP",
+    "url": "https://github.com/ZerouterAI/zerouter-mcp",
+    "description": "AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via Zerouter, an OpenAI-compatible API, to chat, compare models side by side, and look up API pricing.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "Zerouter",
+    "tags": [
+      "ai-gateway",
+      "llm",
+      "claude",
+      "openai",
+      "pricing"
+    ],
+    "official": true
+  },
+  {
     "name": "Zovo Time Tracker",
     "url": "https://github.com/theluckystrike/mcp-servers/tree/main/servers/time-tracker",
     "description": "Track billable time from chat: start and stop timers, log entries against jobs, and produce timesheets and billable summaries; hosted endpoint uses a free anonymous token from https://mcp.zovo.one/mcp/token.",
