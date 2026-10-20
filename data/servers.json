@@ -1041,7 +1041,7 @@
   },
   {
     "name": "Tenmomo",
-    "url": "https://tenmomo.com/mcp",
+    "url": "https://github.com/tenmomo-sokui",
     "description": "Search US stores for cashback rates and coupon codes, and get a tracked activation link.",
     "category": "finance-commerce-and-business-apps",
     "language": "PHP",
@@ -1294,7 +1294,7 @@
   },
   {
     "name": "needhave",
-    "url": "https://needhave.io",
+    "url": "https://github.com/PrivateAISystems/needhave",
     "description": "Public need/have board for AI agents (Craigslist for agents): agents read the live list and post their own needs or haves over remote MCP, no account or API key.",
     "category": "ai-agents-and-memory",
     "language": "JavaScript",
@@ -2084,6 +2084,24 @@
     }
   },
   {
+    "name": "Seonix",
+    "url": "https://seonix.ai/mcp",
+    "description": "Hosted read-only MCP server for a Seonix SEO project: Search Console and GA4 rankings and clicks, site audit issues, keyword clusters, articles, and brand mentions in ChatGPT, Gemini, Claude and Perplexity answers.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Seonix",
+    "tags": [
+      "seo",
+      "ai-visibility",
+      "search-console",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.seonix.ai/mcp"
+    }
+  },
+  {
     "name": "GSCmate",
     "url": "https://gscmate.com",
     "description": "Read-only access to Google Search Console properties, Search Analytics, sitemaps, and URL inspection through user-authorized OAuth 2.1.",
@@ -2100,6 +2118,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://gscmate.com/mcp"
+    }
+  },
+  {
+    "name": "Account Executive Jobs",
+    "url": "https://github.com/854Labs/account-executive-jobs",
+    "description": "Hosted OAuth MCP server to search and apply to account executive and sales jobs, and for employers to manage job posts and applicants.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Account Executive Jobs",
+    "tags": [
+      "jobs",
+      "sales",
+      "recruiting",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.accountexecutivejobs.com/mcp"
     }
   },
   {
@@ -2855,6 +2892,37 @@
     "official": true
   },
   {
+    "name": "Muslim Prayer Reminder MCP",
+    "url": "https://github.com/tareq7/muslim-prayer-mcp",
+    "description": "Calculates Muslim prayer times by location and regional method, including next-prayer countdowns.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "prayer-times",
+      "islamic",
+      "location",
+      "reminders"
+    ],
+    "official": false
+  },
+  {
+    "name": "Kandle",
+    "url": "https://github.com/Kernel-Hunter/kandle",
+    "description": "Lets an agent drive candlestick charts for crypto, stocks and forex in an open browser tab: read candles and indicator values, draw levels, set alerts, run scripts and strategy backtests, and take screenshots.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Kandle",
+    "tags": [
+      "finance",
+      "trading",
+      "charts",
+      "crypto",
+      "backtesting"
+    ],
+    "official": true
+  },
+  {
     "name": "TubeText TikTok Transcripts & Video Breakdown",
     "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/tiktok-transcripts",
     "description": "TikTok video transcripts (captions or Whisper AI) plus AI hook, shot list and script breakdown. Hosted on Apify (OAuth), pay per result.",
@@ -2871,6 +2939,22 @@
     "endpoints": {
       "streamableHttp": "https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/video-breakdown-ai"
     }
+  },
+  {
+    "name": "agent-chain-doctor",
+    "url": "https://github.com/elfovo/agent-chain-doctor",
+    "description": "Read-only diagnostic that inspects the scheduler config (launchd, cron, systemd) and trace files of a scheduled AI agent and reports which of 30 silent-failure modes it is exposed to.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "scheduled-agents",
+      "diagnostics",
+      "launchd",
+      "cron",
+      "claude-code"
+    ],
+    "official": false
   },
   {
     "name": "MakeAIVideo",
@@ -2939,6 +3023,24 @@
     "official": true
   },
   {
+    "name": "KanbanMCP",
+    "url": "https://kanbanmcp.com/docs/connect",
+    "description": "Hosted kanban board with a remote MCP server where AI agents claim cards, check in while they work, and hand off with notes.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Onitsoga Labs",
+    "tags": [
+      "kanban",
+      "project-management",
+      "multi-agent",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://kanbanmcp.com/"
+    }
+  },
+  {
     "name": "Domain Mail Check",
     "url": "https://tools.openkrill.app/#mailcheck",
     "description": "Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will accept its mail, and its DNS and registration data; hosted, no key or sign-up.",
@@ -2972,6 +3074,24 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://plazmi.gg/mcp"
+    }
+  },
+  {
+    "name": "Enhanciar",
+    "url": "https://github.com/enhanciar/enhanciar-mcp",
+    "description": "A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted; needs an Enhanciar API key (paid plans).",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "Enhanciar",
+    "tags": [
+      "knowledge-base",
+      "enterprise-search",
+      "slack",
+      "hosted"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://enhanciar.in/enhanciar/mcp/"
     }
   },
   {
@@ -3044,6 +3164,24 @@
       "python"
     ],
     "official": false
+  },
+  {
+    "name": "Mysocial",
+    "url": "https://github.com/mysocialio/mysocial-intelligence",
+    "description": "Official hosted OAuth MCP for social media intelligence: connected content history, performance signals, and creator memory over Streamable HTTP.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "Mysocial",
+    "tags": [
+      "social-media",
+      "content-memory",
+      "analytics",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.mysocial.io/mcp"
+    }
   },
   {
     "name": "AbuzzHive",
@@ -3435,6 +3573,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://mcp.hootlens.com/mcp"
+    }
+  },
+  {
+    "name": "BirkinBagStock",
+    "url": "https://birkinbagstock.com/llms.txt",
+    "description": "Independent Hermès resale listings, price comparisons, and price alerts.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "BirkinBagStock",
+    "tags": [
+      "ecommerce",
+      "resale",
+      "price-comparison",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://birkinbagstock.com/mcp"
     }
   },
   {
@@ -5670,7 +5826,7 @@
   },
   {
     "name": "Warmerly",
-    "url": "https://github.com/WarmerlyApp/mcp",
+    "url": "https://github.com/warmerly",
     "description": "Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant.",
     "category": "communication-and-productivity",
     "language": "TypeScript",
@@ -5933,5 +6089,21 @@
     "endpoints": {
       "streamableHttp": "https://openpath.sh/mcp/search"
     }
+  },
+  {
+    "name": "officegrep",
+    "url": "https://github.com/Asgoresmilelong/officegrep",
+    "description": "Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, slide, cell and page locators, backed by a local SQLite FTS5 index.",
+    "category": "filesystems-and-documents",
+    "language": "Python",
+    "provider": "Asgoresmilelong",
+    "tags": [
+      "documents",
+      "search",
+      "docx",
+      "pdf",
+      "sqlite"
+    ],
+    "official": false
   }
 ]

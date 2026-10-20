@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 364 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 374 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -324,6 +324,17 @@ Run natural-language web and mobile regression tests with persistent test memory
 - Provider: Vostride
 - Official: no
 - Tags: testing, regression, browser, mobile, mcp
+- Category: Developer Tools and Code Intelligence
+
+### agent-chain-doctor
+
+Read-only diagnostic that inspects the scheduler config (launchd, cron, systemd) and trace files of a scheduled AI agent and reports which of 30 silent-failure modes it is exposed to.
+
+- URL: https://github.com/elfovo/agent-chain-doctor
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: scheduled-agents, diagnostics, launchd, cron, claude-code
 - Category: Developer Tools and Code Intelligence
 
 ### API.market MCP Gateway
@@ -1254,6 +1265,17 @@ Search and read notes from local Obsidian vaults.
 - Tags: obsidian, notes, local
 - Category: Filesystems and Documents
 
+### officegrep
+
+Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, slide, cell and page locators, backed by a local SQLite FTS5 index.
+
+- URL: https://github.com/Asgoresmilelong/officegrep
+- Language: Python
+- Provider: Asgoresmilelong
+- Official: no
+- Tags: documents, search, docx, pdf, sqlite
+- Category: Filesystems and Documents
+
 ### PDF MCP Server
 
 Extract text and metadata from PDF documents for analysis.
@@ -1683,6 +1705,18 @@ Read and send messages in Discord servers and channels.
 - Tags: discord, chat, community
 - Category: Communication and Productivity
 
+### Enhanciar
+
+A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted; needs an Enhanciar API key (paid plans).
+
+- URL: https://github.com/enhanciar/enhanciar-mcp
+- Language: Other
+- Provider: Enhanciar
+- Official: yes
+- Tags: knowledge-base, enterprise-search, slack, hosted
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://enhanciar.in/enhanciar/mcp/
+
 ### Faceless
 
 Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...).
@@ -1728,6 +1762,18 @@ Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send m
 - Tags: linkedin, sales, remote, oauth
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.heyreagent.com/mcp
+
+### KanbanMCP
+
+Hosted kanban board with a remote MCP server where AI agents claim cards, check in while they work, and hand off with notes.
+
+- URL: https://kanbanmcp.com/docs/connect
+- Language: Other
+- Provider: Onitsoga Labs
+- Official: yes
+- Tags: kanban, project-management, multi-agent, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://kanbanmcp.com/
 
 ### LinkedNav
 
@@ -1799,6 +1845,17 @@ Schedule and publish videos and photos to TikTok, YouTube Shorts, Instagram, Fac
 - Tags: social-media, publishing, video, remote, oauth
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://api.multi-upload-tool.com/mcp
+
+### Muslim Prayer Reminder MCP
+
+Calculates Muslim prayer times by location and regional method, including next-prayer countdowns.
+
+- URL: https://github.com/tareq7/muslim-prayer-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: prayer-times, islamic, location, reminders
+- Category: Communication and Productivity
 
 ### Nitrosend
 
@@ -1977,7 +2034,7 @@ AI content generation and social media scheduling: generate images, video, talki
 
 Warm up mailboxes, check SPF, DKIM and DMARC, run placement tests, search leads, build draft cold email campaigns and triage replies in Warmerly; campaigns are launched by the person in the dashboard, not by the assistant.
 
-- URL: https://github.com/WarmerlyApp/mcp
+- URL: https://github.com/warmerly
 - Language: TypeScript
 - Provider: Warmerly
 - Official: yes
@@ -2340,7 +2397,7 @@ Self-hosted messaging app where coding agents report and ask over MCP and you an
 
 Public need/have board for AI agents (Craigslist for agents): agents read the live list and post their own needs or haves over remote MCP, no account or API key.
 
-- URL: https://needhave.io
+- URL: https://github.com/PrivateAISystems/needhave
 - Language: JavaScript
 - Provider: Community
 - Official: no
@@ -2868,6 +2925,18 @@ Query Mixpanel funnels, retention, and event analytics.
 - Tags: analytics, funnels, product
 - Category: Data, Analytics, and BI
 
+### Mysocial
+
+Official hosted OAuth MCP for social media intelligence: connected content history, performance signals, and creator memory over Streamable HTTP.
+
+- URL: https://github.com/mysocialio/mysocial-intelligence
+- Language: JavaScript
+- Provider: Mysocial
+- Official: yes
+- Tags: social-media, content-memory, analytics, oauth
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://app.mysocial.io/mcp
+
 ### Netdata MCP Server
 
 Real-time infrastructure monitoring and health metrics via MCP.
@@ -2925,6 +2994,18 @@ Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Co
 - Tags: seo, analytics, ai-visibility, remote, oauth
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://mcp.screpy.com
+
+### Seonix
+
+Hosted read-only MCP server for a Seonix SEO project: Search Console and GA4 rankings and clicks, site audit issues, keyword clusters, articles, and brand mentions in ChatGPT, Gemini, Claude and Perplexity answers.
+
+- URL: https://seonix.ai/mcp
+- Language: Other
+- Provider: Seonix
+- Official: yes
+- Tags: seo, ai-visibility, search-console, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://api.seonix.ai/mcp
 
 ### Sequential
 
@@ -3249,6 +3330,18 @@ Cloud security posture management and risk insights from Wiz.
 
 Payments, banking, CRM, e-commerce, and business system integrations.
 
+### Account Executive Jobs
+
+Hosted OAuth MCP server to search and apply to account executive and sales jobs, and for employers to manage job posts and applicants.
+
+- URL: https://github.com/854Labs/account-executive-jobs
+- Language: Other
+- Provider: Account Executive Jobs
+- Official: yes
+- Tags: jobs, sales, recruiting, oauth, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.accountexecutivejobs.com/mcp
+
 ### ADEXTO
 
 Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key.
@@ -3367,6 +3460,18 @@ Pay-per-call agent tools paid in USDC on Solana over x402, no account or API key
 - Tags: x402, solana, usdc, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://bilbop-x402-mcp.watchdogsfreak.workers.dev/mcp
+
+### BirkinBagStock
+
+Independent Hermès resale listings, price comparisons, and price alerts.
+
+- URL: https://birkinbagstock.com/llms.txt
+- Language: Other
+- Provider: BirkinBagStock
+- Official: yes
+- Tags: ecommerce, resale, price-comparison, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://birkinbagstock.com/mcp
 
 ### BKK Staff
 
@@ -3568,6 +3673,17 @@ Turn AI-host work into invoices you review before send — Continue as guest or 
 - Tags: invoicing, finance, oauth, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.invompt.com/mcp
+
+### Kandle
+
+Lets an agent drive candlestick charts for crypto, stocks and forex in an open browser tab: read candles and indicator values, draw levels, set alerts, run scripts and strategy backtests, and take screenshots.
+
+- URL: https://github.com/Kernel-Hunter/kandle
+- Language: TypeScript
+- Provider: Kandle
+- Official: yes
+- Tags: finance, trading, charts, crypto, backtesting
+- Category: Finance, Commerce, and Business Apps
 
 ### Kooperativa.io
 
@@ -3906,7 +4022,7 @@ Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, finan
 
 Search US stores for cashback rates and coupon codes, and get a tracked activation link.
 
-- URL: https://tenmomo.com/mcp
+- URL: https://github.com/tenmomo-sokui
 - Language: PHP
 - Provider: Tenmomo LLC
 - Official: yes
