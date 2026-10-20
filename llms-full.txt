@@ -2335,6 +2335,17 @@ Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs.
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp.llamaindex.ai/mcp
 
+### LLMSlim
+
+Local stdio MCP server that stores agent messages word for word in SQLite or Postgres and recalls the ones that answer a question within a token budget, with no LLM call.
+
+- URL: https://github.com/Thanatos9404/llmslim
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: memory, long-term-memory, sqlite, local
+- Category: AI, Agents, and Memory
+
 ### Magic Hour MCP Server
 
 Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.

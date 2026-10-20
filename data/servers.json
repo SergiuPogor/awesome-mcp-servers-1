@@ -1948,6 +1948,21 @@
     "official": false
   },
   {
+    "name": "LLMSlim",
+    "url": "https://github.com/Thanatos9404/llmslim",
+    "description": "Local stdio MCP server that stores agent messages word for word in SQLite or Postgres and recalls the ones that answer a question within a token budget, with no LLM call.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "memory",
+      "long-term-memory",
+      "sqlite",
+      "local"
+    ],
+    "official": false
+  },
+  {
     "name": "Everything2MCP",
     "url": "https://github.com/shcdwz1234/Everything2MCP",
     "description": "Turn local capabilities, private-net services, OpenAPI/gRPC/MQTT/queues, and Feishu/DingTalk/WeCom into one MCP surface with hot-reload and Safe defaults.",

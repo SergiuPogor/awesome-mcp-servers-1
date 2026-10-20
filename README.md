@@ -514,6 +514,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `agents` `memory` `remote` `oauth`
 - **[LlamaParse MCP Server](https://developers.llamaindex.ai/for-agents/)** `Official` `Other` — Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs.  
   `rag` `indexing` `agents`
+- **[LLMSlim](https://github.com/Thanatos9404/llmslim)** `Python` — Local stdio MCP server that stores agent messages word for word in SQLite or Postgres and recalls the ones that answer a question within a token budget, with no LLM call.  
+  `memory` `long-term-memory` `sqlite` `local`
 - **[Magic Hour MCP Server](https://magichour.ai)** `Official` `Python` — Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.  
   `ai-video` `image-generation` `audio-generation` `media-editing` `remote`
 - **[MELRA](https://github.com/XAGI-Lab/melra)** `Official` `TypeScript` — Local MCP runtime for agent tool calls that rechecks policy and scoped approvals, verifies declared outcomes, records redacted receipts, and parks interrupted writes for reconciliation.  
