@@ -2949,6 +2949,18 @@ Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Co
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://mcp.screpy.com
 
+### Seonix
+
+Hosted read-only MCP server for a Seonix SEO project: Search Console and GA4 rankings and clicks, site audit issues, keyword clusters, articles, and brand mentions in ChatGPT, Gemini, Claude and Perplexity answers.
+
+- URL: https://seonix.ai/mcp
+- Language: Other
+- Provider: Seonix
+- Official: yes
+- Tags: seo, ai-visibility, search-console, remote
+- Category: Data, Analytics, and BI
+- Streamable HTTP endpoint: https://api.seonix.ai/mcp
+
 ### Sequential
 
 Hosted MCP server for Sequential session replay and product analytics: query sessions, AI-judge findings, events, funnels, flows and retention, with OAuth sign-in.
