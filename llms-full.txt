@@ -1694,6 +1694,18 @@ Read and send messages in Discord servers and channels.
 - Tags: discord, chat, community
 - Category: Communication and Productivity
 
+### Enhanciar
+
+A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted; needs an Enhanciar API key (paid plans).
+
+- URL: https://github.com/enhanciar/enhanciar-mcp
+- Language: Other
+- Provider: Enhanciar
+- Official: yes
+- Tags: knowledge-base, enterprise-search, slack, hosted
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://enhanciar.in/enhanciar/mcp/
+
 ### Faceless
 
 Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...).
