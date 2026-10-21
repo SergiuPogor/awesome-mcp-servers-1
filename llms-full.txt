@@ -963,6 +963,18 @@ Local-first MCP server for AI-agent web research with search, incremental page r
 - Tags: deep-research, web-search, research, ai-agents, local-first
 - Category: Browsers, Search, and Web Automation
 
+### CodeTrendy
+
+Read-only MCP server for the CodeTrendy startup discovery directory: search 682 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.
+
+- URL: https://codetrendy.com/mcp
+- Language: TypeScript
+- Provider: CodeTrendy
+- Official: yes
+- Tags: search, directory, startups, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://codetrendy.com/api/mcp
+
 ### ContHunt
 
 Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts.
