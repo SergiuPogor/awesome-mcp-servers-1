@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 379 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 380 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4156,6 +4156,18 @@ Find services and storefronts on Voidly's hosted marketplace for AI-agent servic
 - Tags: marketplace, agent-payments, checkout, commerce, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.voidly.ai/mcp/voidpay
+
+### Warden MCP
+
+Remote MCP server for Warden Token Terminal: AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within user-set limits.
+
+- URL: https://github.com/warden-protocol/warden-mcp
+- Language: Other
+- Provider: Warden Protocol
+- Official: yes
+- Tags: crypto, trading, defi, onchain, ai-agents
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://tokens.wardenprotocol.org/mcp
 
 ### Whimbrel MedTech Analyst
 
